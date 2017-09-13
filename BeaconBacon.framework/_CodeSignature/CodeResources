@@ -6,39 +6,39 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Nz9qsRAdvyCVKthrAfryvsnobbY=
+		iSxAwBpbt17vEtbxi1Y84By+1fQ=
 		</data>
 		<key>BBEmptyTableViewCell.nib</key>
 		<data>
-		VHk4BqyursrmvosVY5rwPt6qfbw=
+		5fYTVtfa8Bw/w0p1gmCFnbLPTnQ=
 		</data>
 		<key>BBLibraryMapPOIViewController.nib</key>
 		<data>
-		CCgwUoVPPNuLUYMwMA7FG8G3T1w=
+		/702VGQnNfSnmZFpBCjcY7J5NUg=
 		</data>
 		<key>BBLibraryMapViewController.nib</key>
 		<data>
-		anNwvx15Ui7LXd9JjR29DT8NGcE=
+		nb5alWa+ezZ1Bi/abFtaK/Tf7nc=
 		</data>
 		<key>BBLibrarySelectViewController.nib</key>
 		<data>
-		nbExMRln9NnLT7aKMK0NpvMRJXI=
+		1lorP9rbpZKa5yVbnf2pteWo1Bk=
 		</data>
 		<key>BBLoadingIndicatorCell.nib</key>
 		<data>
-		MUK6dsGOtXSmiA0j7RaPrZXSOl4=
+		JcCNac3WI2PWtjJHFpdvc+EWBxA=
 		</data>
 		<key>BBPOISectionHeaderView.nib</key>
 		<data>
-		x0flWVFS0jaA/v9etW9/JkrYNOY=
+		BW5ygnCAh+HREE3quC+d4l+Lzgo=
 		</data>
 		<key>BBPOITableViewCell.nib</key>
 		<data>
-		3qM4+mAiOe37n++z+O6WPDSKVDM=
+		1WLnFdO4a0dWZHxzsNUaaYnWU7U=
 		</data>
 		<key>BBPopupView.nib</key>
 		<data>
-		zFAr7YlHcA/mdK5RNAe4SlJCiO4=
+		uhCArZUH1h2Fu7pI3J1DZQnszO8=
 		</data>
 		<key>Headers/AFAutoPurgingImageCache.h</key>
 		<data>
@@ -258,7 +258,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EuvfOIYjX26fQRfNct9jIUfDltQ=
+		a/wHx3rDOTlfaYmUN37xq1aw9Pg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -271,99 +271,99 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Nz9qsRAdvyCVKthrAfryvsnobbY=
+			iSxAwBpbt17vEtbxi1Y84By+1fQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			tT5vXlehZy+0FoCm5mlKE4xlstp2EjdqkZidP094UmE=
+			eHy6NM3X26X07tm8H2QgWCWfCPILAYf+W/EyIHnXKrY=
 			</data>
 		</dict>
 		<key>BBEmptyTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VHk4BqyursrmvosVY5rwPt6qfbw=
+			5fYTVtfa8Bw/w0p1gmCFnbLPTnQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			kXlwPhSnjIfvXCxxUhaSaEzJfC79G9aeNnDNYdZAcjw=
+			zf1Fbih4mGGQR7G0sd7Dem9wRJBAULzUQ5Gasf/r8CU=
 			</data>
 		</dict>
 		<key>BBLibraryMapPOIViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CCgwUoVPPNuLUYMwMA7FG8G3T1w=
+			/702VGQnNfSnmZFpBCjcY7J5NUg=
 			</data>
 			<key>hash2</key>
 			<data>
-			e5GNdMeUA/NGSdLnwMwTrnhQLa6GmuLjw+p6SopQtGQ=
+			QWqE9v8u+R9w2r3wKSID0DWl8Ygz41BG1jOaCOchdC8=
 			</data>
 		</dict>
 		<key>BBLibraryMapViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			anNwvx15Ui7LXd9JjR29DT8NGcE=
+			nb5alWa+ezZ1Bi/abFtaK/Tf7nc=
 			</data>
 			<key>hash2</key>
 			<data>
-			m6kwQ6+FrYcBUvH4QQ7ybBfBJAb/QvOqSx6WbuKusfc=
+			jQF2Tb3+VAbGrECMjVZzKjiU5kvOrjHceTb+yiEheHs=
 			</data>
 		</dict>
 		<key>BBLibrarySelectViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nbExMRln9NnLT7aKMK0NpvMRJXI=
+			1lorP9rbpZKa5yVbnf2pteWo1Bk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ElDFZTbYXfCBNpIlL0mLveH3VhqUNv/tEzVv/J3B5sw=
+			odrIdE8BCuY8x7kKkQJznH1vAkWMopcZFXOLQCXSHMM=
 			</data>
 		</dict>
 		<key>BBLoadingIndicatorCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MUK6dsGOtXSmiA0j7RaPrZXSOl4=
+			JcCNac3WI2PWtjJHFpdvc+EWBxA=
 			</data>
 			<key>hash2</key>
 			<data>
-			TsRV0J6SyZ+gJ6+KvUw91xpCSkH2l60tZFb/SiL2SA0=
+			+kupGRaVhHffatYsnro828CbPOV9ePEMwGVBU9zGjIo=
 			</data>
 		</dict>
 		<key>BBPOISectionHeaderView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			x0flWVFS0jaA/v9etW9/JkrYNOY=
+			BW5ygnCAh+HREE3quC+d4l+Lzgo=
 			</data>
 			<key>hash2</key>
 			<data>
-			jjlAkNvKmj7HZzHFTMwuPc52bHcnBk5I9nFn/Tw6llM=
+			FZkPGG8WC+7FgNh0bb9t4Db7JPDs0VRTJJM1E+K6b6w=
 			</data>
 		</dict>
 		<key>BBPOITableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3qM4+mAiOe37n++z+O6WPDSKVDM=
+			1WLnFdO4a0dWZHxzsNUaaYnWU7U=
 			</data>
 			<key>hash2</key>
 			<data>
-			f7BrwGvmF9NTkJOYU3JHYVxGtoVc9VwFFckxh62BpGc=
+			6D4BAOUrg89DFEVFPDT53iZo/5AUjPip7/DaCmtcJ7g=
 			</data>
 		</dict>
 		<key>BBPopupView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zFAr7YlHcA/mdK5RNAe4SlJCiO4=
+			uhCArZUH1h2Fu7pI3J1DZQnszO8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jc3GXo16kcQUAluRYfZo4ZrObLmukqxczr8CQO6VK0g=
+			zODRXWmLdzgv1Vagh1voNiFjI3H5Gd5oqMl0hL1Atlo=
 			</data>
 		</dict>
 		<key>Headers/AFAutoPurgingImageCache.h</key>
