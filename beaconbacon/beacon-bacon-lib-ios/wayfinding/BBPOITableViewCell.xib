@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="BBPOITableViewCell" selectionStyle="none" indentationWidth="0.0" reuseIdentifier="BBPOITableViewCell" rowHeight="61" id="m6o-3A-a8u" customClass="BBPOITableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="490" height="61"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="m6o-3A-a8u" id="dIg-Ox-b7S">
+                <frame key="frameInset" width="490" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vge-ol-BFg">
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5k3-hG-wjE">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="33W-54-fXI"/>
+                            <constraint firstAttribute="height" constant="30" id="vpZ-4U-Vzv"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rCF-r6-1Rk">
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="hMI-cj-JVv"/>
+                            <constraint firstAttribute="width" constant="36" id="zkM-5A-9KV"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Vge-ol-BFg" firstAttribute="top" secondItem="dIg-Ox-b7S" secondAttribute="top" id="EH5-qq-7VR"/>
+                    <constraint firstAttribute="trailing" secondItem="5k3-hG-wjE" secondAttribute="trailing" constant="18" id="JYW-z4-tJr"/>
+                    <constraint firstItem="5k3-hG-wjE" firstAttribute="leading" secondItem="Vge-ol-BFg" secondAttribute="trailing" constant="8" id="K8b-MD-r5l"/>
+                    <constraint firstAttribute="bottom" secondItem="Vge-ol-BFg" secondAttribute="bottom" id="Ma6-rf-XNO"/>
+                    <constraint firstItem="rCF-r6-1Rk" firstAttribute="centerY" secondItem="dIg-Ox-b7S" secondAttribute="centerY" id="S8c-xi-UhE"/>
+                    <constraint firstItem="Vge-ol-BFg" firstAttribute="leading" secondItem="rCF-r6-1Rk" secondAttribute="trailing" constant="8" id="SCu-1J-a7h"/>
+                    <constraint firstItem="5k3-hG-wjE" firstAttribute="centerY" secondItem="dIg-Ox-b7S" secondAttribute="centerY" id="W9h-F1-ObM"/>
+                    <constraint firstItem="rCF-r6-1Rk" firstAttribute="leading" secondItem="dIg-Ox-b7S" secondAttribute="leading" constant="12" id="sed-cX-vw3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="iconImageView" destination="rCF-r6-1Rk" id="7To-TF-5CA"/>
+                <outlet property="nameLabel" destination="Vge-ol-BFg" id="YyP-0t-Ki0"/>
+                <outlet property="selectedImageView" destination="5k3-hG-wjE" id="LRK-fe-hGm"/>
+            </connections>
+            <point key="canvasLocation" x="452" y="474.5"/>
+        </tableViewCell>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

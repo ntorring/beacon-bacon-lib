@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="BAPOISectionHeaderView" id="7ue-TO-hpL" customClass="BBPOISectionHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="445" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="headerTitleLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehq-co-MO7">
+                    <rect key="frame" x="18" y="0.0" width="277" height="60"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QNO-qd-wfQ">
+                    <rect key="frame" x="303" y="14" width="132" height="33"/>
+                    <color key="backgroundColor" red="0.94509803921568625" green="0.94509803921568625" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="132" id="BhD-xL-jaP"/>
+                        <constraint firstAttribute="height" constant="33" id="dMK-Ef-3kv"/>
+                    </constraints>
+                    <state key="normal" title="FRAVÆLG ALLE">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.38039215686274508" green="0.38039215686274508" blue="0.38039215686274508" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="QNO-qd-wfQ" secondAttribute="trailing" constant="10" id="7XR-WS-P0D"/>
+                <constraint firstAttribute="bottom" secondItem="ehq-co-MO7" secondAttribute="bottom" id="JfP-qm-6dH"/>
+                <constraint firstItem="ehq-co-MO7" firstAttribute="top" secondItem="7ue-TO-hpL" secondAttribute="top" id="ZZa-3K-a4I"/>
+                <constraint firstItem="QNO-qd-wfQ" firstAttribute="leading" secondItem="ehq-co-MO7" secondAttribute="trailing" constant="8" id="aHC-Im-ruU"/>
+                <constraint firstItem="QNO-qd-wfQ" firstAttribute="centerY" secondItem="7ue-TO-hpL" secondAttribute="centerY" id="cOJ-1r-rvG"/>
+                <constraint firstItem="ehq-co-MO7" firstAttribute="leading" secondItem="7ue-TO-hpL" secondAttribute="leading" constant="18" id="oPg-DL-1gf"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="headerButton" destination="QNO-qd-wfQ" id="Fz2-Va-DfK"/>
+                <outlet property="headerTitleLabel" destination="ehq-co-MO7" id="BPS-bk-NSB"/>
+            </connections>
+            <point key="canvasLocation" x="314.5" y="-8"/>
+        </view>
+    </objects>
+</document>
