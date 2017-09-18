@@ -189,6 +189,7 @@
 		775CE0951D92C1B20066C905 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775CE0931D92C1B20066C905 /* LaunchScreen.storyboard */; };
 		775CE12D1D92C2310066C905 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775CE12C1D92C2310066C905 /* Foundation.framework */; };
 		775CE12F1D92C2940066C905 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775CE12E1D92C2940066C905 /* CoreLocation.framework */; };
+		77D2AEB51F6FC41D00FAB2F8 /* BBAssets.xcassets in Headers */ = {isa = PBXBuildFile; fileRef = 773F35D71EBB0EF0000BB453 /* BBAssets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -638,6 +639,7 @@
 				774959041F5EB1E600046DF5 /* BBPOITableViewCell.h in Headers */,
 				774959071F5EB1E600046DF5 /* BBPopupView.h in Headers */,
 				774958C81F5EB1E600046DF5 /* AFNetworking.h in Headers */,
+				77D2AEB51F6FC41D00FAB2F8 /* BBAssets.xcassets in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

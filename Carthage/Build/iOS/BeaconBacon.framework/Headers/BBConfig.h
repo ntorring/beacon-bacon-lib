@@ -60,6 +60,7 @@ typedef NS_ENUM(NSUInteger, BBSSLPinningMode) {
 @property (nonatomic, assign) BBSSLPinningMode SSLPinningMode;
 
 + (instancetype)sharedConfig;
++ (NSBundle *)libBundle;
 
 -(UIFont *)regularFontWithSize:(CGFloat)size;
 -(UIFont *)lightFontWithSize:(CGFloat)size;
