@@ -38,11 +38,16 @@
     return self;
 }
 
+- (instancetype)init {
+    self = [super initWithNibName:@"BBLibraryMapPOIViewController" bundle:[BBConfig libBundle]];
+    return self;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-    self.topLineView.backgroundColor = [[BBConfig sharedConfig] customColor];
+    self.fakeNavigationBarHeight.constant = [UIApplication sharedApplication].statusBarFrame.size.height + 44;
     
     self.navBarTitleLabel.font = [[BBConfig sharedConfig] lightFontWithSize:18];
     self.navBarTitleLabel.text = @"Interessepunkter";
@@ -50,6 +55,8 @@
     
     datasourceDelegate = [BBLibraryMapPOIDatasourceDelegate new];
     datasourceDelegate.tableViewRef = self.tableView;
+    
+    self.tableView.scrollsToTop = NO;
     
     self.tableView.dataSource = datasourceDelegate;
     self.tableView.delegate = datasourceDelegate;
@@ -66,6 +73,15 @@
     [super viewWillDisappear:animated];
 }
 
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
+    [coordinator animateAlongsideTransition:^(id<UIViewControllerTransitionCoordinatorContext> context) {
+        self.fakeNavigationBarHeight.constant = [UIApplication sharedApplication].statusBarFrame.size.height + 44;
+    } completion:^(id<UIViewControllerTransitionCoordinatorContext> context) {
+        
+    }];
+    
+    [super viewWillTransitionToSize:size withTransitionCoordinator:coordinator];
+}
 
 #pragma mark - Load Data
 

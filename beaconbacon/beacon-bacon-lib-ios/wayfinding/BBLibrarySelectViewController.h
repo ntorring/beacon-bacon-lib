@@ -34,6 +34,7 @@
 
 // Custom Navigation/Top Bar
 @property (weak, nonatomic) IBOutlet UIView *fakeNavigationBar;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *fakeNavigationBarHeight;
 
 @property (weak, nonatomic) IBOutlet UIButton *closeButton;
 - (IBAction)closeButtonAction:(id)sender;
@@ -43,5 +44,6 @@
 // Other Views
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
+- (instancetype)init;
 
 @end

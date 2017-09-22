@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,6 +14,7 @@
             <connections>
                 <outlet property="closeButton" destination="LAT-9u-LzR" id="vJR-By-vfa"/>
                 <outlet property="fakeNavigationBar" destination="oR7-mT-f5p" id="mbR-PM-RVA"/>
+                <outlet property="fakeNavigationBarHeight" destination="USV-jx-Eu3" id="fxB-rL-CLg"/>
                 <outlet property="navBarTitleLabel" destination="CEs-Ig-q3J" id="ViE-90-quB"/>
                 <outlet property="tableView" destination="pnX-2X-0vp" id="X1P-Yy-zf4"/>
                 <outlet property="view" destination="iN0-l3-epB" id="8Kn-mn-6cK"/>
@@ -96,6 +98,7 @@
                                 <constraint firstItem="1uf-QS-ml0" firstAttribute="top" secondItem="w5e-YE-EcF" secondAttribute="top" id="cbO-Ei-tq0"/>
                                 <constraint firstAttribute="bottom" secondItem="E5N-BG-dqE" secondAttribute="bottom" id="hL5-Q9-xoU"/>
                                 <constraint firstAttribute="trailing" secondItem="LAT-9u-LzR" secondAttribute="trailing" id="mcM-5s-x9U"/>
+                                <constraint firstAttribute="height" constant="44" id="oYc-B6-mCr"/>
                                 <constraint firstItem="LAT-9u-LzR" firstAttribute="leading" secondItem="1uf-QS-ml0" secondAttribute="trailing" id="qXG-6y-bJp"/>
                                 <constraint firstItem="LAT-9u-LzR" firstAttribute="top" secondItem="w5e-YE-EcF" secondAttribute="top" id="r21-J9-JFL"/>
                             </constraints>
@@ -103,7 +106,6 @@
                     </subviews>
                     <color key="backgroundColor" red="0.94499540329999998" green="0.94515722989999995" blue="0.94498521089999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
-                        <constraint firstItem="w5e-YE-EcF" firstAttribute="top" secondItem="oR7-mT-f5p" secondAttribute="top" constant="20" id="15b-XT-eCD"/>
                         <constraint firstItem="w5e-YE-EcF" firstAttribute="leading" secondItem="oR7-mT-f5p" secondAttribute="leading" id="4aJ-3k-TXm"/>
                         <constraint firstAttribute="trailing" secondItem="w5e-YE-EcF" secondAttribute="trailing" id="NyE-bG-m5y"/>
                         <constraint firstAttribute="bottom" secondItem="w5e-YE-EcF" secondAttribute="bottom" id="SKA-ll-hn4"/>

@@ -75,8 +75,9 @@
     return self;
 }
 
-+ (BBLibraryMapViewController *) mapViewController {
-    return [[BBLibraryMapViewController alloc] initWithNibName:@"BBLibraryMapViewController" bundle:[NSBundle bundleWithIdentifier:@"dk.mustache.beaconbaconlib"]];
+- (instancetype)init {
+    self = [super initWithNibName:@"BBLibraryMapViewController" bundle:[BBConfig libBundle]];
+    return self;
 }
 
 
@@ -99,12 +100,16 @@
     
     [self updateMyLocationButtonEnabled];
 
+    self.fakeNavigationBarHeight.constant = [UIApplication sharedApplication].statusBarFrame.size.height + 44;
+    
     invalidLocationAlertShown = false;
     
     self.mapScrollView.alpha = 0.0f;
 
     currentUserPrecision = BB_MY_POSITION_WIDTH * 0.8f;
-    
+
+    self.mapScrollView.scrollsToTop = NO;
+
     [self setLoadingMap];
 
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(mapNeedsLayout) name:BB_NOTIFICATION_MAP_NEEDS_LAYOUT object:nil];
@@ -112,7 +117,7 @@
 
     if ([BBConfig sharedConfig].currentPlaceId == nil) {
         currentSelectLibraryViewController = nil;
-        currentSelectLibraryViewController = [[BBLibrarySelectViewController alloc] initWithNibName:@"BBLibrarySelectViewController" bundle:[NSBundle bundleWithIdentifier:@"dk.mustache.beaconbaconlib"]];
+        currentSelectLibraryViewController = [BBLibrarySelectViewController new];
         currentSelectLibraryViewController.dismissAsSubview = true;
         [self.view addSubview:currentSelectLibraryViewController.view];
         [self addChildViewController:currentSelectLibraryViewController];
@@ -165,6 +170,17 @@
     [super viewWillDisappear:animated];
     
 }
+
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
+    [coordinator animateAlongsideTransition:^(id<UIViewControllerTransitionCoordinatorContext> context) {
+        self.fakeNavigationBarHeight.constant = [UIApplication sharedApplication].statusBarFrame.size.height + 44;
+    } completion:^(id<UIViewControllerTransitionCoordinatorContext> context) {
+        
+    }];
+    
+    [super viewWillTransitionToSize:size withTransitionCoordinator:coordinator];
+}
+
 
 - (void) startLookingForBeacons {
     if (place == nil || !place.beacon_positioning_enabled) {
@@ -1137,7 +1153,7 @@ dispatch_queue_t dispatch_queue_nearest_pixel;
     [self hidePopupView];
 
     currentPOIViewController = nil;
-    currentPOIViewController = [[BBLibraryMapPOIViewController alloc] initWithNibName:@"BBLibraryMapPOIViewController" bundle:[BBConfig libBundle]];
+    currentPOIViewController = [BBLibraryMapPOIViewController new];
     [self presentViewController:currentPOIViewController animated:true completion:nil];
 }
 
@@ -1196,17 +1212,10 @@ dispatch_queue_t dispatch_queue_nearest_pixel;
     [self hidePopupView];
 
     currentSelectLibraryViewController = nil;
-    currentSelectLibraryViewController = [[BBLibrarySelectViewController alloc] initWithNibName:@"BBLibrarySelectViewController" bundle:[BBConfig libBundle]];
+    currentSelectLibraryViewController = [BBLibrarySelectViewController new];
     currentSelectLibraryViewController.dismissAsSubview = false;
     [self presentViewController:currentSelectLibraryViewController animated:true completion:nil];
 }
-
-//- (IBAction)changeMapAction:(id)sender {
-//    currentSelectLibraryViewController = nil;
-//    currentSelectLibraryViewController = [[BBLibrarySelectViewController alloc] initWithNibName:@"BBLibrarySelectViewController" bundle:[BBConfig libBundle]];
-//    currentSelectLibraryViewController.dismissAsSubview = false;
-//    [self presentViewController:currentSelectLibraryViewController animated:true completion:nil];
-//}
 
 - (IBAction)popupViewButtonOKAction:(id)sender {
     [self hidePopupView];

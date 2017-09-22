@@ -38,10 +38,17 @@
     return self;
 }
 
+- (instancetype)init {
+    self = [super initWithNibName:@"BBLibrarySelectViewController" bundle:[BBConfig libBundle]];
+    return self;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-        
+    
+    self.fakeNavigationBarHeight.constant = [UIApplication sharedApplication].statusBarFrame.size.height + 44;
+
     self.navBarTitleLabel.font = [[BBConfig sharedConfig] lightFontWithSize:18];
     self.navBarTitleLabel.text = @"Skift bibliotek";
     self.navBarTitleLabel.textColor = [UIColor colorWithRed:97.0f/255.0f green:97.0f/255.0f blue:97.0f/255.0f alpha:1.0];
@@ -49,6 +56,8 @@
     datasourceDelegate = [BBLibrarySelectDatasourceDelegate new];
     datasourceDelegate.selectDelegate = self;
     
+    self.tableView.scrollsToTop = NO;
+
     self.tableView.dataSource = datasourceDelegate;
     self.tableView.delegate = datasourceDelegate;
     
@@ -62,6 +71,16 @@
 
 - (void) viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
+}
+
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
+    [coordinator animateAlongsideTransition:^(id<UIViewControllerTransitionCoordinatorContext> context) {
+        self.fakeNavigationBarHeight.constant = [UIApplication sharedApplication].statusBarFrame.size.height + 44;
+    } completion:^(id<UIViewControllerTransitionCoordinatorContext> context) {
+        
+    }];
+    
+    [super viewWillTransitionToSize:size withTransitionCoordinator:coordinator];
 }
 
 

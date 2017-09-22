@@ -69,6 +69,7 @@
 
 // Custom Navigation/Top Bar
 @property (weak, nonatomic) IBOutlet UIView *fakeNavigationBar;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *fakeNavigationBarHeight;
 
 @property (weak, nonatomic) IBOutlet UIButton *navBarNextButton;
 @property (weak, nonatomic) IBOutlet UIButton *navBarPreviousButton;
@@ -117,7 +118,7 @@
 //@property (weak, nonatomic) IBOutlet UILabel *materialPopDownText;
 @property (weak, nonatomic) IBOutlet UIButton *materialPopDownButton;
 
-+ (BBLibraryMapViewController *) mapViewController;
+- (instancetype)init;
 
 - (IBAction)navBarNextAction:(id)sender;
 - (IBAction)navBarPreviousAction:(id)sender;

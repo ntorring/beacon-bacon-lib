@@ -15,119 +15,65 @@
 		773F36351EBB0EF0000BB453 /* BBPOISectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773F35F81EBB0EF0000BB453 /* BBPOISectionHeaderView.xib */; };
 		773F36371EBB0EF0000BB453 /* BBPOITableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773F35FB1EBB0EF0000BB453 /* BBPOITableViewCell.xib */; };
 		773F36391EBB0EF0000BB453 /* BBPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773F35FE1EBB0EF0000BB453 /* BBPopupView.xib */; };
-		774958251F5E8CF100046DF5 /* BBAPIClient.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35891EBB0EF0000BB453 /* BBAPIClient.h */; };
 		774958261F5E8CF100046DF5 /* BBAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F358A1EBB0EF0000BB453 /* BBAPIClient.m */; };
-		774958271F5E8CF100046DF5 /* BBBeacon.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F358B1EBB0EF0000BB453 /* BBBeacon.h */; };
 		774958281F5E8CF100046DF5 /* BBBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F358C1EBB0EF0000BB453 /* BBBeacon.m */; };
-		774958291F5E8CF100046DF5 /* BBBeaconLocation.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F358D1EBB0EF0000BB453 /* BBBeaconLocation.h */; };
 		7749582A1F5E8CF100046DF5 /* BBBeaconLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F358E1EBB0EF0000BB453 /* BBBeaconLocation.m */; };
-		7749582B1F5E8CF100046DF5 /* BBConfig.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F358F1EBB0EF0000BB453 /* BBConfig.h */; };
 		7749582C1F5E8CF100046DF5 /* BBConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35901EBB0EF0000BB453 /* BBConfig.m */; };
-		7749582D1F5E8CF100046DF5 /* BBCoordinateHelper.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35911EBB0EF0000BB453 /* BBCoordinateHelper.h */; };
 		7749582E1F5E8CF100046DF5 /* BBCoordinateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35921EBB0EF0000BB453 /* BBCoordinateHelper.m */; };
-		7749582F1F5E8CF100046DF5 /* BBDataManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35931EBB0EF0000BB453 /* BBDataManager.h */; };
 		774958301F5E8CF100046DF5 /* BBDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35941EBB0EF0000BB453 /* BBDataManager.m */; };
-		774958311F5E8CF100046DF5 /* BBFloor.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35951EBB0EF0000BB453 /* BBFloor.h */; };
 		774958321F5E8CF100046DF5 /* BBFloor.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35961EBB0EF0000BB453 /* BBFloor.m */; };
-		774958331F5E8CF100046DF5 /* BBFoundSubject.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35971EBB0EF0000BB453 /* BBFoundSubject.h */; };
 		774958341F5E8CF100046DF5 /* BBFoundSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35981EBB0EF0000BB453 /* BBFoundSubject.m */; };
-		774958351F5E8CF100046DF5 /* BBFoundSubjectLocation.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35991EBB0EF0000BB453 /* BBFoundSubjectLocation.h */; };
 		774958361F5E8CF100046DF5 /* BBFoundSubjectLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F359A1EBB0EF0000BB453 /* BBFoundSubjectLocation.m */; };
-		774958371F5E8CF100046DF5 /* BBIMSRequstObject.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F359B1EBB0EF0000BB453 /* BBIMSRequstObject.h */; };
 		774958381F5E8CF100046DF5 /* BBIMSRequstObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F359C1EBB0EF0000BB453 /* BBIMSRequstObject.m */; };
-		774958391F5E8CF100046DF5 /* BBLocation.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F359D1EBB0EF0000BB453 /* BBLocation.h */; };
 		7749583A1F5E8CF100046DF5 /* BBLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F359E1EBB0EF0000BB453 /* BBLocation.m */; };
-		7749583B1F5E8CF100046DF5 /* BBPlace.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F359F1EBB0EF0000BB453 /* BBPlace.h */; };
 		7749583C1F5E8CF100046DF5 /* BBPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35A01EBB0EF0000BB453 /* BBPlace.m */; };
-		7749583D1F5E8CF100046DF5 /* BBPOI.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35A11EBB0EF0000BB453 /* BBPOI.h */; };
 		7749583E1F5E8CF100046DF5 /* BBPOI.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35A21EBB0EF0000BB453 /* BBPOI.m */; };
-		7749583F1F5E8CF100046DF5 /* BBPOILocation.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35A31EBB0EF0000BB453 /* BBPOILocation.h */; };
 		774958401F5E8CF100046DF5 /* BBPOILocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35A41EBB0EF0000BB453 /* BBPOILocation.m */; };
-		774958411F5E8CF100046DF5 /* BBPOIMenuItem.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35A51EBB0EF0000BB453 /* BBPOIMenuItem.h */; };
 		774958421F5E8CF100046DF5 /* BBPOIMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35A61EBB0EF0000BB453 /* BBPOIMenuItem.m */; };
-		774958431F5E8CF100046DF5 /* BBPOISection.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35A71EBB0EF0000BB453 /* BBPOISection.h */; };
 		774958441F5E8CF100046DF5 /* BBPOISection.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35A81EBB0EF0000BB453 /* BBPOISection.m */; };
-		774958451F5E8CF100046DF5 /* BBTrilateration.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35A91EBB0EF0000BB453 /* BBTrilateration.h */; };
 		774958461F5E8CF100046DF5 /* BBTrilateration.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35AA1EBB0EF0000BB453 /* BBTrilateration.m */; };
-		774958471F5E8CF100046DF5 /* CBCentralManager+BeaconBacon.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35AB1EBB0EF0000BB453 /* CBCentralManager+BeaconBacon.h */; };
 		774958481F5E8CF100046DF5 /* CBCentralManager+BeaconBacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35AC1EBB0EF0000BB453 /* CBCentralManager+BeaconBacon.m */; };
-		774958491F5E8CF100046DF5 /* UIColor+Hex.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35AD1EBB0EF0000BB453 /* UIColor+Hex.h */; };
 		7749584A1F5E8CF100046DF5 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35AE1EBB0EF0000BB453 /* UIColor+Hex.m */; };
-		7749584B1F5E8CF100046DF5 /* UIImage+Resize.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35AF1EBB0EF0000BB453 /* UIImage+Resize.h */; };
 		7749584C1F5E8CF100046DF5 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35B01EBB0EF0000BB453 /* UIImage+Resize.m */; };
-		7749584D1F5E8CF100046DF5 /* UIImageView+BeaconBacon.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35B11EBB0EF0000BB453 /* UIImageView+BeaconBacon.h */; };
 		7749584E1F5E8CF100046DF5 /* UIImageView+BeaconBacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35B21EBB0EF0000BB453 /* UIImageView+BeaconBacon.m */; };
-		7749584F1F5E8CF100046DF5 /* AFHTTPSessionManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35B51EBB0EF0000BB453 /* AFHTTPSessionManager.h */; };
 		774958501F5E8CF100046DF5 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35B61EBB0EF0000BB453 /* AFHTTPSessionManager.m */; };
-		774958511F5E8CF100046DF5 /* AFNetworking.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35B71EBB0EF0000BB453 /* AFNetworking.h */; };
-		774958521F5E8CF100046DF5 /* AFNetworkReachabilityManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35B81EBB0EF0000BB453 /* AFNetworkReachabilityManager.h */; };
 		774958531F5E8CF100046DF5 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35B91EBB0EF0000BB453 /* AFNetworkReachabilityManager.m */; };
-		774958541F5E8CF100046DF5 /* AFSecurityPolicy.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35BA1EBB0EF0000BB453 /* AFSecurityPolicy.h */; };
 		774958551F5E8CF100046DF5 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35BB1EBB0EF0000BB453 /* AFSecurityPolicy.m */; };
-		774958561F5E8CF100046DF5 /* AFURLRequestSerialization.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35BC1EBB0EF0000BB453 /* AFURLRequestSerialization.h */; };
 		774958571F5E8CF100046DF5 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35BD1EBB0EF0000BB453 /* AFURLRequestSerialization.m */; };
-		774958581F5E8CF100046DF5 /* AFURLResponseSerialization.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35BE1EBB0EF0000BB453 /* AFURLResponseSerialization.h */; };
 		774958591F5E8CF100046DF5 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35BF1EBB0EF0000BB453 /* AFURLResponseSerialization.m */; };
-		7749585A1F5E8CF100046DF5 /* AFURLSessionManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35C01EBB0EF0000BB453 /* AFURLSessionManager.h */; };
 		7749585B1F5E8CF100046DF5 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35C11EBB0EF0000BB453 /* AFURLSessionManager.m */; };
-		7749585C1F5E8CF100046DF5 /* AFAutoPurgingImageCache.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35C31EBB0EF0000BB453 /* AFAutoPurgingImageCache.h */; };
 		7749585D1F5E8CF100046DF5 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35C41EBB0EF0000BB453 /* AFAutoPurgingImageCache.m */; };
-		7749585E1F5E8CF100046DF5 /* AFImageDownloader.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35C51EBB0EF0000BB453 /* AFImageDownloader.h */; };
 		7749585F1F5E8CF100046DF5 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35C61EBB0EF0000BB453 /* AFImageDownloader.m */; };
-		774958601F5E8CF100046DF5 /* AFNetworkActivityIndicatorManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35C71EBB0EF0000BB453 /* AFNetworkActivityIndicatorManager.h */; };
 		774958611F5E8CF100046DF5 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35C81EBB0EF0000BB453 /* AFNetworkActivityIndicatorManager.m */; };
-		774958621F5E8CF100046DF5 /* UIActivityIndicatorView+AFNetworking.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35C91EBB0EF0000BB453 /* UIActivityIndicatorView+AFNetworking.h */; };
 		774958631F5E8CF100046DF5 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35CA1EBB0EF0000BB453 /* UIActivityIndicatorView+AFNetworking.m */; };
-		774958641F5E8CF100046DF5 /* UIButton+AFNetworking.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35CB1EBB0EF0000BB453 /* UIButton+AFNetworking.h */; };
 		774958651F5E8CF100046DF5 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35CC1EBB0EF0000BB453 /* UIButton+AFNetworking.m */; };
-		774958661F5E8CF100046DF5 /* UIImage+AFNetworking.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35CD1EBB0EF0000BB453 /* UIImage+AFNetworking.h */; };
-		774958671F5E8CF100046DF5 /* UIImageView+AFNetworking.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35CE1EBB0EF0000BB453 /* UIImageView+AFNetworking.h */; };
 		774958681F5E8CF100046DF5 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35CF1EBB0EF0000BB453 /* UIImageView+AFNetworking.m */; };
-		774958691F5E8CF100046DF5 /* UIKit+AFNetworking.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35D01EBB0EF0000BB453 /* UIKit+AFNetworking.h */; };
-		7749586A1F5E8CF100046DF5 /* UIProgressView+AFNetworking.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35D11EBB0EF0000BB453 /* UIProgressView+AFNetworking.h */; };
 		7749586B1F5E8CF100046DF5 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35D21EBB0EF0000BB453 /* UIProgressView+AFNetworking.m */; };
-		7749586C1F5E8CF100046DF5 /* UIRefreshControl+AFNetworking.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35D31EBB0EF0000BB453 /* UIRefreshControl+AFNetworking.h */; };
 		7749586D1F5E8CF100046DF5 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35D41EBB0EF0000BB453 /* UIRefreshControl+AFNetworking.m */; };
-		7749586E1F5E8CF100046DF5 /* UIWebView+AFNetworking.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35D51EBB0EF0000BB453 /* UIWebView+AFNetworking.h */; };
 		7749586F1F5E8CF100046DF5 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35D61EBB0EF0000BB453 /* UIWebView+AFNetworking.m */; };
 		774958701F5E8CF100046DF5 /* BBAssets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 773F35D71EBB0EF0000BB453 /* BBAssets.xcassets */; };
-		774958711F5E8CF100046DF5 /* BBEmptyTableViewCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35DC1EBB0EF0000BB453 /* BBEmptyTableViewCell.h */; };
 		774958721F5E8CF100046DF5 /* BBEmptyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35DD1EBB0EF0000BB453 /* BBEmptyTableViewCell.m */; };
 		774958731F5E8CF100046DF5 /* BBEmptyTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 773F35DE1EBB0EF0000BB453 /* BBEmptyTableViewCell.xib */; };
-		774958741F5E8CF100046DF5 /* BBLibraryMapPOIDatasourceDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35DF1EBB0EF0000BB453 /* BBLibraryMapPOIDatasourceDelegate.h */; };
 		774958751F5E8CF100046DF5 /* BBLibraryMapPOIDatasourceDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35E01EBB0EF0000BB453 /* BBLibraryMapPOIDatasourceDelegate.m */; };
-		774958761F5E8CF100046DF5 /* BBLibraryMapPOIViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35E11EBB0EF0000BB453 /* BBLibraryMapPOIViewController.h */; };
 		774958771F5E8CF100046DF5 /* BBLibraryMapPOIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35E21EBB0EF0000BB453 /* BBLibraryMapPOIViewController.m */; };
 		774958781F5E8CF100046DF5 /* BBLibraryMapPOIViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 773F35E31EBB0EF0000BB453 /* BBLibraryMapPOIViewController.xib */; };
-		774958791F5E8CF100046DF5 /* BBLibraryMapViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35E41EBB0EF0000BB453 /* BBLibraryMapViewController.h */; };
 		7749587A1F5E8CF100046DF5 /* BBLibraryMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35E51EBB0EF0000BB453 /* BBLibraryMapViewController.m */; };
 		7749587B1F5E8CF100046DF5 /* BBLibraryMapViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 773F35E61EBB0EF0000BB453 /* BBLibraryMapViewController.xib */; };
-		7749587C1F5E8CF100046DF5 /* BBLibrarySelectDatasourceDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35E71EBB0EF0000BB453 /* BBLibrarySelectDatasourceDelegate.h */; };
 		7749587D1F5E8CF100046DF5 /* BBLibrarySelectDatasourceDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35E81EBB0EF0000BB453 /* BBLibrarySelectDatasourceDelegate.m */; };
-		7749587E1F5E8CF100046DF5 /* BBLibrarySelectDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35E91EBB0EF0000BB453 /* BBLibrarySelectDelegate.h */; };
-		7749587F1F5E8CF100046DF5 /* BBLibrarySelectViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35EA1EBB0EF0000BB453 /* BBLibrarySelectViewController.h */; };
 		774958801F5E8CF100046DF5 /* BBLibrarySelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35EB1EBB0EF0000BB453 /* BBLibrarySelectViewController.m */; };
 		774958811F5E8CF100046DF5 /* BBLibrarySelectViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 773F35EC1EBB0EF0000BB453 /* BBLibrarySelectViewController.xib */; };
-		774958821F5E8CF100046DF5 /* BBLoadingIndicatorCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35ED1EBB0EF0000BB453 /* BBLoadingIndicatorCell.h */; };
 		774958831F5E8CF100046DF5 /* BBLoadingIndicatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35EE1EBB0EF0000BB453 /* BBLoadingIndicatorCell.m */; };
 		774958841F5E8CF100046DF5 /* BBLoadingIndicatorCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 773F35EF1EBB0EF0000BB453 /* BBLoadingIndicatorCell.xib */; };
-		774958851F5E8CF100046DF5 /* BBMyPositionView.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35F01EBB0EF0000BB453 /* BBMyPositionView.h */; };
 		774958861F5E8CF100046DF5 /* BBMyPositionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35F11EBB0EF0000BB453 /* BBMyPositionView.m */; };
-		774958871F5E8CF100046DF5 /* BBPOIAreaMapView.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35F21EBB0EF0000BB453 /* BBPOIAreaMapView.h */; };
 		774958881F5E8CF100046DF5 /* BBPOIAreaMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35F31EBB0EF0000BB453 /* BBPOIAreaMapView.m */; };
-		774958891F5E8CF100046DF5 /* BBPOIMapView.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35F41EBB0EF0000BB453 /* BBPOIMapView.h */; };
 		7749588A1F5E8CF100046DF5 /* BBPOIMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35F51EBB0EF0000BB453 /* BBPOIMapView.m */; };
-		7749588B1F5E8CF100046DF5 /* BBPOISectionHeaderView.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35F61EBB0EF0000BB453 /* BBPOISectionHeaderView.h */; };
 		7749588C1F5E8CF100046DF5 /* BBPOISectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35F71EBB0EF0000BB453 /* BBPOISectionHeaderView.m */; };
 		7749588D1F5E8CF100046DF5 /* BBPOISectionHeaderView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 773F35F81EBB0EF0000BB453 /* BBPOISectionHeaderView.xib */; };
-		7749588E1F5E8CF100046DF5 /* BBPOITableViewCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35F91EBB0EF0000BB453 /* BBPOITableViewCell.h */; };
 		7749588F1F5E8CF100046DF5 /* BBPOITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35FA1EBB0EF0000BB453 /* BBPOITableViewCell.m */; };
 		774958901F5E8CF100046DF5 /* BBPOITableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 773F35FB1EBB0EF0000BB453 /* BBPOITableViewCell.xib */; };
-		774958911F5E8CF100046DF5 /* BBPopupView.h in Sources */ = {isa = PBXBuildFile; fileRef = 773F35FC1EBB0EF0000BB453 /* BBPopupView.h */; };
 		774958921F5E8CF100046DF5 /* BBPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35FD1EBB0EF0000BB453 /* BBPopupView.m */; };
 		774958931F5E8CF100046DF5 /* BBPopupView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 773F35FE1EBB0EF0000BB453 /* BBPopupView.xib */; };
 		774958971F5EA9FB00046DF5 /* BeaconBacon.h in Headers */ = {isa = PBXBuildFile; fileRef = 774958961F5EA9FB00046DF5 /* BeaconBacon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7749589A1F5EB00E00046DF5 /* BeaconBacon.h in Sources */ = {isa = PBXBuildFile; fileRef = 774958961F5EA9FB00046DF5 /* BeaconBacon.h */; };
 		7749589B1F5EB1A900046DF5 /* BBConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 773F358F1EBB0EF0000BB453 /* BBConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7749589C1F5EB1B300046DF5 /* BBIMSRequstObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 773F359B1EBB0EF0000BB453 /* BBIMSRequstObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7749589D1F5EB1BA00046DF5 /* BBLibraryMapViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 773F35E41EBB0EF0000BB453 /* BBLibraryMapViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -689,7 +635,7 @@
 		775CE07A1D92C1B20066C905 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Mustache ApS";
 				TargetAttributes = {
 					774958171F5E8CB800046DF5 = {
@@ -699,6 +645,7 @@
 					775CE0811D92C1B20066C905 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = D29532HCY6;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -756,116 +703,62 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7749589A1F5EB00E00046DF5 /* BeaconBacon.h in Sources */,
-				774958251F5E8CF100046DF5 /* BBAPIClient.h in Sources */,
 				774958261F5E8CF100046DF5 /* BBAPIClient.m in Sources */,
-				774958271F5E8CF100046DF5 /* BBBeacon.h in Sources */,
 				774958281F5E8CF100046DF5 /* BBBeacon.m in Sources */,
-				774958291F5E8CF100046DF5 /* BBBeaconLocation.h in Sources */,
 				7749582A1F5E8CF100046DF5 /* BBBeaconLocation.m in Sources */,
-				7749582B1F5E8CF100046DF5 /* BBConfig.h in Sources */,
 				7749582C1F5E8CF100046DF5 /* BBConfig.m in Sources */,
-				7749582D1F5E8CF100046DF5 /* BBCoordinateHelper.h in Sources */,
 				7749582E1F5E8CF100046DF5 /* BBCoordinateHelper.m in Sources */,
-				7749582F1F5E8CF100046DF5 /* BBDataManager.h in Sources */,
 				774958301F5E8CF100046DF5 /* BBDataManager.m in Sources */,
-				774958311F5E8CF100046DF5 /* BBFloor.h in Sources */,
 				774958321F5E8CF100046DF5 /* BBFloor.m in Sources */,
-				774958331F5E8CF100046DF5 /* BBFoundSubject.h in Sources */,
 				774958341F5E8CF100046DF5 /* BBFoundSubject.m in Sources */,
-				774958351F5E8CF100046DF5 /* BBFoundSubjectLocation.h in Sources */,
 				774958361F5E8CF100046DF5 /* BBFoundSubjectLocation.m in Sources */,
-				774958371F5E8CF100046DF5 /* BBIMSRequstObject.h in Sources */,
 				774958381F5E8CF100046DF5 /* BBIMSRequstObject.m in Sources */,
-				774958391F5E8CF100046DF5 /* BBLocation.h in Sources */,
 				7749583A1F5E8CF100046DF5 /* BBLocation.m in Sources */,
-				7749583B1F5E8CF100046DF5 /* BBPlace.h in Sources */,
 				7749583C1F5E8CF100046DF5 /* BBPlace.m in Sources */,
-				7749583D1F5E8CF100046DF5 /* BBPOI.h in Sources */,
 				7749583E1F5E8CF100046DF5 /* BBPOI.m in Sources */,
-				7749583F1F5E8CF100046DF5 /* BBPOILocation.h in Sources */,
 				774958401F5E8CF100046DF5 /* BBPOILocation.m in Sources */,
-				774958411F5E8CF100046DF5 /* BBPOIMenuItem.h in Sources */,
 				774958421F5E8CF100046DF5 /* BBPOIMenuItem.m in Sources */,
-				774958431F5E8CF100046DF5 /* BBPOISection.h in Sources */,
 				774958441F5E8CF100046DF5 /* BBPOISection.m in Sources */,
-				774958451F5E8CF100046DF5 /* BBTrilateration.h in Sources */,
 				774958461F5E8CF100046DF5 /* BBTrilateration.m in Sources */,
-				774958471F5E8CF100046DF5 /* CBCentralManager+BeaconBacon.h in Sources */,
 				774958481F5E8CF100046DF5 /* CBCentralManager+BeaconBacon.m in Sources */,
-				774958491F5E8CF100046DF5 /* UIColor+Hex.h in Sources */,
 				7749584A1F5E8CF100046DF5 /* UIColor+Hex.m in Sources */,
-				7749584B1F5E8CF100046DF5 /* UIImage+Resize.h in Sources */,
 				7749584C1F5E8CF100046DF5 /* UIImage+Resize.m in Sources */,
-				7749584D1F5E8CF100046DF5 /* UIImageView+BeaconBacon.h in Sources */,
 				7749584E1F5E8CF100046DF5 /* UIImageView+BeaconBacon.m in Sources */,
-				7749584F1F5E8CF100046DF5 /* AFHTTPSessionManager.h in Sources */,
 				774958501F5E8CF100046DF5 /* AFHTTPSessionManager.m in Sources */,
-				774958511F5E8CF100046DF5 /* AFNetworking.h in Sources */,
-				774958521F5E8CF100046DF5 /* AFNetworkReachabilityManager.h in Sources */,
 				774958531F5E8CF100046DF5 /* AFNetworkReachabilityManager.m in Sources */,
-				774958541F5E8CF100046DF5 /* AFSecurityPolicy.h in Sources */,
 				774958551F5E8CF100046DF5 /* AFSecurityPolicy.m in Sources */,
-				774958561F5E8CF100046DF5 /* AFURLRequestSerialization.h in Sources */,
 				774958571F5E8CF100046DF5 /* AFURLRequestSerialization.m in Sources */,
-				774958581F5E8CF100046DF5 /* AFURLResponseSerialization.h in Sources */,
 				774958591F5E8CF100046DF5 /* AFURLResponseSerialization.m in Sources */,
-				7749585A1F5E8CF100046DF5 /* AFURLSessionManager.h in Sources */,
 				7749585B1F5E8CF100046DF5 /* AFURLSessionManager.m in Sources */,
-				7749585C1F5E8CF100046DF5 /* AFAutoPurgingImageCache.h in Sources */,
 				7749585D1F5E8CF100046DF5 /* AFAutoPurgingImageCache.m in Sources */,
-				7749585E1F5E8CF100046DF5 /* AFImageDownloader.h in Sources */,
 				7749585F1F5E8CF100046DF5 /* AFImageDownloader.m in Sources */,
-				774958601F5E8CF100046DF5 /* AFNetworkActivityIndicatorManager.h in Sources */,
 				774958611F5E8CF100046DF5 /* AFNetworkActivityIndicatorManager.m in Sources */,
-				774958621F5E8CF100046DF5 /* UIActivityIndicatorView+AFNetworking.h in Sources */,
 				774958631F5E8CF100046DF5 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
-				774958641F5E8CF100046DF5 /* UIButton+AFNetworking.h in Sources */,
 				774958651F5E8CF100046DF5 /* UIButton+AFNetworking.m in Sources */,
-				774958661F5E8CF100046DF5 /* UIImage+AFNetworking.h in Sources */,
-				774958671F5E8CF100046DF5 /* UIImageView+AFNetworking.h in Sources */,
 				774958681F5E8CF100046DF5 /* UIImageView+AFNetworking.m in Sources */,
-				774958691F5E8CF100046DF5 /* UIKit+AFNetworking.h in Sources */,
-				7749586A1F5E8CF100046DF5 /* UIProgressView+AFNetworking.h in Sources */,
 				7749586B1F5E8CF100046DF5 /* UIProgressView+AFNetworking.m in Sources */,
-				7749586C1F5E8CF100046DF5 /* UIRefreshControl+AFNetworking.h in Sources */,
 				7749586D1F5E8CF100046DF5 /* UIRefreshControl+AFNetworking.m in Sources */,
-				7749586E1F5E8CF100046DF5 /* UIWebView+AFNetworking.h in Sources */,
 				7749586F1F5E8CF100046DF5 /* UIWebView+AFNetworking.m in Sources */,
 				774958701F5E8CF100046DF5 /* BBAssets.xcassets in Sources */,
-				774958711F5E8CF100046DF5 /* BBEmptyTableViewCell.h in Sources */,
 				774958721F5E8CF100046DF5 /* BBEmptyTableViewCell.m in Sources */,
 				774958731F5E8CF100046DF5 /* BBEmptyTableViewCell.xib in Sources */,
-				774958741F5E8CF100046DF5 /* BBLibraryMapPOIDatasourceDelegate.h in Sources */,
 				774958751F5E8CF100046DF5 /* BBLibraryMapPOIDatasourceDelegate.m in Sources */,
-				774958761F5E8CF100046DF5 /* BBLibraryMapPOIViewController.h in Sources */,
 				774958771F5E8CF100046DF5 /* BBLibraryMapPOIViewController.m in Sources */,
 				774958781F5E8CF100046DF5 /* BBLibraryMapPOIViewController.xib in Sources */,
-				774958791F5E8CF100046DF5 /* BBLibraryMapViewController.h in Sources */,
 				7749587A1F5E8CF100046DF5 /* BBLibraryMapViewController.m in Sources */,
 				7749587B1F5E8CF100046DF5 /* BBLibraryMapViewController.xib in Sources */,
-				7749587C1F5E8CF100046DF5 /* BBLibrarySelectDatasourceDelegate.h in Sources */,
 				7749587D1F5E8CF100046DF5 /* BBLibrarySelectDatasourceDelegate.m in Sources */,
-				7749587E1F5E8CF100046DF5 /* BBLibrarySelectDelegate.h in Sources */,
-				7749587F1F5E8CF100046DF5 /* BBLibrarySelectViewController.h in Sources */,
 				774958801F5E8CF100046DF5 /* BBLibrarySelectViewController.m in Sources */,
 				774958811F5E8CF100046DF5 /* BBLibrarySelectViewController.xib in Sources */,
-				774958821F5E8CF100046DF5 /* BBLoadingIndicatorCell.h in Sources */,
 				774958831F5E8CF100046DF5 /* BBLoadingIndicatorCell.m in Sources */,
 				774958841F5E8CF100046DF5 /* BBLoadingIndicatorCell.xib in Sources */,
-				774958851F5E8CF100046DF5 /* BBMyPositionView.h in Sources */,
 				774958861F5E8CF100046DF5 /* BBMyPositionView.m in Sources */,
-				774958871F5E8CF100046DF5 /* BBPOIAreaMapView.h in Sources */,
 				774958881F5E8CF100046DF5 /* BBPOIAreaMapView.m in Sources */,
-				774958891F5E8CF100046DF5 /* BBPOIMapView.h in Sources */,
 				7749588A1F5E8CF100046DF5 /* BBPOIMapView.m in Sources */,
-				7749588B1F5E8CF100046DF5 /* BBPOISectionHeaderView.h in Sources */,
 				7749588C1F5E8CF100046DF5 /* BBPOISectionHeaderView.m in Sources */,
 				7749588D1F5E8CF100046DF5 /* BBPOISectionHeaderView.xib in Sources */,
-				7749588E1F5E8CF100046DF5 /* BBPOITableViewCell.h in Sources */,
 				7749588F1F5E8CF100046DF5 /* BBPOITableViewCell.m in Sources */,
 				774958901F5E8CF100046DF5 /* BBPOITableViewCell.xib in Sources */,
-				774958911F5E8CF100046DF5 /* BBPopupView.h in Sources */,
 				774958921F5E8CF100046DF5 /* BBPopupView.m in Sources */,
 				774958931F5E8CF100046DF5 /* BBPopupView.xib in Sources */,
 			);
@@ -973,14 +866,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1020,14 +919,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1055,11 +960,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D29532HCY6;
 				INFOPLIST_FILE = beaconbacon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dk.mustache.beaconbacon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -1067,11 +975,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D29532HCY6;
 				INFOPLIST_FILE = beaconbacon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dk.mustache.beaconbacon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

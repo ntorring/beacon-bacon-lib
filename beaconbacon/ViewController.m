@@ -130,7 +130,7 @@
                 if (error == nil) {
                     // Beacon Bacon has been setup and configuerd to run on this Place (Library)
                     // Now we're ready to initialise the UI.
-                    mapViewController = [BBLibraryMapViewController mapViewController];
+                    mapViewController = [BBLibraryMapViewController new];
                      
                     // If you want to add a wayfinding Object. Please use this part.
 //                    BBIMSRequstObject *requstObject = [[BBIMSRequstObject alloc] initWithFaustId:@"29715394"];
@@ -163,7 +163,7 @@
     requstObject.subject_subtitle = @"SK";
     requstObject.subject_image    = [UIImage imageNamed:@"96-book"];
     
-    mapViewController = [BBLibraryMapViewController mapViewController];
+    mapViewController = [BBLibraryMapViewController new];
     mapViewController.wayfindingRequstObject = requstObject;
     [self presentViewController:mapViewController animated:true completion:nil];
 }
