@@ -119,7 +119,7 @@
         if (error == nil) {
             for (BBPlace *place in places) {
                 if ([place.identifier1 isEqualToString:identifier]) {
-                    NSString *currentPlaceId = [NSString stringWithFormat:@"%ld", place.place_id];
+                    NSString *currentPlaceId = [NSString stringWithFormat:@"%ld", (long)place.place_id];
                     
                     [self clearAllChacedData];
                     completionBlock(currentPlaceId, nil);
