@@ -83,6 +83,10 @@
     [super viewWillTransitionToSize:size withTransitionCoordinator:coordinator];
 }
 
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleDefault;
+}
+
 #pragma mark - Load Data
 
 - (void) loadData {

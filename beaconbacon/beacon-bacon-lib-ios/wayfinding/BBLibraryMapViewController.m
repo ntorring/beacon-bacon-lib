@@ -80,6 +80,9 @@
     return self;
 }
 
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleDefault;
+}
 
 - (void) applyRoundAndShadow:(UIView *)view {
     
@@ -498,7 +501,7 @@
                     
                 } else {
                     if (self.wayfindingRequstObject != nil) {
-                        NSString *message = [NSString stringWithFormat:@"'%@' blev ikke fundet på %@. Du kan stadig bruge kortet, eller du kan prøve at skifte bibliotek ved at klikke på biblioteksnavnet foroven.", self.wayfindingRequstObject.subject_name, place.name];
+                        NSString *message = [NSString stringWithFormat:@"'%@' blev ikke fundet på %@. Hvis du ikke selv kan finde placeringen, så husk at du altid kan reservere direkte her i app’en.", self.wayfindingRequstObject.subject_name, place.name];
                         [[[UIAlertView alloc] initWithTitle:@"Materialet blev ikke fundet" message:message delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil] show];
                     }
                     self.foundSubject = nil;
