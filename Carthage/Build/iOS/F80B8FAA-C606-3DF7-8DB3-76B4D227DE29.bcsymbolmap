@@ -1,0 +1,2435 @@
+BCSymbolMap Version: 2.0
++[BBAPIClient sharedClient]
+___27+[BBAPIClient sharedClient]_block_invoke
+_sharedClient._sharedClient
+_sharedClient.onceToken
+___block_descriptor_tmp
+___block_literal_global
+Apple LLVM version 9.0.0 (clang-900.0.37)
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBAPIClient.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib
+__27+[BBAPIClient sharedClient]_block_invoke
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/dispatch/once.h
+-[BBBeacon initWithAttributes:]
+-[BBBeacon majorMinorMacthing:]
+-[BBBeacon beacon_id]
+-[BBBeacon setBeacon_id:]
+-[BBBeacon team_id]
+-[BBBeacon setTeam_id:]
+-[BBBeacon place_id]
+-[BBBeacon setPlace_id:]
+-[BBBeacon map_id]
+-[BBBeacon setMap_id:]
+-[BBBeacon name]
+-[BBBeacon setName:]
+-[BBBeacon beacon_description]
+-[BBBeacon setBeacon_description:]
+-[BBBeacon beacon_uid]
+-[BBBeacon setBeacon_uid:]
+-[BBBeacon proximity_uuid]
+-[BBBeacon setProximity_uuid:]
+-[BBBeacon major]
+-[BBBeacon setMajor:]
+-[BBBeacon minor]
+-[BBBeacon setMinor:]
+-[BBBeacon accuracyDataPoints]
+-[BBBeacon setAccuracyDataPoints:]
+-[BBBeacon accuracy]
+-[BBBeacon setAccuracy:]
+-[BBBeacon .cxx_destruct]
+_OBJC_IVAR_$_BBBeacon._beacon_id
+_OBJC_IVAR_$_BBBeacon._team_id
+_OBJC_IVAR_$_BBBeacon._place_id
+_OBJC_IVAR_$_BBBeacon._map_id
+_OBJC_IVAR_$_BBBeacon._name
+_OBJC_IVAR_$_BBBeacon._beacon_description
+_OBJC_IVAR_$_BBBeacon._beacon_uid
+_OBJC_IVAR_$_BBBeacon._proximity_uuid
+_OBJC_IVAR_$_BBBeacon._major
+_OBJC_IVAR_$_BBBeacon._minor
+_OBJC_IVAR_$_BBBeacon._accuracyDataPoints
+_OBJC_IVAR_$_BBBeacon._accuracy
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBBeacon.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBBeacon.h
+-[BBBeaconLocation initWithAttributes:]
+-[BBBeaconLocation beacon]
+-[BBBeaconLocation setBeacon:]
+-[BBBeaconLocation .cxx_destruct]
+_OBJC_IVAR_$_BBBeaconLocation._beacon
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBBeaconLocation.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBBeaconLocation.h
++[BBConfig sharedConfig]
+___24+[BBConfig sharedConfig]_block_invoke
++[BBConfig libBundle]
+-[BBConfig regularFontWithSize:]
+-[BBConfig lightFontWithSize:]
+-[BBConfig setupWithPlaceIdentifier:withCompletion:]
+___52-[BBConfig setupWithPlaceIdentifier:withCompletion:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[BBConfig setCustomColor:]
+-[BBConfig setRegularFont:]
+-[BBConfig setLightFont:]
+-[BBConfig setApiKey:]
+-[BBConfig setApiBaseURL:]
+-[BBConfig APIURL]
+-[BBConfig apiKey]
+-[BBConfig apiBaseURL]
+-[BBConfig currentPlaceId]
+-[BBConfig setCurrentPlaceId:]
+-[BBConfig customColor]
+-[BBConfig regularFont]
+-[BBConfig lightFont]
+-[BBConfig SSLPinningMode]
+-[BBConfig setSSLPinningMode:]
+-[BBConfig .cxx_destruct]
+_sharedConfig._sharedConfig
+_sharedConfig.onceToken
+___block_descriptor_tmp.53
+_OBJC_IVAR_$_BBConfig._customColor
+_OBJC_IVAR_$_BBConfig._regularFont
+_OBJC_IVAR_$_BBConfig._lightFont
+_OBJC_IVAR_$_BBConfig._apiKey
+_OBJC_IVAR_$_BBConfig._apiBaseURL
+_OBJC_IVAR_$_BBConfig._currentPlaceId
+_OBJC_IVAR_$_BBConfig._SSLPinningMode
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBConfig.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBConfig.h
+__destroy_helper_block_
+__copy_helper_block_
+__52-[BBConfig setupWithPlaceIdentifier:withCompletion:]_block_invoke
+__24+[BBConfig sharedConfig]_block_invoke
++[BBCoordinateHelper centerOf3Points:p2:p3:]
++[BBCoordinateHelper centerOf2Points:p2:]
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBCoordinateHelper.m
++[BBDataManager sharedInstance]
+___31+[BBDataManager sharedInstance]_block_invoke
+-[BBDataManager errorInvalidConfiguration]
+-[BBDataManager errorUnsupportedPlace]
+-[BBDataManager errorInvalidResponse]
+-[BBDataManager errorSubjectNotFound]
+-[BBDataManager clearAllChacedData]
+-[BBDataManager fetchAllPlacesWithCompletion:]
+___46-[BBDataManager fetchAllPlacesWithCompletion:]_block_invoke
+___46-[BBDataManager fetchAllPlacesWithCompletion:]_block_invoke.65
+___copy_helper_block_.66
+___destroy_helper_block_.67
+-[BBDataManager fetchPlaceIdFromIdentifier:withCompletion:]
+___59-[BBDataManager fetchPlaceIdFromIdentifier:withCompletion:]_block_invoke
+___copy_helper_block_.85
+___destroy_helper_block_.86
+-[BBDataManager requestPOIMenuItemsWithCompletion:]
+___51-[BBDataManager requestPOIMenuItemsWithCompletion:]_block_invoke
+___copy_helper_block_.107
+___destroy_helper_block_.108
+___51-[BBDataManager requestPOIMenuItemsWithCompletion:]_block_invoke.110
+___copy_helper_block_.111
+___destroy_helper_block_.112
+-[BBDataManager requestSelectedPOIMenuItemsWithCompletion:]
+-[BBDataManager requestCurrentPlaceSetupWithCompletion:]
+___56-[BBDataManager requestCurrentPlaceSetupWithCompletion:]_block_invoke
+___copy_helper_block_.134
+___destroy_helper_block_.135
+___56-[BBDataManager requestCurrentPlaceSetupWithCompletion:]_block_invoke.137
+___copy_helper_block_.138
+___destroy_helper_block_.139
+-[BBDataManager requestFindASubject:withCompletion:]
+___52-[BBDataManager requestFindASubject:withCompletion:]_block_invoke
+___copy_helper_block_.187
+___destroy_helper_block_.188
+-[BBDataManager requestFindIMSSubject:withCompletion:]
+-[BBDataManager cachedMenuItems]
+-[BBDataManager setCachedMenuItems:]
+-[BBDataManager cachedCurrentPlace]
+-[BBDataManager setCachedCurrentPlace:]
+-[BBDataManager cachedPlaces]
+-[BBDataManager setCachedPlaces:]
+-[BBDataManager .cxx_destruct]
+_sharedInstance.sharedInstance
+_sharedInstance.onceToken
+___block_descriptor_tmp.64
+___block_descriptor_tmp.69
+___block_descriptor_tmp.88
+___block_descriptor_tmp.109
+___block_descriptor_tmp.113
+___block_descriptor_tmp.136
+___block_descriptor_tmp.140
+___block_descriptor_tmp.190
+_OBJC_IVAR_$_BBDataManager._cachedMenuItems
+_OBJC_IVAR_$_BBDataManager._cachedCurrentPlace
+_OBJC_IVAR_$_BBDataManager._cachedPlaces
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBDataManager.m
+__52-[BBDataManager requestFindASubject:withCompletion:]_block_invoke
+__56-[BBDataManager requestCurrentPlaceSetupWithCompletion:]_block_invoke.137
+__56-[BBDataManager requestCurrentPlaceSetupWithCompletion:]_block_invoke
+__51-[BBDataManager requestPOIMenuItemsWithCompletion:]_block_invoke.110
+__51-[BBDataManager requestPOIMenuItemsWithCompletion:]_block_invoke
+__59-[BBDataManager fetchPlaceIdFromIdentifier:withCompletion:]_block_invoke
+__46-[BBDataManager fetchAllPlacesWithCompletion:]_block_invoke.65
+__46-[BBDataManager fetchAllPlacesWithCompletion:]_block_invoke
+__31+[BBDataManager sharedInstance]_block_invoke
+-[BBFloor initWithAttributes:]
+-[BBFloor matchingBBBeacon:]
+-[BBFloor clearAllAccuracyDataPoints]
+-[BBFloor floor_id]
+-[BBFloor setFloor_id:]
+-[BBFloor team_id]
+-[BBFloor setTeam_id:]
+-[BBFloor name]
+-[BBFloor setName:]
+-[BBFloor order]
+-[BBFloor setOrder:]
+-[BBFloor image_url]
+-[BBFloor setImage_url:]
+-[BBFloor poiLocations]
+-[BBFloor setPoiLocations:]
+-[BBFloor beaconLocations]
+-[BBFloor setBeaconLocations:]
+-[BBFloor map_width_in_centimeters]
+-[BBFloor setMap_width_in_centimeters:]
+-[BBFloor map_height_in_centimeters]
+-[BBFloor setMap_height_in_centimeters:]
+-[BBFloor map_width_in_pixels]
+-[BBFloor setMap_width_in_pixels:]
+-[BBFloor map_height_in_pixels]
+-[BBFloor setMap_height_in_pixels:]
+-[BBFloor map_pixel_to_centimeter_ratio]
+-[BBFloor setMap_pixel_to_centimeter_ratio:]
+-[BBFloor map_walkable_color]
+-[BBFloor setMap_walkable_color:]
+-[BBFloor map_background_color]
+-[BBFloor setMap_background_color:]
+-[BBFloor .cxx_destruct]
+_OBJC_IVAR_$_BBFloor._floor_id
+_OBJC_IVAR_$_BBFloor._team_id
+_OBJC_IVAR_$_BBFloor._name
+_OBJC_IVAR_$_BBFloor._order
+_OBJC_IVAR_$_BBFloor._image_url
+_OBJC_IVAR_$_BBFloor._poiLocations
+_OBJC_IVAR_$_BBFloor._beaconLocations
+_OBJC_IVAR_$_BBFloor._map_width_in_centimeters
+_OBJC_IVAR_$_BBFloor._map_height_in_centimeters
+_OBJC_IVAR_$_BBFloor._map_width_in_pixels
+_OBJC_IVAR_$_BBFloor._map_height_in_pixels
+_OBJC_IVAR_$_BBFloor._map_pixel_to_centimeter_ratio
+_OBJC_IVAR_$_BBFloor._map_walkable_color
+_OBJC_IVAR_$_BBFloor._map_background_color
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBFloor.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBFloor.h
+-[BBFoundSubject initWithAttributes:]
+-[BBFoundSubject isSubjectFound]
+-[BBFoundSubject floor_id]
+-[BBFoundSubject center]
+-[BBFoundSubject areaCenter]
+-[BBFoundSubject dist:to:]
+-[BBFoundSubject calculateDisplayTypeForLocations]
+-[BBFoundSubject status]
+-[BBFoundSubject setStatus:]
+-[BBFoundSubject locations]
+-[BBFoundSubject setLocations:]
+-[BBFoundSubject displayType]
+-[BBFoundSubject setDisplayType:]
+-[BBFoundSubject maxDistLocations]
+-[BBFoundSubject setMaxDistLocations:]
+-[BBFoundSubject .cxx_destruct]
+_OBJC_IVAR_$_BBFoundSubject._status
+_OBJC_IVAR_$_BBFoundSubject._locations
+_OBJC_IVAR_$_BBFoundSubject._displayType
+_OBJC_IVAR_$_BBFoundSubject._maxDistLocations
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBFoundSubject.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBFoundSubject.h
+-[BBFoundSubjectLocation initWithAttributes:]
+-[BBFoundSubjectLocation coordinate]
+-[BBFoundSubjectLocation floor_id]
+-[BBFoundSubjectLocation setFloor_id:]
+-[BBFoundSubjectLocation location_id]
+-[BBFoundSubjectLocation setLocation_id:]
+-[BBFoundSubjectLocation location_posX]
+-[BBFoundSubjectLocation setLocation_posX:]
+-[BBFoundSubjectLocation location_posY]
+-[BBFoundSubjectLocation setLocation_posY:]
+-[BBFoundSubjectLocation area]
+-[BBFoundSubjectLocation setArea:]
+-[BBFoundSubjectLocation map_pixel_to_centimeter_ratio]
+-[BBFoundSubjectLocation setMap_pixel_to_centimeter_ratio:]
+-[BBFoundSubjectLocation type]
+-[BBFoundSubjectLocation setType:]
+-[BBFoundSubjectLocation .cxx_destruct]
+_OBJC_IVAR_$_BBFoundSubjectLocation._floor_id
+_OBJC_IVAR_$_BBFoundSubjectLocation._location_id
+_OBJC_IVAR_$_BBFoundSubjectLocation._location_posX
+_OBJC_IVAR_$_BBFoundSubjectLocation._location_posY
+_OBJC_IVAR_$_BBFoundSubjectLocation._area
+_OBJC_IVAR_$_BBFoundSubjectLocation._map_pixel_to_centimeter_ratio
+_OBJC_IVAR_$_BBFoundSubjectLocation._type
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBFoundSubjectLocation.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBFoundSubjectLocation.h
+-[BBIMSRequstObject initWithFaustId:]
+-[BBIMSRequstObject faust]
+-[BBIMSRequstObject setFaust:]
+-[BBIMSRequstObject subject_name]
+-[BBIMSRequstObject setSubject_name:]
+-[BBIMSRequstObject subject_subtitle]
+-[BBIMSRequstObject setSubject_subtitle:]
+-[BBIMSRequstObject subject_image]
+-[BBIMSRequstObject setSubject_image:]
+-[BBIMSRequstObject .cxx_destruct]
+_OBJC_IVAR_$_BBIMSRequstObject._faust
+_OBJC_IVAR_$_BBIMSRequstObject._subject_name
+_OBJC_IVAR_$_BBIMSRequstObject._subject_subtitle
+_OBJC_IVAR_$_BBIMSRequstObject._subject_image
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBIMSRequstObject.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBIMSRequstObject.h
+-[BBLocation initWithAttributes:]
+-[BBLocation coordinate]
+-[BBLocation location_id]
+-[BBLocation setLocation_id:]
+-[BBLocation team_id]
+-[BBLocation setTeam_id:]
+-[BBLocation place_id]
+-[BBLocation setPlace_id:]
+-[BBLocation map_id]
+-[BBLocation setMap_id:]
+-[BBLocation poi_id]
+-[BBLocation setPoi_id:]
+-[BBLocation name]
+-[BBLocation setName:]
+-[BBLocation posX]
+-[BBLocation setPosX:]
+-[BBLocation posY]
+-[BBLocation setPosY:]
+-[BBLocation .cxx_destruct]
+_OBJC_IVAR_$_BBLocation._location_id
+_OBJC_IVAR_$_BBLocation._team_id
+_OBJC_IVAR_$_BBLocation._place_id
+_OBJC_IVAR_$_BBLocation._map_id
+_OBJC_IVAR_$_BBLocation._poi_id
+_OBJC_IVAR_$_BBLocation._name
+_OBJC_IVAR_$_BBLocation._posX
+_OBJC_IVAR_$_BBLocation._posY
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBLocation.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBLocation.h
+-[BBPlace initWithAttributes:]
+-[BBPlace matchingBBFloor:]
+-[BBPlace identifier1]
+-[BBPlace setIdentifier1:]
+-[BBPlace identifier2]
+-[BBPlace setIdentifier2:]
+-[BBPlace identifier3]
+-[BBPlace setIdentifier3:]
+-[BBPlace identifier4]
+-[BBPlace setIdentifier4:]
+-[BBPlace identifier5]
+-[BBPlace setIdentifier5:]
+-[BBPlace place_id]
+-[BBPlace setPlace_id:]
+-[BBPlace team_id]
+-[BBPlace setTeam_id:]
+-[BBPlace name]
+-[BBPlace setName:]
+-[BBPlace address]
+-[BBPlace setAddress:]
+-[BBPlace zipcode]
+-[BBPlace setZipcode:]
+-[BBPlace city]
+-[BBPlace setCity:]
+-[BBPlace order]
+-[BBPlace setOrder:]
+-[BBPlace floors]
+-[BBPlace setFloors:]
+-[BBPlace beacon_positioning_enabled]
+-[BBPlace setBeacon_positioning_enabled:]
+-[BBPlace beacon_proximity_enabled]
+-[BBPlace setBeacon_proximity_enabled:]
+-[BBPlace .cxx_destruct]
+_OBJC_IVAR_$_BBPlace._identifier1
+_OBJC_IVAR_$_BBPlace._identifier2
+_OBJC_IVAR_$_BBPlace._identifier3
+_OBJC_IVAR_$_BBPlace._identifier4
+_OBJC_IVAR_$_BBPlace._identifier5
+_OBJC_IVAR_$_BBPlace._place_id
+_OBJC_IVAR_$_BBPlace._team_id
+_OBJC_IVAR_$_BBPlace._name
+_OBJC_IVAR_$_BBPlace._address
+_OBJC_IVAR_$_BBPlace._zipcode
+_OBJC_IVAR_$_BBPlace._city
+_OBJC_IVAR_$_BBPlace._order
+_OBJC_IVAR_$_BBPlace._floors
+_OBJC_IVAR_$_BBPlace._beacon_positioning_enabled
+_OBJC_IVAR_$_BBPlace._beacon_proximity_enabled
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBPlace.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBPlace.h
+-[BBPOI initWithAttributes:]
+-[BBPOI poi_id]
+-[BBPOI setPoi_id:]
+-[BBPOI team_id]
+-[BBPOI setTeam_id:]
+-[BBPOI name]
+-[BBPOI setName:]
+-[BBPOI internal_name]
+-[BBPOI setInternal_name:]
+-[BBPOI icon_url]
+-[BBPOI setIcon_url:]
+-[BBPOI type]
+-[BBPOI setType:]
+-[BBPOI hex_color]
+-[BBPOI setHex_color:]
+-[BBPOI selected]
+-[BBPOI setSelected:]
+-[BBPOI .cxx_destruct]
+_OBJC_IVAR_$_BBPOI._poi_id
+_OBJC_IVAR_$_BBPOI._team_id
+_OBJC_IVAR_$_BBPOI._name
+_OBJC_IVAR_$_BBPOI._internal_name
+_OBJC_IVAR_$_BBPOI._icon_url
+_OBJC_IVAR_$_BBPOI._type
+_OBJC_IVAR_$_BBPOI._hex_color
+_OBJC_IVAR_$_BBPOI._selected
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBPOI.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBPOI.h
+-[BBPOILocation initWithAttributes:]
+-[BBPOILocation poi]
+-[BBPOILocation setPoi:]
+-[BBPOILocation area]
+-[BBPOILocation setArea:]
+-[BBPOILocation .cxx_destruct]
+_OBJC_IVAR_$_BBPOILocation._poi
+_OBJC_IVAR_$_BBPOILocation._area
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBPOILocation.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBPOILocation.h
+-[BBPOIMenuItem initWithAttributes:]
+-[BBPOIMenuItem isPOIMenuItem]
+-[BBPOIMenuItem menu_id]
+-[BBPOIMenuItem setMenu_id:]
+-[BBPOIMenuItem order]
+-[BBPOIMenuItem setOrder:]
+-[BBPOIMenuItem title]
+-[BBPOIMenuItem setTitle:]
+-[BBPOIMenuItem poi]
+-[BBPOIMenuItem setPoi:]
+-[BBPOIMenuItem .cxx_destruct]
+_OBJC_IVAR_$_BBPOIMenuItem._menu_id
+_OBJC_IVAR_$_BBPOIMenuItem._order
+_OBJC_IVAR_$_BBPOIMenuItem._title
+_OBJC_IVAR_$_BBPOIMenuItem._poi
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBPOIMenuItem.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBPOIMenuItem.h
+-[BBPOISection init]
+-[BBPOISection menuItems]
+-[BBPOISection setMenuItems:]
+-[BBPOISection sectionTitle]
+-[BBPOISection setSectionTitle:]
+-[BBPOISection .cxx_destruct]
+_OBJC_IVAR_$_BBPOISection._menuItems
+_OBJC_IVAR_$_BBPOISection._sectionTitle
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBPOISection.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBPOISection.h
+-[BBTrilateration getMyCoordinate]
+-[BBTrilateration optimizeDistanceAverage:]
+-[BBTrilateration roundResult:]
+-[BBTrilateration getAverage:]
+-[BBTrilateration mostOccuringNumberInArray:]
+-[BBTrilateration mostReliable:]
+___32-[BBTrilateration mostReliable:]_block_invoke
+-[BBTrilateration description]
+-[BBTrilateration beaconA]
+-[BBTrilateration setBeaconA:]
+-[BBTrilateration beaconB]
+-[BBTrilateration setBeaconB:]
+-[BBTrilateration beaconC]
+-[BBTrilateration setBeaconC:]
+-[BBTrilateration distA]
+-[BBTrilateration setDistA:]
+-[BBTrilateration distB]
+-[BBTrilateration setDistB:]
+-[BBTrilateration distC]
+-[BBTrilateration setDistC:]
+_OBJC_IVAR_$_BBTrilateration._beaconA
+_OBJC_IVAR_$_BBTrilateration._beaconB
+_OBJC_IVAR_$_BBTrilateration._beaconC
+_OBJC_IVAR_$_BBTrilateration._distA
+_OBJC_IVAR_$_BBTrilateration._distB
+_OBJC_IVAR_$_BBTrilateration._distC
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBTrilateration.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBTrilateration.h
+__32-[BBTrilateration mostReliable:]_block_invoke
+-[CBCentralManager(BeaconBacon) userPositioningAvailable]
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/CBCentralManager+BeaconBacon.m
++[UIColor(Hex) colorFromHexString:]
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/UIColor+Hex.m
+-[UIImage(Resize) resizeImage:]
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/UIImage+Resize.m
+-[UIImageView(BeaconBacon) loadImageFromURL:completionBlock:]
+___61-[UIImageView(BeaconBacon) loadImageFromURL:completionBlock:]_block_invoke
++[UIImageView(BeaconBacon) loadImageFromURL:completionBlock:]
+___61+[UIImageView(BeaconBacon) loadImageFromURL:completionBlock:]_block_invoke
+___copy_helper_block_.36
+___destroy_helper_block_.37
+___block_descriptor_tmp.39
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/UIImageView+BeaconBacon.m
+__61+[UIImageView(BeaconBacon) loadImageFromURL:completionBlock:]_block_invoke
+__61-[UIImageView(BeaconBacon) loadImageFromURL:completionBlock:]_block_invoke
++[AFHTTPSessionManager manager]
+-[AFHTTPSessionManager init]
+-[AFHTTPSessionManager initWithBaseURL:]
+-[AFHTTPSessionManager initWithSessionConfiguration:]
+-[AFHTTPSessionManager initWithBaseURL:sessionConfiguration:]
+-[AFHTTPSessionManager setRequestSerializer:]
+-[AFHTTPSessionManager setResponseSerializer:]
+-[AFHTTPSessionManager GET:parameters:success:failure:]
+-[AFHTTPSessionManager GET:parameters:progress:success:failure:]
+-[AFHTTPSessionManager HEAD:parameters:success:failure:]
+___56-[AFHTTPSessionManager HEAD:parameters:success:failure:]_block_invoke
+-[AFHTTPSessionManager POST:parameters:success:failure:]
+-[AFHTTPSessionManager POST:parameters:progress:success:failure:]
+-[AFHTTPSessionManager POST:parameters:constructingBodyWithBlock:success:failure:]
+-[AFHTTPSessionManager POST:parameters:constructingBodyWithBlock:progress:success:failure:]
+___91-[AFHTTPSessionManager POST:parameters:constructingBodyWithBlock:progress:success:failure:]_block_invoke
+___copy_helper_block_.58
+___destroy_helper_block_.59
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___91-[AFHTTPSessionManager POST:parameters:constructingBodyWithBlock:progress:success:failure:]_block_invoke.62
+___copy_helper_block_.63
+___destroy_helper_block_.64
+-[AFHTTPSessionManager PUT:parameters:success:failure:]
+-[AFHTTPSessionManager PATCH:parameters:success:failure:]
+-[AFHTTPSessionManager DELETE:parameters:success:failure:]
+-[AFHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:uploadProgress:downloadProgress:success:failure:]
+___116-[AFHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:uploadProgress:downloadProgress:success:failure:]_block_invoke
+___copy_helper_block_.77
+___destroy_helper_block_.78
+___116-[AFHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:uploadProgress:downloadProgress:success:failure:]_block_invoke.80
+___copy_helper_block_.81
+___destroy_helper_block_.82
+-[AFHTTPSessionManager description]
++[AFHTTPSessionManager supportsSecureCoding]
+-[AFHTTPSessionManager initWithCoder:]
+-[AFHTTPSessionManager encodeWithCoder:]
+-[AFHTTPSessionManager copyWithZone:]
+-[AFHTTPSessionManager baseURL]
+-[AFHTTPSessionManager setBaseURL:]
+-[AFHTTPSessionManager requestSerializer]
+-[AFHTTPSessionManager .cxx_destruct]
+_OBJC_IVAR_$_AFHTTPSessionManager._requestSerializer
+___block_descriptor_tmp.61
+___block_descriptor_tmp.66
+___block_descriptor_tmp.79
+___block_descriptor_tmp.83
+l_OBJC_PROTOCOL_$_NSCoding
+l_OBJC_LABEL_PROTOCOL_$_NSCoding
+l_OBJC_PROTOCOL_REFERENCE_$_NSCoding
+_OBJC_IVAR_$_AFHTTPSessionManager._baseURL
+l_OBJC_PROTOCOL_$_NSSecureCoding
+l_OBJC_LABEL_PROTOCOL_$_NSSecureCoding
+l_OBJC_PROTOCOL_$_NSCopying
+l_OBJC_LABEL_PROTOCOL_$_NSCopying
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/AFHTTPSessionManager.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/AFHTTPSessionManager.h
+__116-[AFHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:uploadProgress:downloadProgress:success:failure:]_block_invoke.80
+__116-[AFHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:uploadProgress:downloadProgress:success:failure:]_block_invoke
+__91-[AFHTTPSessionManager POST:parameters:constructingBodyWithBlock:progress:success:failure:]_block_invoke.62
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__91-[AFHTTPSessionManager POST:parameters:constructingBodyWithBlock:progress:success:failure:]_block_invoke
+__56-[AFHTTPSessionManager HEAD:parameters:success:failure:]_block_invoke
++[AFNetworkReachabilityManager sharedManager]
+___45+[AFNetworkReachabilityManager sharedManager]_block_invoke
++[AFNetworkReachabilityManager managerForDomain:]
++[AFNetworkReachabilityManager managerForAddress:]
++[AFNetworkReachabilityManager manager]
+-[AFNetworkReachabilityManager initWithReachability:]
+-[AFNetworkReachabilityManager init]
+-[AFNetworkReachabilityManager dealloc]
+-[AFNetworkReachabilityManager isReachable]
+-[AFNetworkReachabilityManager isReachableViaWWAN]
+-[AFNetworkReachabilityManager isReachableViaWiFi]
+-[AFNetworkReachabilityManager startMonitoring]
+___47-[AFNetworkReachabilityManager startMonitoring]_block_invoke
+___copy_helper_block_.46
+___destroy_helper_block_.47
+_AFNetworkReachabilityRetainCallback
+_AFNetworkReachabilityReleaseCallback
+_AFNetworkReachabilityCallback
+___47-[AFNetworkReachabilityManager startMonitoring]_block_invoke.50
+_AFPostReachabilityStatusChange
+___copy_helper_block_.51
+___destroy_helper_block_.52
+-[AFNetworkReachabilityManager stopMonitoring]
+-[AFNetworkReachabilityManager localizedNetworkReachabilityStatusString]
+-[AFNetworkReachabilityManager setReachabilityStatusChangeBlock:]
++[AFNetworkReachabilityManager keyPathsForValuesAffectingValueForKey:]
+-[AFNetworkReachabilityManager networkReachabilityStatus]
+-[AFNetworkReachabilityManager setNetworkReachabilityStatus:]
+-[AFNetworkReachabilityManager networkReachability]
+-[AFNetworkReachabilityManager networkReachabilityStatusBlock]
+-[AFNetworkReachabilityManager setNetworkReachabilityStatusBlock:]
+-[AFNetworkReachabilityManager .cxx_destruct]
+___AFPostReachabilityStatusChange_block_invoke
+___copy_helper_block_.119
+___destroy_helper_block_.120
+_sharedManager._sharedManager
+_sharedManager.onceToken
+_OBJC_IVAR_$_AFNetworkReachabilityManager._networkReachability
+___block_descriptor_tmp.49
+_OBJC_IVAR_$_AFNetworkReachabilityManager._networkReachabilityStatus
+_OBJC_IVAR_$_AFNetworkReachabilityManager._networkReachabilityStatusBlock
+___block_descriptor_tmp.121
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/AFNetworkReachabilityManager.m
+__AFPostReachabilityStatusChange_block_invoke
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/AFNetworkReachabilityManager.h
+AFPostReachabilityStatusChange
+AFNetworkReachabilityStatusForFlags
+__47-[AFNetworkReachabilityManager startMonitoring]_block_invoke.50
+AFNetworkReachabilityCallback
+AFNetworkReachabilityReleaseCallback
+AFNetworkReachabilityRetainCallback
+__47-[AFNetworkReachabilityManager startMonitoring]_block_invoke
+__45+[AFNetworkReachabilityManager sharedManager]_block_invoke
+AFStringFromNetworkReachabilityStatus
++[AFSecurityPolicy certificatesInBundle:]
++[AFSecurityPolicy defaultPinnedCertificates]
+___45+[AFSecurityPolicy defaultPinnedCertificates]_block_invoke
++[AFSecurityPolicy defaultPolicy]
++[AFSecurityPolicy policyWithPinningMode:]
++[AFSecurityPolicy policyWithPinningMode:withPinnedCertificates:]
+-[AFSecurityPolicy init]
+-[AFSecurityPolicy setPinnedCertificates:]
+-[AFSecurityPolicy evaluateServerTrust:forDomain:]
++[AFSecurityPolicy keyPathsForValuesAffectingPinnedPublicKeys]
++[AFSecurityPolicy supportsSecureCoding]
+-[AFSecurityPolicy initWithCoder:]
+-[AFSecurityPolicy encodeWithCoder:]
+-[AFSecurityPolicy copyWithZone:]
+-[AFSecurityPolicy SSLPinningMode]
+-[AFSecurityPolicy setSSLPinningMode:]
+-[AFSecurityPolicy pinnedCertificates]
+-[AFSecurityPolicy allowInvalidCertificates]
+-[AFSecurityPolicy setAllowInvalidCertificates:]
+-[AFSecurityPolicy validatesDomainName]
+-[AFSecurityPolicy setValidatesDomainName:]
+-[AFSecurityPolicy pinnedPublicKeys]
+-[AFSecurityPolicy setPinnedPublicKeys:]
+-[AFSecurityPolicy .cxx_destruct]
+_defaultPinnedCertificates._defaultPinnedCertificates
+_defaultPinnedCertificates.onceToken
+_OBJC_IVAR_$_AFSecurityPolicy._pinnedCertificates
+_OBJC_IVAR_$_AFSecurityPolicy._SSLPinningMode
+_OBJC_IVAR_$_AFSecurityPolicy._allowInvalidCertificates
+_OBJC_IVAR_$_AFSecurityPolicy._validatesDomainName
+_OBJC_IVAR_$_AFSecurityPolicy._pinnedPublicKeys
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/AFSecurityPolicy.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/AFSecurityPolicy.h
+AFSecKeyIsEqualToKey
+AFPublicKeyTrustChainForServerTrust
+AFCertificateTrustChainForServerTrust
+AFServerTrustIsValid
+AFPublicKeyForCertificate
+__45+[AFSecurityPolicy defaultPinnedCertificates]_block_invoke
+-[AFQueryStringPair initWithField:value:]
+-[AFQueryStringPair URLEncodedStringValue]
+-[AFQueryStringPair field]
+-[AFQueryStringPair setField:]
+-[AFQueryStringPair value]
+-[AFQueryStringPair setValue:]
+-[AFQueryStringPair .cxx_destruct]
++[AFHTTPRequestSerializer serializer]
+-[AFHTTPRequestSerializer init]
+___31-[AFHTTPRequestSerializer init]_block_invoke
+-[AFHTTPRequestSerializer dealloc]
+-[AFHTTPRequestSerializer setAllowsCellularAccess:]
+-[AFHTTPRequestSerializer setCachePolicy:]
+-[AFHTTPRequestSerializer setHTTPShouldHandleCookies:]
+-[AFHTTPRequestSerializer setHTTPShouldUsePipelining:]
+-[AFHTTPRequestSerializer setNetworkServiceType:]
+-[AFHTTPRequestSerializer setTimeoutInterval:]
+-[AFHTTPRequestSerializer HTTPRequestHeaders]
+___45-[AFHTTPRequestSerializer HTTPRequestHeaders]_block_invoke
+___copy_helper_block_.201
+___destroy_helper_block_.202
+-[AFHTTPRequestSerializer setValue:forHTTPHeaderField:]
+___55-[AFHTTPRequestSerializer setValue:forHTTPHeaderField:]_block_invoke
+___copy_helper_block_.207
+___destroy_helper_block_.208
+-[AFHTTPRequestSerializer valueForHTTPHeaderField:]
+___51-[AFHTTPRequestSerializer valueForHTTPHeaderField:]_block_invoke
+___copy_helper_block_.212
+___destroy_helper_block_.213
+-[AFHTTPRequestSerializer setAuthorizationHeaderFieldWithUsername:password:]
+-[AFHTTPRequestSerializer clearAuthorizationHeader]
+___51-[AFHTTPRequestSerializer clearAuthorizationHeader]_block_invoke
+___copy_helper_block_.227
+___destroy_helper_block_.228
+-[AFHTTPRequestSerializer setQueryStringSerializationWithStyle:]
+-[AFHTTPRequestSerializer setQueryStringSerializationWithBlock:]
+-[AFHTTPRequestSerializer requestWithMethod:URLString:parameters:error:]
+-[AFHTTPRequestSerializer multipartFormRequestWithMethod:URLString:parameters:constructingBodyWithBlock:error:]
+-[AFHTTPRequestSerializer requestWithMultipartFormRequest:writingStreamContentsToFile:completionHandler:]
+___105-[AFHTTPRequestSerializer requestWithMultipartFormRequest:writingStreamContentsToFile:completionHandler:]_block_invoke
+___105-[AFHTTPRequestSerializer requestWithMultipartFormRequest:writingStreamContentsToFile:completionHandler:]_block_invoke_2
+___copy_helper_block_.288
+___destroy_helper_block_.289
+___copy_helper_block_.291
+___destroy_helper_block_.292
+-[AFHTTPRequestSerializer requestBySerializingRequest:withParameters:error:]
+___76-[AFHTTPRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke
+___copy_helper_block_.300
+___destroy_helper_block_.301
++[AFHTTPRequestSerializer automaticallyNotifiesObserversForKey:]
+-[AFHTTPRequestSerializer observeValueForKeyPath:ofObject:change:context:]
++[AFHTTPRequestSerializer supportsSecureCoding]
+-[AFHTTPRequestSerializer initWithCoder:]
+-[AFHTTPRequestSerializer encodeWithCoder:]
+___43-[AFHTTPRequestSerializer encodeWithCoder:]_block_invoke
+___copy_helper_block_.348
+___destroy_helper_block_.349
+-[AFHTTPRequestSerializer copyWithZone:]
+___40-[AFHTTPRequestSerializer copyWithZone:]_block_invoke
+___copy_helper_block_.357
+___destroy_helper_block_.358
+-[AFHTTPRequestSerializer stringEncoding]
+-[AFHTTPRequestSerializer setStringEncoding:]
+-[AFHTTPRequestSerializer allowsCellularAccess]
+-[AFHTTPRequestSerializer cachePolicy]
+-[AFHTTPRequestSerializer HTTPShouldHandleCookies]
+-[AFHTTPRequestSerializer HTTPShouldUsePipelining]
+-[AFHTTPRequestSerializer networkServiceType]
+-[AFHTTPRequestSerializer timeoutInterval]
+-[AFHTTPRequestSerializer HTTPMethodsEncodingParametersInURI]
+-[AFHTTPRequestSerializer setHTTPMethodsEncodingParametersInURI:]
+-[AFHTTPRequestSerializer mutableObservedChangedKeyPaths]
+-[AFHTTPRequestSerializer setMutableObservedChangedKeyPaths:]
+-[AFHTTPRequestSerializer mutableHTTPRequestHeaders]
+-[AFHTTPRequestSerializer setMutableHTTPRequestHeaders:]
+-[AFHTTPRequestSerializer requestHeaderModificationQueue]
+-[AFHTTPRequestSerializer setRequestHeaderModificationQueue:]
+-[AFHTTPRequestSerializer queryStringSerializationStyle]
+-[AFHTTPRequestSerializer setQueryStringSerializationStyle:]
+-[AFHTTPRequestSerializer queryStringSerialization]
+-[AFHTTPRequestSerializer setQueryStringSerialization:]
+-[AFHTTPRequestSerializer .cxx_destruct]
+-[AFStreamingMultipartFormData initWithURLRequest:stringEncoding:]
+-[AFStreamingMultipartFormData appendPartWithFileURL:name:error:]
+-[AFStreamingMultipartFormData appendPartWithFileURL:name:fileName:mimeType:error:]
+-[AFStreamingMultipartFormData appendPartWithInputStream:name:fileName:length:mimeType:]
+-[AFStreamingMultipartFormData appendPartWithFileData:name:fileName:mimeType:]
+-[AFStreamingMultipartFormData appendPartWithFormData:name:]
+-[AFStreamingMultipartFormData appendPartWithHeaders:body:]
+-[AFStreamingMultipartFormData throttleBandwidthWithPacketSize:delay:]
+-[AFStreamingMultipartFormData requestByFinalizingMultipartFormData]
+-[AFStreamingMultipartFormData request]
+-[AFStreamingMultipartFormData setRequest:]
+-[AFStreamingMultipartFormData stringEncoding]
+-[AFStreamingMultipartFormData setStringEncoding:]
+-[AFStreamingMultipartFormData boundary]
+-[AFStreamingMultipartFormData setBoundary:]
+-[AFStreamingMultipartFormData bodyStream]
+-[AFStreamingMultipartFormData setBodyStream:]
+-[AFStreamingMultipartFormData .cxx_destruct]
+-[AFMultipartBodyStream initWithStringEncoding:]
+-[AFMultipartBodyStream setInitialAndFinalBoundaries]
+-[AFMultipartBodyStream appendHTTPBodyPart:]
+-[AFMultipartBodyStream isEmpty]
+-[AFMultipartBodyStream read:maxLength:]
+-[AFMultipartBodyStream getBuffer:length:]
+-[AFMultipartBodyStream hasBytesAvailable]
+-[AFMultipartBodyStream open]
+-[AFMultipartBodyStream close]
+-[AFMultipartBodyStream propertyForKey:]
+-[AFMultipartBodyStream setProperty:forKey:]
+-[AFMultipartBodyStream scheduleInRunLoop:forMode:]
+-[AFMultipartBodyStream removeFromRunLoop:forMode:]
+-[AFMultipartBodyStream contentLength]
+-[AFMultipartBodyStream _scheduleInCFRunLoop:forMode:]
+-[AFMultipartBodyStream _unscheduleFromCFRunLoop:forMode:]
+-[AFMultipartBodyStream _setCFClientFlags:callback:context:]
+-[AFMultipartBodyStream copyWithZone:]
+-[AFMultipartBodyStream delegate]
+-[AFMultipartBodyStream setDelegate:]
+-[AFMultipartBodyStream streamStatus]
+-[AFMultipartBodyStream setStreamStatus:]
+-[AFMultipartBodyStream streamError]
+-[AFMultipartBodyStream setStreamError:]
+-[AFMultipartBodyStream numberOfBytesInPacket]
+-[AFMultipartBodyStream setNumberOfBytesInPacket:]
+-[AFMultipartBodyStream delay]
+-[AFMultipartBodyStream setDelay:]
+-[AFMultipartBodyStream inputStream]
+-[AFMultipartBodyStream setInputStream:]
+-[AFMultipartBodyStream stringEncoding]
+-[AFMultipartBodyStream setStringEncoding:]
+-[AFMultipartBodyStream HTTPBodyParts]
+-[AFMultipartBodyStream setHTTPBodyParts:]
+-[AFMultipartBodyStream HTTPBodyPartEnumerator]
+-[AFMultipartBodyStream setHTTPBodyPartEnumerator:]
+-[AFMultipartBodyStream currentHTTPBodyPart]
+-[AFMultipartBodyStream setCurrentHTTPBodyPart:]
+-[AFMultipartBodyStream outputStream]
+-[AFMultipartBodyStream setOutputStream:]
+-[AFMultipartBodyStream buffer]
+-[AFMultipartBodyStream setBuffer:]
+-[AFMultipartBodyStream .cxx_destruct]
+-[AFHTTPBodyPart init]
+-[AFHTTPBodyPart dealloc]
+-[AFHTTPBodyPart inputStream]
+-[AFHTTPBodyPart stringForHeaders]
+-[AFHTTPBodyPart contentLength]
+-[AFHTTPBodyPart hasBytesAvailable]
+-[AFHTTPBodyPart read:maxLength:]
+-[AFHTTPBodyPart readData:intoBuffer:maxLength:]
+-[AFHTTPBodyPart transitionToNextPhase]
+___39-[AFHTTPBodyPart transitionToNextPhase]_block_invoke
+___copy_helper_block_.739
+___destroy_helper_block_.740
+-[AFHTTPBodyPart copyWithZone:]
+-[AFHTTPBodyPart stringEncoding]
+-[AFHTTPBodyPart setStringEncoding:]
+-[AFHTTPBodyPart headers]
+-[AFHTTPBodyPart setHeaders:]
+-[AFHTTPBodyPart boundary]
+-[AFHTTPBodyPart setBoundary:]
+-[AFHTTPBodyPart body]
+-[AFHTTPBodyPart setBody:]
+-[AFHTTPBodyPart bodyContentLength]
+-[AFHTTPBodyPart setBodyContentLength:]
+-[AFHTTPBodyPart setInputStream:]
+-[AFHTTPBodyPart hasInitialBoundary]
+-[AFHTTPBodyPart setHasInitialBoundary:]
+-[AFHTTPBodyPart hasFinalBoundary]
+-[AFHTTPBodyPart setHasFinalBoundary:]
+-[AFHTTPBodyPart .cxx_destruct]
++[AFJSONRequestSerializer serializer]
++[AFJSONRequestSerializer serializerWithWritingOptions:]
+-[AFJSONRequestSerializer requestBySerializingRequest:withParameters:error:]
+___76-[AFJSONRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke
+___copy_helper_block_.773
+___destroy_helper_block_.774
+-[AFJSONRequestSerializer initWithCoder:]
+-[AFJSONRequestSerializer encodeWithCoder:]
+-[AFJSONRequestSerializer copyWithZone:]
+-[AFJSONRequestSerializer writingOptions]
+-[AFJSONRequestSerializer setWritingOptions:]
++[AFPropertyListRequestSerializer serializer]
++[AFPropertyListRequestSerializer serializerWithFormat:writeOptions:]
+-[AFPropertyListRequestSerializer requestBySerializingRequest:withParameters:error:]
+___84-[AFPropertyListRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke
+___copy_helper_block_.797
+___destroy_helper_block_.798
+-[AFPropertyListRequestSerializer initWithCoder:]
+-[AFPropertyListRequestSerializer encodeWithCoder:]
+-[AFPropertyListRequestSerializer copyWithZone:]
+-[AFPropertyListRequestSerializer format]
+-[AFPropertyListRequestSerializer setFormat:]
+-[AFPropertyListRequestSerializer writeOptions]
+-[AFPropertyListRequestSerializer setWriteOptions:]
+_AFHTTPRequestSerializerObservedKeyPaths
+___AFHTTPRequestSerializerObservedKeyPaths_block_invoke
+_OBJC_IVAR_$_AFQueryStringPair._field
+_OBJC_IVAR_$_AFQueryStringPair._value
+_AFHTTPRequestSerializerObserverContext
+_OBJC_IVAR_$_AFHTTPRequestSerializer._allowsCellularAccess
+_OBJC_IVAR_$_AFHTTPRequestSerializer._cachePolicy
+_OBJC_IVAR_$_AFHTTPRequestSerializer._HTTPShouldHandleCookies
+_OBJC_IVAR_$_AFHTTPRequestSerializer._HTTPShouldUsePipelining
+_OBJC_IVAR_$_AFHTTPRequestSerializer._networkServiceType
+_OBJC_IVAR_$_AFHTTPRequestSerializer._timeoutInterval
+___block_descriptor_tmp.204
+___block_descriptor_tmp.209
+___block_descriptor_tmp.214
+___block_descriptor_tmp.229
+___block_descriptor_tmp.290
+___block_descriptor_tmp.293
+___block_descriptor_tmp.303
+___block_descriptor_tmp.350
+___block_descriptor_tmp.359
+_OBJC_IVAR_$_AFHTTPRequestSerializer._stringEncoding
+_OBJC_IVAR_$_AFHTTPRequestSerializer._HTTPMethodsEncodingParametersInURI
+_OBJC_IVAR_$_AFHTTPRequestSerializer._mutableObservedChangedKeyPaths
+_OBJC_IVAR_$_AFHTTPRequestSerializer._mutableHTTPRequestHeaders
+_OBJC_IVAR_$_AFHTTPRequestSerializer._requestHeaderModificationQueue
+_OBJC_IVAR_$_AFHTTPRequestSerializer._queryStringSerializationStyle
+_OBJC_IVAR_$_AFHTTPRequestSerializer._queryStringSerialization
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_AFURLRequestSerialization
+l_OBJC_LABEL_PROTOCOL_$_AFURLRequestSerialization
+_OBJC_IVAR_$_AFStreamingMultipartFormData._request
+_OBJC_IVAR_$_AFStreamingMultipartFormData._stringEncoding
+_OBJC_IVAR_$_AFStreamingMultipartFormData._boundary
+_OBJC_IVAR_$_AFStreamingMultipartFormData._bodyStream
+l_OBJC_PROTOCOL_$_AFMultipartFormData
+l_OBJC_LABEL_PROTOCOL_$_AFMultipartFormData
+_OBJC_IVAR_$_AFMultipartBodyStream.delegate
+_OBJC_IVAR_$_AFMultipartBodyStream.streamStatus
+_OBJC_IVAR_$_AFMultipartBodyStream.streamError
+_OBJC_IVAR_$_AFMultipartBodyStream._numberOfBytesInPacket
+_OBJC_IVAR_$_AFMultipartBodyStream._delay
+_OBJC_IVAR_$_AFMultipartBodyStream._inputStream
+_OBJC_IVAR_$_AFMultipartBodyStream._stringEncoding
+_OBJC_IVAR_$_AFMultipartBodyStream._HTTPBodyParts
+_OBJC_IVAR_$_AFMultipartBodyStream._HTTPBodyPartEnumerator
+_OBJC_IVAR_$_AFMultipartBodyStream._currentHTTPBodyPart
+_OBJC_IVAR_$_AFMultipartBodyStream._outputStream
+_OBJC_IVAR_$_AFMultipartBodyStream._buffer
+l_OBJC_PROTOCOL_$_NSStreamDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSStreamDelegate
+_OBJC_IVAR_$_AFHTTPBodyPart._inputStream
+_OBJC_IVAR_$_AFHTTPBodyPart._bodyContentLength
+_OBJC_IVAR_$_AFHTTPBodyPart._phase
+_OBJC_IVAR_$_AFHTTPBodyPart._phaseReadOffset
+___block_descriptor_tmp.741
+_OBJC_IVAR_$_AFHTTPBodyPart._stringEncoding
+_OBJC_IVAR_$_AFHTTPBodyPart._headers
+_OBJC_IVAR_$_AFHTTPBodyPart._boundary
+_OBJC_IVAR_$_AFHTTPBodyPart._body
+_OBJC_IVAR_$_AFHTTPBodyPart._hasInitialBoundary
+_OBJC_IVAR_$_AFHTTPBodyPart._hasFinalBoundary
+___block_descriptor_tmp.775
+_OBJC_IVAR_$_AFJSONRequestSerializer._writingOptions
+___block_descriptor_tmp.799
+_OBJC_IVAR_$_AFPropertyListRequestSerializer._format
+_OBJC_IVAR_$_AFPropertyListRequestSerializer._writeOptions
+_AFHTTPRequestSerializerObservedKeyPaths._AFHTTPRequestSerializerObservedKeyPaths
+_AFHTTPRequestSerializerObservedKeyPaths.onceToken
+___block_descriptor_tmp.819
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/AFURLRequestSerialization.m
+__AFHTTPRequestSerializerObservedKeyPaths_block_invoke
+AFHTTPRequestSerializerObservedKeyPaths
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/AFURLRequestSerialization.h
+__84-[AFPropertyListRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke
+__76-[AFJSONRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke
+__39-[AFHTTPBodyPart transitionToNextPhase]_block_invoke
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+AFMultipartFormFinalBoundary
+AFMultipartFormEncapsulationBoundary
+AFMultipartFormInitialBoundary
+-[NSStream setStreamError:]
+-[NSStream streamError]
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSStream.h
+-[NSStream setStreamStatus:]
+-[NSStream streamStatus]
+-[NSStream setDelegate:]
+-[NSStream delegate]
+AFContentTypeForPathExtension
+AFCreateMultipartFormBoundary
+__40-[AFHTTPRequestSerializer copyWithZone:]_block_invoke
+__43-[AFHTTPRequestSerializer encodeWithCoder:]_block_invoke
+__76-[AFHTTPRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke
+__105-[AFHTTPRequestSerializer requestWithMultipartFormRequest:writingStreamContentsToFile:completionHandler:]_block_invoke_2
+__105-[AFHTTPRequestSerializer requestWithMultipartFormRequest:writingStreamContentsToFile:completionHandler:]_block_invoke
+AFQueryStringPairsFromDictionary
+__51-[AFHTTPRequestSerializer clearAuthorizationHeader]_block_invoke
+__51-[AFHTTPRequestSerializer valueForHTTPHeaderField:]_block_invoke
+__55-[AFHTTPRequestSerializer setValue:forHTTPHeaderField:]_block_invoke
+__45-[AFHTTPRequestSerializer HTTPRequestHeaders]_block_invoke
+__31-[AFHTTPRequestSerializer init]_block_invoke
+AFQueryStringPairsFromKeyAndValue
+AFQueryStringFromParameters
+AFPercentEscapedStringFromString
++[AFHTTPResponseSerializer serializer]
+-[AFHTTPResponseSerializer init]
+-[AFHTTPResponseSerializer validateResponse:data:error:]
+_AFErrorWithUnderlyingError
+-[AFHTTPResponseSerializer responseObjectForResponse:data:error:]
++[AFHTTPResponseSerializer supportsSecureCoding]
+-[AFHTTPResponseSerializer initWithCoder:]
+-[AFHTTPResponseSerializer encodeWithCoder:]
+-[AFHTTPResponseSerializer copyWithZone:]
+-[AFHTTPResponseSerializer stringEncoding]
+-[AFHTTPResponseSerializer setStringEncoding:]
+-[AFHTTPResponseSerializer acceptableStatusCodes]
+-[AFHTTPResponseSerializer setAcceptableStatusCodes:]
+-[AFHTTPResponseSerializer acceptableContentTypes]
+-[AFHTTPResponseSerializer setAcceptableContentTypes:]
+-[AFHTTPResponseSerializer .cxx_destruct]
++[AFJSONResponseSerializer serializer]
++[AFJSONResponseSerializer serializerWithReadingOptions:]
+-[AFJSONResponseSerializer init]
+-[AFJSONResponseSerializer responseObjectForResponse:data:error:]
+_AFErrorOrUnderlyingErrorHasCodeInDomain
+_AFJSONObjectByRemovingKeysWithNullValues
+-[AFJSONResponseSerializer initWithCoder:]
+-[AFJSONResponseSerializer encodeWithCoder:]
+-[AFJSONResponseSerializer copyWithZone:]
+-[AFJSONResponseSerializer readingOptions]
+-[AFJSONResponseSerializer setReadingOptions:]
+-[AFJSONResponseSerializer removesKeysWithNullValues]
+-[AFJSONResponseSerializer setRemovesKeysWithNullValues:]
++[AFXMLParserResponseSerializer serializer]
+-[AFXMLParserResponseSerializer init]
+-[AFXMLParserResponseSerializer responseObjectForResponse:data:error:]
++[AFPropertyListResponseSerializer serializer]
++[AFPropertyListResponseSerializer serializerWithFormat:readOptions:]
+-[AFPropertyListResponseSerializer init]
+-[AFPropertyListResponseSerializer responseObjectForResponse:data:error:]
+-[AFPropertyListResponseSerializer initWithCoder:]
+-[AFPropertyListResponseSerializer encodeWithCoder:]
+-[AFPropertyListResponseSerializer copyWithZone:]
+-[AFPropertyListResponseSerializer format]
+-[AFPropertyListResponseSerializer setFormat:]
+-[AFPropertyListResponseSerializer readOptions]
+-[AFPropertyListResponseSerializer setReadOptions:]
++[UIImage(AFNetworkingSafeImageLoading) af_safeImageWithData:]
+___62+[UIImage(AFNetworkingSafeImageLoading) af_safeImageWithData:]_block_invoke
+-[AFImageResponseSerializer init]
+-[AFImageResponseSerializer responseObjectForResponse:data:error:]
+_AFImageWithDataAtScale
+-[AFImageResponseSerializer initWithCoder:]
+-[AFImageResponseSerializer encodeWithCoder:]
+-[AFImageResponseSerializer copyWithZone:]
+-[AFImageResponseSerializer imageScale]
+-[AFImageResponseSerializer setImageScale:]
+-[AFImageResponseSerializer automaticallyInflatesResponseImage]
+-[AFImageResponseSerializer setAutomaticallyInflatesResponseImage:]
++[AFCompoundResponseSerializer compoundSerializerWithResponseSerializers:]
+-[AFCompoundResponseSerializer responseObjectForResponse:data:error:]
+-[AFCompoundResponseSerializer initWithCoder:]
+-[AFCompoundResponseSerializer encodeWithCoder:]
+-[AFCompoundResponseSerializer copyWithZone:]
+-[AFCompoundResponseSerializer responseSerializers]
+-[AFCompoundResponseSerializer setResponseSerializers:]
+-[AFCompoundResponseSerializer .cxx_destruct]
+_OBJC_IVAR_$_AFHTTPResponseSerializer._stringEncoding
+_OBJC_IVAR_$_AFHTTPResponseSerializer._acceptableStatusCodes
+_OBJC_IVAR_$_AFHTTPResponseSerializer._acceptableContentTypes
+l_OBJC_PROTOCOL_$_AFURLResponseSerialization
+l_OBJC_LABEL_PROTOCOL_$_AFURLResponseSerialization
+_OBJC_IVAR_$_AFJSONResponseSerializer._readingOptions
+_OBJC_IVAR_$_AFJSONResponseSerializer._removesKeysWithNullValues
+_OBJC_IVAR_$_AFPropertyListResponseSerializer._format
+_OBJC_IVAR_$_AFPropertyListResponseSerializer._readOptions
+_imageLock
+_af_safeImageWithData:.onceToken
+_OBJC_IVAR_$_AFImageResponseSerializer._imageScale
+_OBJC_IVAR_$_AFImageResponseSerializer._automaticallyInflatesResponseImage
+_OBJC_IVAR_$_AFCompoundResponseSerializer._responseSerializers
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/AFURLResponseSerialization.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/AFURLResponseSerialization.h
+AFImageWithDataAtScale
+AFInflatedImageFromResponseWithDataAtScale
+__62+[UIImage(AFNetworkingSafeImageLoading) af_safeImageWithData:]_block_invoke
+AFJSONObjectByRemovingKeysWithNullValues
+AFErrorOrUnderlyingErrorHasCodeInDomain
+AFErrorWithUnderlyingError
+-[AFURLSessionManagerTaskDelegate init]
+-[AFURLSessionManagerTaskDelegate setupProgressForTask:]
+___56-[AFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke
+___56-[AFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.53
+___copy_helper_block_.56
+___destroy_helper_block_.57
+___56-[AFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.65
+___copy_helper_block_.68
+___destroy_helper_block_.69
+___56-[AFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.71
+___copy_helper_block_.72
+___destroy_helper_block_.73
+___56-[AFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.75
+___copy_helper_block_.76
+___destroy_helper_block_.77
+___56-[AFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.79
+___copy_helper_block_.80
+___destroy_helper_block_.81
+-[AFURLSessionManagerTaskDelegate cleanUpProgressForTask:]
+-[AFURLSessionManagerTaskDelegate observeValueForKeyPath:ofObject:change:context:]
+-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]
+___72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke
+___72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke_2
+___copy_helper_block_.123
+___destroy_helper_block_.124
+___copy_helper_block_.126
+___destroy_helper_block_.127
+___72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke.129
+___72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke_2.132
+___72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke_3
+___copy_helper_block_.133
+___destroy_helper_block_.134
+___copy_helper_block_.136
+___destroy_helper_block_.137
+___copy_helper_block_.139
+___destroy_helper_block_.140
+-[AFURLSessionManagerTaskDelegate URLSession:dataTask:didReceiveData:]
+-[AFURLSessionManagerTaskDelegate URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:]
+-[AFURLSessionManagerTaskDelegate URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:]
+-[AFURLSessionManagerTaskDelegate URLSession:downloadTask:didResumeAtOffset:expectedTotalBytes:]
+-[AFURLSessionManagerTaskDelegate URLSession:downloadTask:didFinishDownloadingToURL:]
+-[AFURLSessionManagerTaskDelegate manager]
+-[AFURLSessionManagerTaskDelegate setManager:]
+-[AFURLSessionManagerTaskDelegate mutableData]
+-[AFURLSessionManagerTaskDelegate setMutableData:]
+-[AFURLSessionManagerTaskDelegate uploadProgress]
+-[AFURLSessionManagerTaskDelegate setUploadProgress:]
+-[AFURLSessionManagerTaskDelegate downloadProgress]
+-[AFURLSessionManagerTaskDelegate setDownloadProgress:]
+-[AFURLSessionManagerTaskDelegate downloadFileURL]
+-[AFURLSessionManagerTaskDelegate setDownloadFileURL:]
+-[AFURLSessionManagerTaskDelegate downloadTaskDidFinishDownloading]
+-[AFURLSessionManagerTaskDelegate setDownloadTaskDidFinishDownloading:]
+-[AFURLSessionManagerTaskDelegate uploadProgressBlock]
+-[AFURLSessionManagerTaskDelegate setUploadProgressBlock:]
+-[AFURLSessionManagerTaskDelegate downloadProgressBlock]
+-[AFURLSessionManagerTaskDelegate setDownloadProgressBlock:]
+-[AFURLSessionManagerTaskDelegate completionHandler]
+-[AFURLSessionManagerTaskDelegate setCompletionHandler:]
+-[AFURLSessionManagerTaskDelegate .cxx_destruct]
++[_AFURLSessionTaskSwizzling load]
++[_AFURLSessionTaskSwizzling swizzleResumeAndSuspendMethodForClass:]
+-[_AFURLSessionTaskSwizzling state]
+-[_AFURLSessionTaskSwizzling af_resume]
+-[_AFURLSessionTaskSwizzling af_suspend]
+-[AFURLSessionManager init]
+-[AFURLSessionManager initWithSessionConfiguration:]
+___52-[AFURLSessionManager initWithSessionConfiguration:]_block_invoke
+___copy_helper_block_.382
+___destroy_helper_block_.383
+-[AFURLSessionManager dealloc]
+-[AFURLSessionManager taskDescriptionForSessionTasks]
+-[AFURLSessionManager taskDidResume:]
+___37-[AFURLSessionManager taskDidResume:]_block_invoke
+___copy_helper_block_.405
+___destroy_helper_block_.406
+-[AFURLSessionManager taskDidSuspend:]
+___38-[AFURLSessionManager taskDidSuspend:]_block_invoke
+___copy_helper_block_.408
+___destroy_helper_block_.409
+-[AFURLSessionManager delegateForTask:]
+-[AFURLSessionManager setDelegate:forTask:]
+-[AFURLSessionManager addDelegateForDataTask:uploadProgress:downloadProgress:completionHandler:]
+-[AFURLSessionManager addDelegateForUploadTask:progress:completionHandler:]
+-[AFURLSessionManager addDelegateForDownloadTask:progress:destination:completionHandler:]
+___89-[AFURLSessionManager addDelegateForDownloadTask:progress:destination:completionHandler:]_block_invoke
+___copy_helper_block_.434
+___destroy_helper_block_.435
+-[AFURLSessionManager removeDelegateForTask:]
+-[AFURLSessionManager tasksForKeyPath:]
+___39-[AFURLSessionManager tasksForKeyPath:]_block_invoke
+___copy_helper_block_.461
+___destroy_helper_block_.462
+-[AFURLSessionManager tasks]
+-[AFURLSessionManager dataTasks]
+-[AFURLSessionManager uploadTasks]
+-[AFURLSessionManager downloadTasks]
+-[AFURLSessionManager invalidateSessionCancelingTasks:]
+___55-[AFURLSessionManager invalidateSessionCancelingTasks:]_block_invoke
+___copy_helper_block_.468
+___destroy_helper_block_.469
+-[AFURLSessionManager setResponseSerializer:]
+-[AFURLSessionManager addNotificationObserverForTask:]
+-[AFURLSessionManager removeNotificationObserverForTask:]
+-[AFURLSessionManager dataTaskWithRequest:completionHandler:]
+-[AFURLSessionManager dataTaskWithRequest:uploadProgress:downloadProgress:completionHandler:]
+_url_session_manager_create_task_safely
+___93-[AFURLSessionManager dataTaskWithRequest:uploadProgress:downloadProgress:completionHandler:]_block_invoke
+___copy_helper_block_.483
+___destroy_helper_block_.484
+-[AFURLSessionManager uploadTaskWithRequest:fromFile:progress:completionHandler:]
+___81-[AFURLSessionManager uploadTaskWithRequest:fromFile:progress:completionHandler:]_block_invoke
+___copy_helper_block_.488
+___destroy_helper_block_.489
+-[AFURLSessionManager uploadTaskWithRequest:fromData:progress:completionHandler:]
+___81-[AFURLSessionManager uploadTaskWithRequest:fromData:progress:completionHandler:]_block_invoke
+___copy_helper_block_.499
+___destroy_helper_block_.500
+-[AFURLSessionManager uploadTaskWithStreamedRequest:progress:completionHandler:]
+___80-[AFURLSessionManager uploadTaskWithStreamedRequest:progress:completionHandler:]_block_invoke
+___copy_helper_block_.504
+___destroy_helper_block_.505
+-[AFURLSessionManager downloadTaskWithRequest:progress:destination:completionHandler:]
+___86-[AFURLSessionManager downloadTaskWithRequest:progress:destination:completionHandler:]_block_invoke
+___copy_helper_block_.509
+___destroy_helper_block_.510
+-[AFURLSessionManager downloadTaskWithResumeData:progress:destination:completionHandler:]
+___89-[AFURLSessionManager downloadTaskWithResumeData:progress:destination:completionHandler:]_block_invoke
+___copy_helper_block_.514
+___destroy_helper_block_.515
+-[AFURLSessionManager uploadProgressForTask:]
+-[AFURLSessionManager downloadProgressForTask:]
+-[AFURLSessionManager setSessionDidBecomeInvalidBlock:]
+-[AFURLSessionManager setSessionDidReceiveAuthenticationChallengeBlock:]
+-[AFURLSessionManager setDidFinishEventsForBackgroundURLSessionBlock:]
+-[AFURLSessionManager setTaskNeedNewBodyStreamBlock:]
+-[AFURLSessionManager setTaskWillPerformHTTPRedirectionBlock:]
+-[AFURLSessionManager setTaskDidReceiveAuthenticationChallengeBlock:]
+-[AFURLSessionManager setTaskDidSendBodyDataBlock:]
+-[AFURLSessionManager setTaskDidCompleteBlock:]
+-[AFURLSessionManager setDataTaskDidReceiveResponseBlock:]
+-[AFURLSessionManager setDataTaskDidBecomeDownloadTaskBlock:]
+-[AFURLSessionManager setDataTaskDidReceiveDataBlock:]
+-[AFURLSessionManager setDataTaskWillCacheResponseBlock:]
+-[AFURLSessionManager setDownloadTaskDidFinishDownloadingBlock:]
+-[AFURLSessionManager setDownloadTaskDidWriteDataBlock:]
+-[AFURLSessionManager setDownloadTaskDidResumeBlock:]
+-[AFURLSessionManager description]
+-[AFURLSessionManager respondsToSelector:]
+-[AFURLSessionManager URLSession:didBecomeInvalidWithError:]
+-[AFURLSessionManager URLSession:didReceiveChallenge:completionHandler:]
+-[AFURLSessionManager URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]
+-[AFURLSessionManager URLSession:task:didReceiveChallenge:completionHandler:]
+-[AFURLSessionManager URLSession:task:needNewBodyStream:]
+-[AFURLSessionManager URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:]
+-[AFURLSessionManager URLSession:task:didCompleteWithError:]
+-[AFURLSessionManager URLSession:dataTask:didReceiveResponse:completionHandler:]
+-[AFURLSessionManager URLSession:dataTask:didBecomeDownloadTask:]
+-[AFURLSessionManager URLSession:dataTask:didReceiveData:]
+-[AFURLSessionManager URLSession:dataTask:willCacheResponse:completionHandler:]
+-[AFURLSessionManager URLSessionDidFinishEventsForBackgroundURLSession:]
+___72-[AFURLSessionManager URLSessionDidFinishEventsForBackgroundURLSession:]_block_invoke
+___copy_helper_block_.611
+___destroy_helper_block_.612
+-[AFURLSessionManager URLSession:downloadTask:didFinishDownloadingToURL:]
+-[AFURLSessionManager URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:]
+-[AFURLSessionManager URLSession:downloadTask:didResumeAtOffset:expectedTotalBytes:]
++[AFURLSessionManager supportsSecureCoding]
+-[AFURLSessionManager initWithCoder:]
+-[AFURLSessionManager encodeWithCoder:]
+-[AFURLSessionManager copyWithZone:]
+-[AFURLSessionManager session]
+-[AFURLSessionManager setSession:]
+-[AFURLSessionManager operationQueue]
+-[AFURLSessionManager setOperationQueue:]
+-[AFURLSessionManager responseSerializer]
+-[AFURLSessionManager securityPolicy]
+-[AFURLSessionManager setSecurityPolicy:]
+-[AFURLSessionManager reachabilityManager]
+-[AFURLSessionManager setReachabilityManager:]
+-[AFURLSessionManager completionQueue]
+-[AFURLSessionManager setCompletionQueue:]
+-[AFURLSessionManager completionGroup]
+-[AFURLSessionManager setCompletionGroup:]
+-[AFURLSessionManager attemptsToRecreateUploadTasksForBackgroundSessions]
+-[AFURLSessionManager setAttemptsToRecreateUploadTasksForBackgroundSessions:]
+-[AFURLSessionManager sessionConfiguration]
+-[AFURLSessionManager setSessionConfiguration:]
+-[AFURLSessionManager mutableTaskDelegatesKeyedByTaskIdentifier]
+-[AFURLSessionManager setMutableTaskDelegatesKeyedByTaskIdentifier:]
+-[AFURLSessionManager lock]
+-[AFURLSessionManager setLock:]
+-[AFURLSessionManager sessionDidBecomeInvalid]
+-[AFURLSessionManager setSessionDidBecomeInvalid:]
+-[AFURLSessionManager sessionDidReceiveAuthenticationChallenge]
+-[AFURLSessionManager setSessionDidReceiveAuthenticationChallenge:]
+-[AFURLSessionManager didFinishEventsForBackgroundURLSession]
+-[AFURLSessionManager setDidFinishEventsForBackgroundURLSession:]
+-[AFURLSessionManager taskWillPerformHTTPRedirection]
+-[AFURLSessionManager setTaskWillPerformHTTPRedirection:]
+-[AFURLSessionManager taskDidReceiveAuthenticationChallenge]
+-[AFURLSessionManager setTaskDidReceiveAuthenticationChallenge:]
+-[AFURLSessionManager taskNeedNewBodyStream]
+-[AFURLSessionManager setTaskNeedNewBodyStream:]
+-[AFURLSessionManager taskDidSendBodyData]
+-[AFURLSessionManager setTaskDidSendBodyData:]
+-[AFURLSessionManager taskDidComplete]
+-[AFURLSessionManager setTaskDidComplete:]
+-[AFURLSessionManager dataTaskDidReceiveResponse]
+-[AFURLSessionManager setDataTaskDidReceiveResponse:]
+-[AFURLSessionManager dataTaskDidBecomeDownloadTask]
+-[AFURLSessionManager setDataTaskDidBecomeDownloadTask:]
+-[AFURLSessionManager dataTaskDidReceiveData]
+-[AFURLSessionManager setDataTaskDidReceiveData:]
+-[AFURLSessionManager dataTaskWillCacheResponse]
+-[AFURLSessionManager setDataTaskWillCacheResponse:]
+-[AFURLSessionManager downloadTaskDidFinishDownloading]
+-[AFURLSessionManager setDownloadTaskDidFinishDownloading:]
+-[AFURLSessionManager downloadTaskDidWriteData]
+-[AFURLSessionManager setDownloadTaskDidWriteData:]
+-[AFURLSessionManager downloadTaskDidResume]
+-[AFURLSessionManager setDownloadTaskDidResume:]
+-[AFURLSessionManager .cxx_destruct]
+_url_session_manager_completion_group
+___url_session_manager_completion_group_block_invoke
+___url_session_manager_processing_queue_block_invoke
+___url_session_manager_creation_queue_block_invoke
+___block_descriptor_tmp.58
+___block_descriptor_tmp.70
+___block_descriptor_tmp.74
+___block_descriptor_tmp.78
+___block_descriptor_tmp.82
+___block_descriptor_tmp.125
+___block_descriptor_tmp.128
+___block_descriptor_tmp.135
+___block_descriptor_tmp.138
+___block_descriptor_tmp.141
+_OBJC_IVAR_$_AFURLSessionManagerTaskDelegate._manager
+_OBJC_IVAR_$_AFURLSessionManagerTaskDelegate._mutableData
+_OBJC_IVAR_$_AFURLSessionManagerTaskDelegate._uploadProgress
+_OBJC_IVAR_$_AFURLSessionManagerTaskDelegate._downloadProgress
+_OBJC_IVAR_$_AFURLSessionManagerTaskDelegate._downloadFileURL
+_OBJC_IVAR_$_AFURLSessionManagerTaskDelegate._downloadTaskDidFinishDownloading
+_OBJC_IVAR_$_AFURLSessionManagerTaskDelegate._uploadProgressBlock
+_OBJC_IVAR_$_AFURLSessionManagerTaskDelegate._downloadProgressBlock
+_OBJC_IVAR_$_AFURLSessionManagerTaskDelegate._completionHandler
+l_OBJC_PROTOCOL_$_NSURLSessionDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDelegate
+l_OBJC_PROTOCOL_$_NSURLSessionTaskDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionTaskDelegate
+l_OBJC_PROTOCOL_$_NSURLSessionDataDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDataDelegate
+l_OBJC_PROTOCOL_$_NSURLSessionDownloadDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDownloadDelegate
+___block_descriptor_tmp.385
+___block_descriptor_tmp.407
+___block_descriptor_tmp.410
+___block_descriptor_tmp.437
+___block_descriptor_tmp.463
+___block_descriptor_tmp.470
+_OBJC_IVAR_$_AFURLSessionManager._responseSerializer
+___block_descriptor_tmp.485
+___block_descriptor_tmp.490
+___block_descriptor_tmp.501
+___block_descriptor_tmp.506
+___block_descriptor_tmp.511
+___block_descriptor_tmp.516
+l_OBJC_PROTOCOL_REFERENCE_$_NSCopying
+___block_descriptor_tmp.613
+_OBJC_IVAR_$_AFURLSessionManager._session
+_OBJC_IVAR_$_AFURLSessionManager._operationQueue
+_OBJC_IVAR_$_AFURLSessionManager._securityPolicy
+_OBJC_IVAR_$_AFURLSessionManager._reachabilityManager
+_OBJC_IVAR_$_AFURLSessionManager._completionQueue
+_OBJC_IVAR_$_AFURLSessionManager._completionGroup
+_OBJC_IVAR_$_AFURLSessionManager._attemptsToRecreateUploadTasksForBackgroundSessions
+_OBJC_IVAR_$_AFURLSessionManager._sessionConfiguration
+_OBJC_IVAR_$_AFURLSessionManager._mutableTaskDelegatesKeyedByTaskIdentifier
+_OBJC_IVAR_$_AFURLSessionManager._lock
+_OBJC_IVAR_$_AFURLSessionManager._sessionDidBecomeInvalid
+_OBJC_IVAR_$_AFURLSessionManager._sessionDidReceiveAuthenticationChallenge
+_OBJC_IVAR_$_AFURLSessionManager._didFinishEventsForBackgroundURLSession
+_OBJC_IVAR_$_AFURLSessionManager._taskWillPerformHTTPRedirection
+_OBJC_IVAR_$_AFURLSessionManager._taskDidReceiveAuthenticationChallenge
+_OBJC_IVAR_$_AFURLSessionManager._taskNeedNewBodyStream
+_OBJC_IVAR_$_AFURLSessionManager._taskDidSendBodyData
+_OBJC_IVAR_$_AFURLSessionManager._taskDidComplete
+_OBJC_IVAR_$_AFURLSessionManager._dataTaskDidReceiveResponse
+_OBJC_IVAR_$_AFURLSessionManager._dataTaskDidBecomeDownloadTask
+_OBJC_IVAR_$_AFURLSessionManager._dataTaskDidReceiveData
+_OBJC_IVAR_$_AFURLSessionManager._dataTaskWillCacheResponse
+_OBJC_IVAR_$_AFURLSessionManager._downloadTaskDidFinishDownloading
+_OBJC_IVAR_$_AFURLSessionManager._downloadTaskDidWriteData
+_OBJC_IVAR_$_AFURLSessionManager._downloadTaskDidResume
+_url_session_manager_completion_group.af_url_session_manager_completion_group
+_url_session_manager_completion_group.onceToken
+___block_descriptor_tmp.767
+_url_session_manager_processing_queue.af_url_session_manager_processing_queue
+_url_session_manager_processing_queue.onceToken
+___block_descriptor_tmp.769
+___block_literal_global.770
+_url_session_manager_creation_queue.af_url_session_manager_creation_queue
+_url_session_manager_creation_queue.onceToken
+___block_descriptor_tmp.772
+___block_literal_global.773
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/AFURLSessionManager.m
+__url_session_manager_creation_queue_block_invoke
+__url_session_manager_processing_queue_block_invoke
+__url_session_manager_completion_group_block_invoke
+url_session_manager_completion_group
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/AFURLSessionManager.h
+__72-[AFURLSessionManager URLSessionDidFinishEventsForBackgroundURLSession:]_block_invoke
+__89-[AFURLSessionManager downloadTaskWithResumeData:progress:destination:completionHandler:]_block_invoke
+__86-[AFURLSessionManager downloadTaskWithRequest:progress:destination:completionHandler:]_block_invoke
+__80-[AFURLSessionManager uploadTaskWithStreamedRequest:progress:completionHandler:]_block_invoke
+__81-[AFURLSessionManager uploadTaskWithRequest:fromData:progress:completionHandler:]_block_invoke
+__81-[AFURLSessionManager uploadTaskWithRequest:fromFile:progress:completionHandler:]_block_invoke
+__93-[AFURLSessionManager dataTaskWithRequest:uploadProgress:downloadProgress:completionHandler:]_block_invoke
+url_session_manager_create_task_safely
+url_session_manager_creation_queue
+__55-[AFURLSessionManager invalidateSessionCancelingTasks:]_block_invoke
+__39-[AFURLSessionManager tasksForKeyPath:]_block_invoke
+__89-[AFURLSessionManager addDelegateForDownloadTask:progress:destination:completionHandler:]_block_invoke
+__38-[AFURLSessionManager taskDidSuspend:]_block_invoke
+__37-[AFURLSessionManager taskDidResume:]_block_invoke
+__52-[AFURLSessionManager initWithSessionConfiguration:]_block_invoke
+af_swizzleSelector
+af_addMethod
+__72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke_3
+__72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke_2.132
+__72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke.129
+__72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke_2
+__72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke
+url_session_manager_processing_queue
+__56-[AFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.79
+__56-[AFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.75
+__56-[AFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.71
+__56-[AFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.65
+__56-[AFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.53
+__56-[AFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke
+-[AFCachedImage initWithImage:identifier:]
+-[AFCachedImage accessImage]
+-[AFCachedImage description]
+-[AFCachedImage image]
+-[AFCachedImage setImage:]
+-[AFCachedImage identifier]
+-[AFCachedImage setIdentifier:]
+-[AFCachedImage totalBytes]
+-[AFCachedImage setTotalBytes:]
+-[AFCachedImage lastAccessDate]
+-[AFCachedImage setLastAccessDate:]
+-[AFCachedImage currentMemoryUsage]
+-[AFCachedImage setCurrentMemoryUsage:]
+-[AFCachedImage .cxx_destruct]
+-[AFAutoPurgingImageCache init]
+-[AFAutoPurgingImageCache initWithMemoryCapacity:preferredMemoryCapacity:]
+-[AFAutoPurgingImageCache dealloc]
+-[AFAutoPurgingImageCache memoryUsage]
+___38-[AFAutoPurgingImageCache memoryUsage]_block_invoke
+-[AFAutoPurgingImageCache addImage:withIdentifier:]
+___51-[AFAutoPurgingImageCache addImage:withIdentifier:]_block_invoke
+___copy_helper_block_.102
+___destroy_helper_block_.103
+___51-[AFAutoPurgingImageCache addImage:withIdentifier:]_block_invoke.105
+___copy_helper_block_.129
+___destroy_helper_block_.130
+-[AFAutoPurgingImageCache removeImageWithIdentifier:]
+___53-[AFAutoPurgingImageCache removeImageWithIdentifier:]_block_invoke
+___copy_helper_block_.132
+___destroy_helper_block_.133
+-[AFAutoPurgingImageCache removeAllImages]
+___42-[AFAutoPurgingImageCache removeAllImages]_block_invoke
+-[AFAutoPurgingImageCache imageWithIdentifier:]
+___47-[AFAutoPurgingImageCache imageWithIdentifier:]_block_invoke
+___copy_helper_block_.143
+___destroy_helper_block_.144
+-[AFAutoPurgingImageCache addImage:forRequest:withAdditionalIdentifier:]
+-[AFAutoPurgingImageCache removeImageforRequest:withAdditionalIdentifier:]
+-[AFAutoPurgingImageCache imageforRequest:withAdditionalIdentifier:]
+-[AFAutoPurgingImageCache imageCacheKeyFromURLRequest:withAdditionalIdentifier:]
+-[AFAutoPurgingImageCache memoryCapacity]
+-[AFAutoPurgingImageCache setMemoryCapacity:]
+-[AFAutoPurgingImageCache preferredMemoryUsageAfterPurge]
+-[AFAutoPurgingImageCache setPreferredMemoryUsageAfterPurge:]
+-[AFAutoPurgingImageCache cachedImages]
+-[AFAutoPurgingImageCache setCachedImages:]
+-[AFAutoPurgingImageCache currentMemoryUsage]
+-[AFAutoPurgingImageCache setCurrentMemoryUsage:]
+-[AFAutoPurgingImageCache synchronizationQueue]
+-[AFAutoPurgingImageCache setSynchronizationQueue:]
+-[AFAutoPurgingImageCache .cxx_destruct]
+_OBJC_IVAR_$_AFCachedImage._image
+_OBJC_IVAR_$_AFCachedImage._identifier
+_OBJC_IVAR_$_AFCachedImage._totalBytes
+_OBJC_IVAR_$_AFCachedImage._lastAccessDate
+_OBJC_IVAR_$_AFCachedImage._currentMemoryUsage
+___block_descriptor_tmp.104
+___block_descriptor_tmp.131
+___block_descriptor_tmp.134
+___block_descriptor_tmp.145
+_OBJC_IVAR_$_AFAutoPurgingImageCache._memoryCapacity
+_OBJC_IVAR_$_AFAutoPurgingImageCache._preferredMemoryUsageAfterPurge
+_OBJC_IVAR_$_AFAutoPurgingImageCache._cachedImages
+_OBJC_IVAR_$_AFAutoPurgingImageCache._currentMemoryUsage
+_OBJC_IVAR_$_AFAutoPurgingImageCache._synchronizationQueue
+l_OBJC_PROTOCOL_$_AFImageCache
+l_OBJC_LABEL_PROTOCOL_$_AFImageCache
+l_OBJC_PROTOCOL_$_AFImageRequestCache
+l_OBJC_LABEL_PROTOCOL_$_AFImageRequestCache
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.h
+__47-[AFAutoPurgingImageCache imageWithIdentifier:]_block_invoke
+__42-[AFAutoPurgingImageCache removeAllImages]_block_invoke
+__53-[AFAutoPurgingImageCache removeImageWithIdentifier:]_block_invoke
+__51-[AFAutoPurgingImageCache addImage:withIdentifier:]_block_invoke.105
+__51-[AFAutoPurgingImageCache addImage:withIdentifier:]_block_invoke
+__38-[AFAutoPurgingImageCache memoryUsage]_block_invoke
+-[AFImageDownloaderResponseHandler initWithUUID:success:failure:]
+-[AFImageDownloaderResponseHandler description]
+-[AFImageDownloaderResponseHandler uuid]
+-[AFImageDownloaderResponseHandler setUuid:]
+-[AFImageDownloaderResponseHandler successBlock]
+-[AFImageDownloaderResponseHandler setSuccessBlock:]
+-[AFImageDownloaderResponseHandler failureBlock]
+-[AFImageDownloaderResponseHandler setFailureBlock:]
+-[AFImageDownloaderResponseHandler .cxx_destruct]
+-[AFImageDownloaderMergedTask initWithURLIdentifier:identifier:task:]
+-[AFImageDownloaderMergedTask addResponseHandler:]
+-[AFImageDownloaderMergedTask removeResponseHandler:]
+-[AFImageDownloaderMergedTask URLIdentifier]
+-[AFImageDownloaderMergedTask setURLIdentifier:]
+-[AFImageDownloaderMergedTask identifier]
+-[AFImageDownloaderMergedTask setIdentifier:]
+-[AFImageDownloaderMergedTask task]
+-[AFImageDownloaderMergedTask setTask:]
+-[AFImageDownloaderMergedTask responseHandlers]
+-[AFImageDownloaderMergedTask setResponseHandlers:]
+-[AFImageDownloaderMergedTask .cxx_destruct]
+-[AFImageDownloadReceipt initWithReceiptID:task:]
+-[AFImageDownloadReceipt task]
+-[AFImageDownloadReceipt setTask:]
+-[AFImageDownloadReceipt receiptID]
+-[AFImageDownloadReceipt setReceiptID:]
+-[AFImageDownloadReceipt .cxx_destruct]
++[AFImageDownloader defaultURLCache]
++[AFImageDownloader defaultURLSessionConfiguration]
+-[AFImageDownloader init]
+-[AFImageDownloader initWithSessionManager:downloadPrioritization:maximumActiveDownloads:imageCache:]
++[AFImageDownloader defaultInstance]
+___36+[AFImageDownloader defaultInstance]_block_invoke
+-[AFImageDownloader downloadImageForURLRequest:success:failure:]
+-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]
+___78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke
+___78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke_2
+___copy_helper_block_.164
+___destroy_helper_block_.165
+___78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke.181
+___copy_helper_block_.182
+___destroy_helper_block_.183
+___78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke.187
+___78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke_2.190
+___78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke_3
+___copy_helper_block_.199
+___destroy_helper_block_.200
+___78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke.205
+___copy_helper_block_.206
+___destroy_helper_block_.207
+___copy_helper_block_.213
+___destroy_helper_block_.214
+___copy_helper_block_.216
+___destroy_helper_block_.217
+___copy_helper_block_.232
+___destroy_helper_block_.233
+-[AFImageDownloader cancelTaskForImageDownloadReceipt:]
+___55-[AFImageDownloader cancelTaskForImageDownloadReceipt:]_block_invoke
+___55-[AFImageDownloader cancelTaskForImageDownloadReceipt:]_block_invoke_2
+___copy_helper_block_.240
+___destroy_helper_block_.241
+___55-[AFImageDownloader cancelTaskForImageDownloadReceipt:]_block_invoke.254
+___copy_helper_block_.255
+___destroy_helper_block_.256
+___copy_helper_block_.266
+___destroy_helper_block_.267
+-[AFImageDownloader safelyRemoveMergedTaskWithURLIdentifier:]
+___61-[AFImageDownloader safelyRemoveMergedTaskWithURLIdentifier:]_block_invoke
+___copy_helper_block_.269
+___destroy_helper_block_.270
+-[AFImageDownloader removeMergedTaskWithURLIdentifier:]
+-[AFImageDownloader safelyDecrementActiveTaskCount]
+___51-[AFImageDownloader safelyDecrementActiveTaskCount]_block_invoke
+___copy_helper_block_.276
+___destroy_helper_block_.277
+-[AFImageDownloader safelyStartNextTaskIfNecessary]
+___51-[AFImageDownloader safelyStartNextTaskIfNecessary]_block_invoke
+___copy_helper_block_.283
+___destroy_helper_block_.284
+-[AFImageDownloader startMergedTask:]
+-[AFImageDownloader enqueueMergedTask:]
+-[AFImageDownloader dequeueMergedTask]
+-[AFImageDownloader isActiveRequestCountBelowMaximumLimit]
+-[AFImageDownloader imageCache]
+-[AFImageDownloader setImageCache:]
+-[AFImageDownloader sessionManager]
+-[AFImageDownloader setSessionManager:]
+-[AFImageDownloader downloadPrioritizaton]
+-[AFImageDownloader setDownloadPrioritizaton:]
+-[AFImageDownloader synchronizationQueue]
+-[AFImageDownloader setSynchronizationQueue:]
+-[AFImageDownloader responseQueue]
+-[AFImageDownloader setResponseQueue:]
+-[AFImageDownloader maximumActiveDownloads]
+-[AFImageDownloader setMaximumActiveDownloads:]
+-[AFImageDownloader activeRequestCount]
+-[AFImageDownloader setActiveRequestCount:]
+-[AFImageDownloader queuedMergedTasks]
+-[AFImageDownloader setQueuedMergedTasks:]
+-[AFImageDownloader mergedTasks]
+-[AFImageDownloader setMergedTasks:]
+-[AFImageDownloader .cxx_destruct]
+_OBJC_IVAR_$_AFImageDownloaderResponseHandler._uuid
+_OBJC_IVAR_$_AFImageDownloaderResponseHandler._successBlock
+_OBJC_IVAR_$_AFImageDownloaderResponseHandler._failureBlock
+_OBJC_IVAR_$_AFImageDownloaderMergedTask._URLIdentifier
+_OBJC_IVAR_$_AFImageDownloaderMergedTask._identifier
+_OBJC_IVAR_$_AFImageDownloaderMergedTask._task
+_OBJC_IVAR_$_AFImageDownloaderMergedTask._responseHandlers
+_OBJC_IVAR_$_AFImageDownloadReceipt._task
+_OBJC_IVAR_$_AFImageDownloadReceipt._receiptID
+_defaultInstance.sharedInstance
+_defaultInstance.onceToken
+___block_descriptor_tmp.166
+___block_descriptor_tmp.184
+___block_descriptor_tmp.201
+___block_descriptor_tmp.208
+___block_descriptor_tmp.215
+___block_descriptor_tmp.219
+___block_descriptor_tmp.234
+___block_descriptor_tmp.243
+___block_descriptor_tmp.257
+___block_descriptor_tmp.268
+___block_descriptor_tmp.271
+___block_descriptor_tmp.278
+___block_descriptor_tmp.285
+_OBJC_IVAR_$_AFImageDownloader._imageCache
+_OBJC_IVAR_$_AFImageDownloader._sessionManager
+_OBJC_IVAR_$_AFImageDownloader._downloadPrioritizaton
+_OBJC_IVAR_$_AFImageDownloader._synchronizationQueue
+_OBJC_IVAR_$_AFImageDownloader._responseQueue
+_OBJC_IVAR_$_AFImageDownloader._maximumActiveDownloads
+_OBJC_IVAR_$_AFImageDownloader._activeRequestCount
+_OBJC_IVAR_$_AFImageDownloader._queuedMergedTasks
+_OBJC_IVAR_$_AFImageDownloader._mergedTasks
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/UIKit+AFNetworking/AFImageDownloader.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/UIKit+AFNetworking/AFImageDownloader.h
+__51-[AFImageDownloader safelyStartNextTaskIfNecessary]_block_invoke
+__51-[AFImageDownloader safelyDecrementActiveTaskCount]_block_invoke
+__61-[AFImageDownloader safelyRemoveMergedTaskWithURLIdentifier:]_block_invoke
+__55-[AFImageDownloader cancelTaskForImageDownloadReceipt:]_block_invoke.254
+__55-[AFImageDownloader cancelTaskForImageDownloadReceipt:]_block_invoke_2
+__55-[AFImageDownloader cancelTaskForImageDownloadReceipt:]_block_invoke
+__78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke.205
+__78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke_3
+__78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke_2.190
+__78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke.187
+__78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke.181
+__78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke_2
+__78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke
+__36+[AFImageDownloader defaultInstance]_block_invoke
++[AFNetworkActivityIndicatorManager sharedManager]
+___50+[AFNetworkActivityIndicatorManager sharedManager]_block_invoke
+-[AFNetworkActivityIndicatorManager init]
+-[AFNetworkActivityIndicatorManager dealloc]
+-[AFNetworkActivityIndicatorManager setEnabled:]
+-[AFNetworkActivityIndicatorManager setNetworkingActivityActionWithBlock:]
+-[AFNetworkActivityIndicatorManager isNetworkActivityOccurring]
+-[AFNetworkActivityIndicatorManager setNetworkActivityIndicatorVisible:]
+-[AFNetworkActivityIndicatorManager setActivityCount:]
+___54-[AFNetworkActivityIndicatorManager setActivityCount:]_block_invoke
+___copy_helper_block_.41
+___destroy_helper_block_.42
+-[AFNetworkActivityIndicatorManager incrementActivityCount]
+___59-[AFNetworkActivityIndicatorManager incrementActivityCount]_block_invoke
+-[AFNetworkActivityIndicatorManager decrementActivityCount]
+___59-[AFNetworkActivityIndicatorManager decrementActivityCount]_block_invoke
+___copy_helper_block_.49
+___destroy_helper_block_.50
+-[AFNetworkActivityIndicatorManager networkRequestDidStart:]
+_AFNetworkRequestFromNotification
+-[AFNetworkActivityIndicatorManager networkRequestDidFinish:]
+-[AFNetworkActivityIndicatorManager setCurrentState:]
+-[AFNetworkActivityIndicatorManager updateCurrentStateForNetworkActivityChange]
+-[AFNetworkActivityIndicatorManager startActivationDelayTimer]
+-[AFNetworkActivityIndicatorManager activationDelayTimerFired]
+-[AFNetworkActivityIndicatorManager startCompletionDelayTimer]
+-[AFNetworkActivityIndicatorManager completionDelayTimerFired]
+-[AFNetworkActivityIndicatorManager cancelActivationDelayTimer]
+-[AFNetworkActivityIndicatorManager cancelCompletionDelayTimer]
+-[AFNetworkActivityIndicatorManager isEnabled]
+-[AFNetworkActivityIndicatorManager isNetworkActivityIndicatorVisible]
+-[AFNetworkActivityIndicatorManager activationDelay]
+-[AFNetworkActivityIndicatorManager setActivationDelay:]
+-[AFNetworkActivityIndicatorManager completionDelay]
+-[AFNetworkActivityIndicatorManager setCompletionDelay:]
+-[AFNetworkActivityIndicatorManager activityCount]
+-[AFNetworkActivityIndicatorManager activationDelayTimer]
+-[AFNetworkActivityIndicatorManager setActivationDelayTimer:]
+-[AFNetworkActivityIndicatorManager completionDelayTimer]
+-[AFNetworkActivityIndicatorManager setCompletionDelayTimer:]
+-[AFNetworkActivityIndicatorManager networkActivityActionBlock]
+-[AFNetworkActivityIndicatorManager setNetworkActivityActionBlock:]
+-[AFNetworkActivityIndicatorManager currentState]
+-[AFNetworkActivityIndicatorManager .cxx_destruct]
+_sharedManager.oncePredicate
+_OBJC_IVAR_$_AFNetworkActivityIndicatorManager._activationDelayTimer
+_OBJC_IVAR_$_AFNetworkActivityIndicatorManager._completionDelayTimer
+_OBJC_IVAR_$_AFNetworkActivityIndicatorManager._enabled
+_OBJC_IVAR_$_AFNetworkActivityIndicatorManager._networkActivityIndicatorVisible
+_OBJC_IVAR_$_AFNetworkActivityIndicatorManager._activityCount
+___block_descriptor_tmp.43
+___block_descriptor_tmp.48
+___block_descriptor_tmp.51
+_OBJC_IVAR_$_AFNetworkActivityIndicatorManager._currentState
+_OBJC_IVAR_$_AFNetworkActivityIndicatorManager._activationDelay
+_OBJC_IVAR_$_AFNetworkActivityIndicatorManager._completionDelay
+_OBJC_IVAR_$_AFNetworkActivityIndicatorManager._networkActivityActionBlock
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h
+AFNetworkRequestFromNotification
+__59-[AFNetworkActivityIndicatorManager decrementActivityCount]_block_invoke
+__59-[AFNetworkActivityIndicatorManager incrementActivityCount]_block_invoke
+__54-[AFNetworkActivityIndicatorManager setActivityCount:]_block_invoke
+__50+[AFNetworkActivityIndicatorManager sharedManager]_block_invoke
+-[UIActivityIndicatorView(AFNetworking) af_notificationObserver]
+-[UIActivityIndicatorView(AFNetworking) setAnimatingWithStateOfTask:]
+-[AFActivityIndicatorViewNotificationObserver initWithActivityIndicatorView:]
+-[AFActivityIndicatorViewNotificationObserver setAnimatingWithStateOfTask:]
+-[AFActivityIndicatorViewNotificationObserver af_startAnimating]
+___64-[AFActivityIndicatorViewNotificationObserver af_startAnimating]_block_invoke
+-[AFActivityIndicatorViewNotificationObserver af_stopAnimating]
+___63-[AFActivityIndicatorViewNotificationObserver af_stopAnimating]_block_invoke
+___copy_helper_block_.29
+___destroy_helper_block_.30
+-[AFActivityIndicatorViewNotificationObserver dealloc]
+-[AFActivityIndicatorViewNotificationObserver activityIndicatorView]
+-[AFActivityIndicatorViewNotificationObserver .cxx_destruct]
+_OBJC_IVAR_$_AFActivityIndicatorViewNotificationObserver._activityIndicatorView
+___block_descriptor_tmp.31
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m
+__63-[AFActivityIndicatorViewNotificationObserver af_stopAnimating]_block_invoke
+__64-[AFActivityIndicatorViewNotificationObserver af_startAnimating]_block_invoke
+-[UIButton(_AFNetworking) af_imageDownloadReceiptForState:]
+-[UIButton(_AFNetworking) af_setImageDownloadReceipt:forState:]
+-[UIButton(_AFNetworking) af_backgroundImageDownloadReceiptForState:]
+-[UIButton(_AFNetworking) af_setBackgroundImageDownloadReceipt:forState:]
++[UIButton(AFNetworking) sharedImageDownloader]
++[UIButton(AFNetworking) setSharedImageDownloader:]
+-[UIButton(AFNetworking) setImageForState:withURL:]
+-[UIButton(AFNetworking) setImageForState:withURL:placeholderImage:]
+-[UIButton(AFNetworking) setImageForState:withURLRequest:placeholderImage:success:failure:]
+___91-[UIButton(AFNetworking) setImageForState:withURLRequest:placeholderImage:success:failure:]_block_invoke
+___91-[UIButton(AFNetworking) setImageForState:withURLRequest:placeholderImage:success:failure:]_block_invoke.41
+___copy_helper_block_.42
+___destroy_helper_block_.43
+-[UIButton(AFNetworking) setBackgroundImageForState:withURL:]
+-[UIButton(AFNetworking) setBackgroundImageForState:withURL:placeholderImage:]
+-[UIButton(AFNetworking) setBackgroundImageForState:withURLRequest:placeholderImage:success:failure:]
+___101-[UIButton(AFNetworking) setBackgroundImageForState:withURLRequest:placeholderImage:success:failure:]_block_invoke
+___copy_helper_block_.60
+___destroy_helper_block_.61
+___101-[UIButton(AFNetworking) setBackgroundImageForState:withURLRequest:placeholderImage:success:failure:]_block_invoke.63
+___copy_helper_block_.64
+___destroy_helper_block_.65
+-[UIButton(AFNetworking) cancelImageDownloadTaskForState:]
+-[UIButton(AFNetworking) cancelBackgroundImageDownloadTaskForState:]
+-[UIButton(AFNetworking) isActiveTaskURLEqualToURLRequest:forState:]
+-[UIButton(AFNetworking) isActiveBackgroundTaskURLEqualToURLRequest:forState:]
+___block_descriptor_tmp.45
+___block_descriptor_tmp.62
+_AFImageDownloadReceiptHighlighted
+_AFImageDownloadReceiptSelected
+_AFImageDownloadReceiptDisabled
+_AFImageDownloadReceiptNormal
+_AFBackgroundImageDownloadReceiptHighlighted
+_AFBackgroundImageDownloadReceiptSelected
+_AFBackgroundImageDownloadReceiptDisabled
+_AFBackgroundImageDownloadReceiptNormal
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m
+__101-[UIButton(AFNetworking) setBackgroundImageForState:withURLRequest:placeholderImage:success:failure:]_block_invoke.63
+__101-[UIButton(AFNetworking) setBackgroundImageForState:withURLRequest:placeholderImage:success:failure:]_block_invoke
+__91-[UIButton(AFNetworking) setImageForState:withURLRequest:placeholderImage:success:failure:]_block_invoke.41
+__91-[UIButton(AFNetworking) setImageForState:withURLRequest:placeholderImage:success:failure:]_block_invoke
+af_backgroundImageDownloadReceiptKeyForState
+af_imageDownloadReceiptKeyForState
+-[UIImageView(_AFNetworking) af_activeImageDownloadReceipt]
+-[UIImageView(_AFNetworking) af_setActiveImageDownloadReceipt:]
++[UIImageView(AFNetworking) sharedImageDownloader]
++[UIImageView(AFNetworking) setSharedImageDownloader:]
+-[UIImageView(AFNetworking) setImageWithURL:]
+-[UIImageView(AFNetworking) setImageWithURL:placeholderImage:]
+-[UIImageView(AFNetworking) setImageWithURLRequest:placeholderImage:success:failure:]
+___85-[UIImageView(AFNetworking) setImageWithURLRequest:placeholderImage:success:failure:]_block_invoke
+___85-[UIImageView(AFNetworking) setImageWithURLRequest:placeholderImage:success:failure:]_block_invoke.43
+___copy_helper_block_.44
+___destroy_helper_block_.45
+-[UIImageView(AFNetworking) cancelImageDownloadTask]
+-[UIImageView(AFNetworking) clearActiveDownloadInformation]
+-[UIImageView(AFNetworking) isActiveTaskURLEqualToURLRequest:]
+___block_descriptor_tmp.47
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m
+__85-[UIImageView(AFNetworking) setImageWithURLRequest:placeholderImage:success:failure:]_block_invoke.43
+__85-[UIImageView(AFNetworking) setImageWithURLRequest:placeholderImage:success:failure:]_block_invoke
+-[UIProgressView(AFNetworking) af_uploadProgressAnimated]
+-[UIProgressView(AFNetworking) af_setUploadProgressAnimated:]
+-[UIProgressView(AFNetworking) af_downloadProgressAnimated]
+-[UIProgressView(AFNetworking) af_setDownloadProgressAnimated:]
+-[UIProgressView(AFNetworking) setProgressWithUploadProgressOfTask:animated:]
+-[UIProgressView(AFNetworking) setProgressWithDownloadProgressOfTask:animated:]
+-[UIProgressView(AFNetworking) observeValueForKeyPath:ofObject:change:context:]
+___79-[UIProgressView(AFNetworking) observeValueForKeyPath:ofObject:change:context:]_block_invoke
+___79-[UIProgressView(AFNetworking) observeValueForKeyPath:ofObject:change:context:]_block_invoke.32
+___copy_helper_block_.33
+___destroy_helper_block_.34
+_AFTaskCountOfBytesSentContext
+_AFTaskCountOfBytesReceivedContext
+___block_descriptor_tmp.35
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m
+__79-[UIProgressView(AFNetworking) observeValueForKeyPath:ofObject:change:context:]_block_invoke.32
+__79-[UIProgressView(AFNetworking) observeValueForKeyPath:ofObject:change:context:]_block_invoke
+-[UIRefreshControl(AFNetworking) af_notificationObserver]
+-[UIRefreshControl(AFNetworking) setRefreshingWithStateOfTask:]
+-[AFRefreshControlNotificationObserver initWithActivityRefreshControl:]
+-[AFRefreshControlNotificationObserver setRefreshingWithStateOfTask:]
+-[AFRefreshControlNotificationObserver af_beginRefreshing]
+___58-[AFRefreshControlNotificationObserver af_beginRefreshing]_block_invoke
+-[AFRefreshControlNotificationObserver af_endRefreshing]
+___56-[AFRefreshControlNotificationObserver af_endRefreshing]_block_invoke
+-[AFRefreshControlNotificationObserver dealloc]
+-[AFRefreshControlNotificationObserver refreshControl]
+-[AFRefreshControlNotificationObserver .cxx_destruct]
+_OBJC_IVAR_$_AFRefreshControlNotificationObserver._refreshControl
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m
+__56-[AFRefreshControlNotificationObserver af_endRefreshing]_block_invoke
+__58-[AFRefreshControlNotificationObserver af_beginRefreshing]_block_invoke
+-[UIWebView(_AFNetworking) af_URLSessionTask]
+-[UIWebView(_AFNetworking) af_setURLSessionTask:]
+-[UIWebView(AFNetworking) sessionManager]
+___41-[UIWebView(AFNetworking) sessionManager]_block_invoke
+-[UIWebView(AFNetworking) setSessionManager:]
+-[UIWebView(AFNetworking) responseSerializer]
+___45-[UIWebView(AFNetworking) responseSerializer]_block_invoke
+-[UIWebView(AFNetworking) setResponseSerializer:]
+-[UIWebView(AFNetworking) loadRequest:progress:success:failure:]
+___64-[UIWebView(AFNetworking) loadRequest:progress:success:failure:]_block_invoke
+-[UIWebView(AFNetworking) loadRequest:MIMEType:textEncodingName:progress:success:failure:]
+___90-[UIWebView(AFNetworking) loadRequest:MIMEType:textEncodingName:progress:success:failure:]_block_invoke
+___copy_helper_block_.59
+___destroy_helper_block_.60
+___90-[UIWebView(AFNetworking) loadRequest:MIMEType:textEncodingName:progress:success:failure:]_block_invoke.63
+_sessionManager._af_defaultHTTPSessionManager
+_sessionManager.onceToken
+_responseSerializer._af_defaultResponseSerializer
+_responseSerializer.onceToken
+___block_descriptor_tmp.21
+___block_literal_global.22
+___block_descriptor_tmp.33
+___block_descriptor_tmp.67
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m
+__90-[UIWebView(AFNetworking) loadRequest:MIMEType:textEncodingName:progress:success:failure:]_block_invoke.63
+__90-[UIWebView(AFNetworking) loadRequest:MIMEType:textEncodingName:progress:success:failure:]_block_invoke
+__64-[UIWebView(AFNetworking) loadRequest:progress:success:failure:]_block_invoke
+__45-[UIWebView(AFNetworking) responseSerializer]_block_invoke
+__41-[UIWebView(AFNetworking) sessionManager]_block_invoke
+-[BBEmptyTableViewCell awakeFromNib]
+-[BBEmptyTableViewCell setTitle:description:]
+-[BBEmptyTableViewCell emptyImageView]
+-[BBEmptyTableViewCell setEmptyImageView:]
+-[BBEmptyTableViewCell emptyTitleLabel]
+-[BBEmptyTableViewCell setEmptyTitleLabel:]
+-[BBEmptyTableViewCell emptyDescriptionLabel]
+-[BBEmptyTableViewCell setEmptyDescriptionLabel:]
+-[BBEmptyTableViewCell .cxx_destruct]
+_OBJC_IVAR_$_BBEmptyTableViewCell._emptyImageView
+_OBJC_IVAR_$_BBEmptyTableViewCell._emptyTitleLabel
+_OBJC_IVAR_$_BBEmptyTableViewCell._emptyDescriptionLabel
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBEmptyTableViewCell.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBEmptyTableViewCell.h
+-[BBLibraryMapPOIDatasourceDelegate isEmpty]
+-[BBLibraryMapPOIDatasourceDelegate isLoading]
+-[BBLibraryMapPOIDatasourceDelegate sectionForIndex:]
+-[BBLibraryMapPOIDatasourceDelegate menuItemsForIndexPath:]
+-[BBLibraryMapPOIDatasourceDelegate numberOfSectionsInTableView:]
+-[BBLibraryMapPOIDatasourceDelegate tableView:numberOfRowsInSection:]
+-[BBLibraryMapPOIDatasourceDelegate tableView:cellForRowAtIndexPath:]
+-[BBLibraryMapPOIDatasourceDelegate tableView:viewForHeaderInSection:]
+-[BBLibraryMapPOIDatasourceDelegate tableView:heightForRowAtIndexPath:]
+-[BBLibraryMapPOIDatasourceDelegate tableView:heightForHeaderInSection:]
+-[BBLibraryMapPOIDatasourceDelegate tableView:didSelectRowAtIndexPath:]
+-[BBLibraryMapPOIDatasourceDelegate headerButtonAction:]
+-[BBLibraryMapPOIDatasourceDelegate datasource]
+-[BBLibraryMapPOIDatasourceDelegate setDatasource:]
+-[BBLibraryMapPOIDatasourceDelegate tableViewRef]
+-[BBLibraryMapPOIDatasourceDelegate setTableViewRef:]
+-[BBLibraryMapPOIDatasourceDelegate .cxx_destruct]
+_OBJC_IVAR_$_BBLibraryMapPOIDatasourceDelegate._datasource
+_OBJC_IVAR_$_BBLibraryMapPOIDatasourceDelegate._tableViewRef
+l_OBJC_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_PROTOCOL_$_UITableViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UITableViewDelegate
+l_OBJC_PROTOCOL_$_UITableViewDataSource
+l_OBJC_LABEL_PROTOCOL_$_UITableViewDataSource
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBLibraryMapPOIDatasourceDelegate.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBLibraryMapPOIDatasourceDelegate.h
+-[BBLibraryMapPOIViewController initWithNibName:bundle:]
+-[BBLibraryMapPOIViewController init]
+-[BBLibraryMapPOIViewController viewDidLoad]
+-[BBLibraryMapPOIViewController viewWillDisappear:]
+-[BBLibraryMapPOIViewController viewWillTransitionToSize:withTransitionCoordinator:]
+___84-[BBLibraryMapPOIViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+___84-[BBLibraryMapPOIViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke.60
+-[BBLibraryMapPOIViewController preferredStatusBarStyle]
+-[BBLibraryMapPOIViewController loadData]
+___41-[BBLibraryMapPOIViewController loadData]_block_invoke
+___copy_helper_block_.91
+___destroy_helper_block_.92
+-[BBLibraryMapPOIViewController closeButtonAction:]
+-[BBLibraryMapPOIViewController fakeNavigationBar]
+-[BBLibraryMapPOIViewController setFakeNavigationBar:]
+-[BBLibraryMapPOIViewController fakeNavigationBarHeight]
+-[BBLibraryMapPOIViewController setFakeNavigationBarHeight:]
+-[BBLibraryMapPOIViewController closeButton]
+-[BBLibraryMapPOIViewController setCloseButton:]
+-[BBLibraryMapPOIViewController navBarTitleLabel]
+-[BBLibraryMapPOIViewController setNavBarTitleLabel:]
+-[BBLibraryMapPOIViewController tableView]
+-[BBLibraryMapPOIViewController setTableView:]
+-[BBLibraryMapPOIViewController .cxx_destruct]
+_OBJC_IVAR_$_BBLibraryMapPOIViewController.datasourceDelegate
+___block_descriptor_tmp.94
+_OBJC_IVAR_$_BBLibraryMapPOIViewController._fakeNavigationBar
+_OBJC_IVAR_$_BBLibraryMapPOIViewController._fakeNavigationBarHeight
+_OBJC_IVAR_$_BBLibraryMapPOIViewController._closeButton
+_OBJC_IVAR_$_BBLibraryMapPOIViewController._navBarTitleLabel
+_OBJC_IVAR_$_BBLibraryMapPOIViewController._tableView
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBLibraryMapPOIViewController.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBLibraryMapPOIViewController.h
+__41-[BBLibraryMapPOIViewController loadData]_block_invoke
+__84-[BBLibraryMapPOIViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke.60
+__84-[BBLibraryMapPOIViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+-[BBLibraryMapViewController initWithNibName:bundle:]
+-[BBLibraryMapViewController init]
+-[BBLibraryMapViewController preferredStatusBarStyle]
+-[BBLibraryMapViewController applyRoundAndShadow:]
+-[BBLibraryMapViewController viewDidLoad]
+-[BBLibraryMapViewController viewWillAppear:]
+-[BBLibraryMapViewController mapLayoutNow]
+-[BBLibraryMapViewController viewDidAppear:]
+-[BBLibraryMapViewController viewWillDisappear:]
+-[BBLibraryMapViewController viewWillTransitionToSize:withTransitionCoordinator:]
+___81-[BBLibraryMapViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+___81-[BBLibraryMapViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke.101
+-[BBLibraryMapViewController startLookingForBeacons]
+-[BBLibraryMapViewController stopLookingForBeacons]
+-[BBLibraryMapViewController lookForIMS]
+___40-[BBLibraryMapViewController lookForIMS]_block_invoke
+___copy_helper_block_.178
+___destroy_helper_block_.179
+-[BBLibraryMapViewController beaconRegion]
+-[BBLibraryMapViewController centralManagerDidUpdateState:]
+-[BBLibraryMapViewController showAlert:message:]
+-[BBLibraryMapViewController updateNavBarNextPrevButtons]
+-[BBLibraryMapViewController layoutCurrentFloorplan]
+___52-[BBLibraryMapViewController layoutCurrentFloorplan]_block_invoke
+___52-[BBLibraryMapViewController layoutCurrentFloorplan]_block_invoke_2
+___52-[BBLibraryMapViewController layoutCurrentFloorplan]_block_invoke.270
+___copy_helper_block_.271
+___destroy_helper_block_.272
+___copy_helper_block_.281
+___destroy_helper_block_.282
+-[BBLibraryMapViewController setLoadingMap]
+-[BBLibraryMapViewController layoutMap]
+___39-[BBLibraryMapViewController layoutMap]_block_invoke
+___copy_helper_block_.422
+___destroy_helper_block_.423
+-[BBLibraryMapViewController layoutPOI]
+___39-[BBLibraryMapViewController layoutPOI]_block_invoke
+___copy_helper_block_.535
+___destroy_helper_block_.536
+-[BBLibraryMapViewController layoutMyLocationAnimated:]
+___55-[BBLibraryMapViewController layoutMyLocationAnimated:]_block_invoke
+___55-[BBLibraryMapViewController layoutMyLocationAnimated:]_block_invoke_2
+___55-[BBLibraryMapViewController layoutMyLocationAnimated:]_block_invoke_3
+___copy_helper_block_.552
+___destroy_helper_block_.553
+___copy_helper_block_.557
+___destroy_helper_block_.558
+___copy_helper_block_.560
+___destroy_helper_block_.561
+-[BBLibraryMapViewController zoomToMyPosition]
+-[BBLibraryMapViewController zoomToFoundSubject]
+-[BBLibraryMapViewController nearestWalkablePixel:xCoordinate:yCoordinate:]
+-[BBLibraryMapViewController colorFromPixelData:pixelInfo:xCoordinate:yCoordinate:]
+-[BBLibraryMapViewController colorAtImage:xCoordinate:yCoordinate:]
+-[BBLibraryMapViewController color:isEqualToColor:withTolerance:]
+-[BBLibraryMapViewController updateMyLocationButtonEnabled]
+___59-[BBLibraryMapViewController updateMyLocationButtonEnabled]_block_invoke
+___copy_helper_block_.587
+___destroy_helper_block_.588
+-[BBLibraryMapViewController showMyFoundMaterialButton:animated:]
+___65-[BBLibraryMapViewController showMyFoundMaterialButton:animated:]_block_invoke
+___copy_helper_block_.594
+___destroy_helper_block_.595
+-[BBLibraryMapViewController floorForFloorID:]
+-[BBLibraryMapViewController showMaterialView:animated:]
+___56-[BBLibraryMapViewController showMaterialView:animated:]_block_invoke
+___copy_helper_block_.603
+___destroy_helper_block_.604
+-[BBLibraryMapViewController updateMapScrollViewContentInsets]
+-[BBLibraryMapViewController handlePinch:]
+-[BBLibraryMapViewController minScale]
+-[BBLibraryMapViewController closeButtonAction:]
+-[BBLibraryMapViewController navBarNextAction:]
+___47-[BBLibraryMapViewController navBarNextAction:]_block_invoke
+___copy_helper_block_.616
+___destroy_helper_block_.617
+-[BBLibraryMapViewController navBarPreviousAction:]
+___51-[BBLibraryMapViewController navBarPreviousAction:]_block_invoke
+___copy_helper_block_.619
+___destroy_helper_block_.620
+-[BBLibraryMapViewController pointsOfInterestAction:]
+-[BBLibraryMapViewController myLocationAction:]
+-[BBLibraryMapViewController myFoundMaterialButtonAction:]
+-[BBLibraryMapViewController changeMapTapGestureAction:]
+-[BBLibraryMapViewController popupViewButtonOKAction:]
+-[BBLibraryMapViewController popupViewButtonOKDontShowAgainAction:]
+-[BBLibraryMapViewController hidePopupView]
+-[BBLibraryMapViewController myPositionPopDownButtonAction:]
+-[BBLibraryMapViewController materialPopDownButtonAction:]
+-[BBLibraryMapViewController locationManager:didRangeBeacons:inRegion:]
+-[BBLibraryMapViewController userPositioningAvailable]
+-[BBLibraryMapViewController mapNeedsLayout]
+-[BBLibraryMapViewController wayfindingRequstObject]
+-[BBLibraryMapViewController setWayfindingRequstObject:]
+-[BBLibraryMapViewController foundSubject]
+-[BBLibraryMapViewController setFoundSubject:]
+-[BBLibraryMapViewController fakeNavigationBar]
+-[BBLibraryMapViewController setFakeNavigationBar:]
+-[BBLibraryMapViewController fakeNavigationBarHeight]
+-[BBLibraryMapViewController setFakeNavigationBarHeight:]
+-[BBLibraryMapViewController navBarNextButton]
+-[BBLibraryMapViewController setNavBarNextButton:]
+-[BBLibraryMapViewController navBarPreviousButton]
+-[BBLibraryMapViewController setNavBarPreviousButton:]
+-[BBLibraryMapViewController closeButton]
+-[BBLibraryMapViewController setCloseButton:]
+-[BBLibraryMapViewController defaultTopBar]
+-[BBLibraryMapViewController setDefaultTopBar:]
+-[BBLibraryMapViewController navBarTitleLabel]
+-[BBLibraryMapViewController setNavBarTitleLabel:]
+-[BBLibraryMapViewController navBarSubtitleLabel]
+-[BBLibraryMapViewController setNavBarSubtitleLabel:]
+-[BBLibraryMapViewController materialTopBar]
+-[BBLibraryMapViewController setMaterialTopBar:]
+-[BBLibraryMapViewController materialTopImageView]
+-[BBLibraryMapViewController setMaterialTopImageView:]
+-[BBLibraryMapViewController materialTopTitleLabel]
+-[BBLibraryMapViewController setMaterialTopTitleLabel:]
+-[BBLibraryMapViewController materialTopSubtitleLabel]
+-[BBLibraryMapViewController setMaterialTopSubtitleLabel:]
+-[BBLibraryMapViewController myFoundMaterialButton]
+-[BBLibraryMapViewController setMyFoundMaterialButton:]
+-[BBLibraryMapViewController myLocationButton]
+-[BBLibraryMapViewController setMyLocationButton:]
+-[BBLibraryMapViewController pointsOfInterestButton]
+-[BBLibraryMapViewController setPointsOfInterestButton:]
+-[BBLibraryMapViewController mapScrollView]
+-[BBLibraryMapViewController setMapScrollView:]
+-[BBLibraryMapViewController spinner]
+-[BBLibraryMapViewController setSpinner:]
+-[BBLibraryMapViewController locationManager]
+-[BBLibraryMapViewController setLocationManager:]
+-[BBLibraryMapViewController materialPopDownView]
+-[BBLibraryMapViewController setMaterialPopDownView:]
+-[BBLibraryMapViewController materialPopDownTopConstraint]
+-[BBLibraryMapViewController setMaterialPopDownTopConstraint:]
+-[BBLibraryMapViewController materialPopDownButton]
+-[BBLibraryMapViewController setMaterialPopDownButton:]
+-[BBLibraryMapViewController bluetoothManager]
+-[BBLibraryMapViewController setBluetoothManager:]
+-[BBLibraryMapViewController .cxx_destruct]
+_OBJC_IVAR_$_BBLibraryMapViewController.invalidLocationAlertShown
+_OBJC_IVAR_$_BBLibraryMapViewController.currentUserPrecision
+_OBJC_IVAR_$_BBLibraryMapViewController.currentSelectLibraryViewController
+_OBJC_IVAR_$_BBLibraryMapViewController.shouldLayoutMap
+_OBJC_IVAR_$_BBLibraryMapViewController.place
+_OBJC_IVAR_$_BBLibraryMapViewController.currentDisplayFloorRef
+_OBJC_IVAR_$_BBLibraryMapViewController.rangedBeaconsFloorRef
+_OBJC_IVAR_$_BBLibraryMapViewController.lastRangedBeaconsFloorRef
+_OBJC_IVAR_$_BBLibraryMapViewController.myCoordinate
+___block_descriptor_tmp.102
+_OBJC_IVAR_$_BBLibraryMapViewController._bluetoothManager
+_OBJC_IVAR_$_BBLibraryMapViewController._locationManager
+___block_descriptor_tmp.181
+_OBJC_IVAR_$_BBLibraryMapViewController.myCurrentLocationView
+_OBJC_IVAR_$_BBLibraryMapViewController.floorplanImageView
+_OBJC_IVAR_$_BBLibraryMapViewController.scaleRatio
+___block_descriptor_tmp.269
+___block_descriptor_tmp.274
+_OBJC_IVAR_$_BBLibraryMapViewController.zoomToMaterialPosition
+___block_descriptor_tmp.284
+_OBJC_IVAR_$_BBLibraryMapViewController.zoomToUserPosition
+_OBJC_IVAR_$_BBLibraryMapViewController.foundSubjectPopopViewDisplayed
+_OBJC_IVAR_$_BBLibraryMapViewController.pinchGestureRecognizer
+___block_descriptor_tmp.425
+_OBJC_IVAR_$_BBLibraryMapViewController.popupView
+___block_descriptor_tmp.538
+___block_descriptor_tmp.554
+___block_descriptor_tmp.559
+___block_descriptor_tmp.562
+___block_descriptor_tmp.589
+___block_descriptor_tmp.596
+_OBJC_IVAR_$_BBLibraryMapViewController.showMaterialView
+___block_descriptor_tmp.605
+_OBJC_IVAR_$_BBLibraryMapViewController.lastScale
+___block_descriptor_tmp.618
+___block_descriptor_tmp.621
+_OBJC_IVAR_$_BBLibraryMapViewController.currentPOIViewController
+_OBJC_IVAR_$_BBLibraryMapViewController._wayfindingRequstObject
+_OBJC_IVAR_$_BBLibraryMapViewController._foundSubject
+_OBJC_IVAR_$_BBLibraryMapViewController._fakeNavigationBar
+_OBJC_IVAR_$_BBLibraryMapViewController._fakeNavigationBarHeight
+_OBJC_IVAR_$_BBLibraryMapViewController._navBarNextButton
+_OBJC_IVAR_$_BBLibraryMapViewController._navBarPreviousButton
+_OBJC_IVAR_$_BBLibraryMapViewController._closeButton
+_OBJC_IVAR_$_BBLibraryMapViewController._defaultTopBar
+_OBJC_IVAR_$_BBLibraryMapViewController._navBarTitleLabel
+_OBJC_IVAR_$_BBLibraryMapViewController._navBarSubtitleLabel
+_OBJC_IVAR_$_BBLibraryMapViewController._materialTopBar
+_OBJC_IVAR_$_BBLibraryMapViewController._materialTopImageView
+_OBJC_IVAR_$_BBLibraryMapViewController._materialTopTitleLabel
+_OBJC_IVAR_$_BBLibraryMapViewController._materialTopSubtitleLabel
+_OBJC_IVAR_$_BBLibraryMapViewController._myFoundMaterialButton
+_OBJC_IVAR_$_BBLibraryMapViewController._myLocationButton
+_OBJC_IVAR_$_BBLibraryMapViewController._pointsOfInterestButton
+_OBJC_IVAR_$_BBLibraryMapViewController._mapScrollView
+_OBJC_IVAR_$_BBLibraryMapViewController._spinner
+_OBJC_IVAR_$_BBLibraryMapViewController._materialPopDownView
+_OBJC_IVAR_$_BBLibraryMapViewController._materialPopDownTopConstraint
+_OBJC_IVAR_$_BBLibraryMapViewController._materialPopDownButton
+l_OBJC_PROTOCOL_$_CBCentralManagerDelegate
+l_OBJC_LABEL_PROTOCOL_$_CBCentralManagerDelegate
+l_OBJC_PROTOCOL_$_CLLocationManagerDelegate
+l_OBJC_LABEL_PROTOCOL_$_CLLocationManagerDelegate
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBLibraryMapViewController.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBLibraryMapViewController.h
+__51-[BBLibraryMapViewController navBarPreviousAction:]_block_invoke
+__47-[BBLibraryMapViewController navBarNextAction:]_block_invoke
+__56-[BBLibraryMapViewController showMaterialView:animated:]_block_invoke
+__65-[BBLibraryMapViewController showMyFoundMaterialButton:animated:]_block_invoke
+__59-[BBLibraryMapViewController updateMyLocationButtonEnabled]_block_invoke
+__55-[BBLibraryMapViewController layoutMyLocationAnimated:]_block_invoke_3
+__55-[BBLibraryMapViewController layoutMyLocationAnimated:]_block_invoke_2
+__CGPointEqualToPoint
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+__55-[BBLibraryMapViewController layoutMyLocationAnimated:]_block_invoke
+__39-[BBLibraryMapViewController layoutPOI]_block_invoke
+__39-[BBLibraryMapViewController layoutMap]_block_invoke
+__52-[BBLibraryMapViewController layoutCurrentFloorplan]_block_invoke.270
+__52-[BBLibraryMapViewController layoutCurrentFloorplan]_block_invoke_2
+__52-[BBLibraryMapViewController layoutCurrentFloorplan]_block_invoke
+__40-[BBLibraryMapViewController lookForIMS]_block_invoke
+__81-[BBLibraryMapViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke.101
+__81-[BBLibraryMapViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+-[BBLibrarySelectDatasourceDelegate isEmpty]
+-[BBLibrarySelectDatasourceDelegate isLoading]
+-[BBLibrarySelectDatasourceDelegate numberOfSectionsInTableView:]
+-[BBLibrarySelectDatasourceDelegate tableView:numberOfRowsInSection:]
+-[BBLibrarySelectDatasourceDelegate tableView:cellForRowAtIndexPath:]
+-[BBLibrarySelectDatasourceDelegate tableView:viewForHeaderInSection:]
+-[BBLibrarySelectDatasourceDelegate tableView:heightForRowAtIndexPath:]
+-[BBLibrarySelectDatasourceDelegate tableView:heightForHeaderInSection:]
+-[BBLibrarySelectDatasourceDelegate tableView:didSelectRowAtIndexPath:]
+-[BBLibrarySelectDatasourceDelegate data]
+-[BBLibrarySelectDatasourceDelegate setData:]
+-[BBLibrarySelectDatasourceDelegate selectDelegate]
+-[BBLibrarySelectDatasourceDelegate setSelectDelegate:]
+-[BBLibrarySelectDatasourceDelegate .cxx_destruct]
+_OBJC_IVAR_$_BBLibrarySelectDatasourceDelegate._data
+_OBJC_IVAR_$_BBLibrarySelectDatasourceDelegate._selectDelegate
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBLibrarySelectDatasourceDelegate.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBLibrarySelectDatasourceDelegate.h
+-[BBLibrarySelectViewController initWithNibName:bundle:]
+-[BBLibrarySelectViewController init]
+-[BBLibrarySelectViewController preferredStatusBarStyle]
+-[BBLibrarySelectViewController viewDidLoad]
+-[BBLibrarySelectViewController viewWillDisappear:]
+-[BBLibrarySelectViewController viewWillTransitionToSize:withTransitionCoordinator:]
+___84-[BBLibrarySelectViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+___84-[BBLibrarySelectViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke.60
+-[BBLibrarySelectViewController loadData]
+___41-[BBLibrarySelectViewController loadData]_block_invoke
+-[BBLibrarySelectViewController closeButtonAction:]
+-[BBLibrarySelectViewController didSelectPlace:]
+___48-[BBLibrarySelectViewController didSelectPlace:]_block_invoke
+___48-[BBLibrarySelectViewController didSelectPlace:]_block_invoke_2
+___48-[BBLibrarySelectViewController didSelectPlace:]_block_invoke.111
+___copy_helper_block_.118
+___destroy_helper_block_.119
+___copy_helper_block_.124
+___destroy_helper_block_.125
+-[BBLibrarySelectViewController dismissAsSubview]
+-[BBLibrarySelectViewController setDismissAsSubview:]
+-[BBLibrarySelectViewController fakeNavigationBar]
+-[BBLibrarySelectViewController setFakeNavigationBar:]
+-[BBLibrarySelectViewController fakeNavigationBarHeight]
+-[BBLibrarySelectViewController setFakeNavigationBarHeight:]
+-[BBLibrarySelectViewController closeButton]
+-[BBLibrarySelectViewController setCloseButton:]
+-[BBLibrarySelectViewController navBarTitleLabel]
+-[BBLibrarySelectViewController setNavBarTitleLabel:]
+-[BBLibrarySelectViewController tableView]
+-[BBLibrarySelectViewController setTableView:]
+-[BBLibrarySelectViewController .cxx_destruct]
+_OBJC_IVAR_$_BBLibrarySelectViewController.datasourceDelegate
+___block_descriptor_tmp.110
+___block_descriptor_tmp.127
+_OBJC_IVAR_$_BBLibrarySelectViewController._dismissAsSubview
+_OBJC_IVAR_$_BBLibrarySelectViewController._fakeNavigationBar
+_OBJC_IVAR_$_BBLibrarySelectViewController._fakeNavigationBarHeight
+_OBJC_IVAR_$_BBLibrarySelectViewController._closeButton
+_OBJC_IVAR_$_BBLibrarySelectViewController._navBarTitleLabel
+_OBJC_IVAR_$_BBLibrarySelectViewController._tableView
+l_OBJC_PROTOCOL_$_BBLibrarySelectDelegate
+l_OBJC_LABEL_PROTOCOL_$_BBLibrarySelectDelegate
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBLibrarySelectViewController.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBLibrarySelectViewController.h
+__48-[BBLibrarySelectViewController didSelectPlace:]_block_invoke.111
+__48-[BBLibrarySelectViewController didSelectPlace:]_block_invoke_2
+__48-[BBLibrarySelectViewController didSelectPlace:]_block_invoke
+__41-[BBLibrarySelectViewController loadData]_block_invoke
+__84-[BBLibrarySelectViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke.60
+__84-[BBLibrarySelectViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+-[BBLoadingIndicatorCell initWithStyle:reuseIdentifier:]
+-[BBLoadingIndicatorCell loadingIndicator]
+-[BBLoadingIndicatorCell setLoadingIndicator:]
+-[BBLoadingIndicatorCell .cxx_destruct]
+_OBJC_IVAR_$_BBLoadingIndicatorCell._loadingIndicator
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBLoadingIndicatorCell.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBLoadingIndicatorCell.h
+-[BBMyPositionView initWithFrame:]
+-[BBMyPositionView setPulsatingAnimationWithMaxWidth:]
+-[BBMyPositionView addPulsation]
+___32-[BBMyPositionView addPulsation]_block_invoke
+___32-[BBMyPositionView addPulsation]_block_invoke.33
+___32-[BBMyPositionView addPulsation]_block_invoke_2
+___copy_helper_block_.34
+___destroy_helper_block_.35
+___32-[BBMyPositionView addPulsation]_block_invoke.37
+___copy_helper_block_.38
+___destroy_helper_block_.39
+-[BBMyPositionView animationDidStop:finished:]
+-[BBMyPositionView .cxx_destruct]
+_OBJC_IVAR_$_BBMyPositionView.pulseView
+_OBJC_IVAR_$_BBMyPositionView.myPosistionView
+_OBJC_IVAR_$_BBMyPositionView.pulsationScaleToValue
+___block_descriptor_tmp.36
+___block_descriptor_tmp.41
+___block_descriptor_tmp.46
+l_OBJC_PROTOCOL_$_CAAnimationDelegate
+l_OBJC_LABEL_PROTOCOL_$_CAAnimationDelegate
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBMyPositionView.m
+__32-[BBMyPositionView addPulsation]_block_invoke.37
+__32-[BBMyPositionView addPulsation]_block_invoke_2
+__32-[BBMyPositionView addPulsation]_block_invoke.33
+__32-[BBMyPositionView addPulsation]_block_invoke
+-[BBPOIAreaMapView initWithFrame:]
+-[BBPOIAreaMapView touchesEnded:withEvent:]
+___43-[BBPOIAreaMapView touchesEnded:withEvent:]_block_invoke
+___43-[BBPOIAreaMapView touchesEnded:withEvent:]_block_invoke.69
+___copy_helper_block_.70
+___destroy_helper_block_.71
+___43-[BBPOIAreaMapView touchesEnded:withEvent:]_block_invoke.73
+-[BBPOIAreaMapView titleVisible]
+-[BBPOIAreaMapView setTitleVisible:]
+-[BBPOIAreaMapView title]
+-[BBPOIAreaMapView setTitle:]
+-[BBPOIAreaMapView .cxx_destruct]
+_OBJC_IVAR_$_BBPOIAreaMapView.nameLabel
+___block_descriptor_tmp.72
+_OBJC_IVAR_$_BBPOIAreaMapView._titleVisible
+_OBJC_IVAR_$_BBPOIAreaMapView._title
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBPOIAreaMapView.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBPOIAreaMapView.h
+__43-[BBPOIAreaMapView touchesEnded:withEvent:]_block_invoke.73
+__43-[BBPOIAreaMapView touchesEnded:withEvent:]_block_invoke.69
+__43-[BBPOIAreaMapView touchesEnded:withEvent:]_block_invoke
+-[BBPOIMapView initWithFrame:]
+-[BBPOIMapView applyPOIStyle]
+-[BBPOIMapView applyFoundSubjcetStyle]
+-[BBPOIMapView applyFoundClusterSubjcetStyle]
+-[BBPOIMapView touchesEnded:withEvent:]
+___39-[BBPOIMapView touchesEnded:withEvent:]_block_invoke
+___39-[BBPOIMapView touchesEnded:withEvent:]_block_invoke.87
+___copy_helper_block_.88
+___destroy_helper_block_.89
+___39-[BBPOIMapView touchesEnded:withEvent:]_block_invoke.91
+___copy_helper_block_.94
+___destroy_helper_block_.95
+-[BBPOIMapView titleVisible]
+-[BBPOIMapView setTitleVisible:]
+-[BBPOIMapView title]
+-[BBPOIMapView setTitle:]
+-[BBPOIMapView poiIconView]
+-[BBPOIMapView setPoiIconView:]
+-[BBPOIMapView .cxx_destruct]
+_OBJC_IVAR_$_BBPOIMapView.nameLabel
+___block_descriptor_tmp.90
+___block_descriptor_tmp.97
+_OBJC_IVAR_$_BBPOIMapView._titleVisible
+_OBJC_IVAR_$_BBPOIMapView._title
+_OBJC_IVAR_$_BBPOIMapView._poiIconView
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBPOIMapView.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBPOIMapView.h
+__39-[BBPOIMapView touchesEnded:withEvent:]_block_invoke.91
+__39-[BBPOIMapView touchesEnded:withEvent:]_block_invoke.87
+__39-[BBPOIMapView touchesEnded:withEvent:]_block_invoke
+-[BBPOISectionHeaderView awakeFromNib]
+-[BBPOISectionHeaderView headerButton]
+-[BBPOISectionHeaderView setHeaderButton:]
+-[BBPOISectionHeaderView headerTitleLabel]
+-[BBPOISectionHeaderView setHeaderTitleLabel:]
+-[BBPOISectionHeaderView .cxx_destruct]
+_OBJC_IVAR_$_BBPOISectionHeaderView._headerButton
+_OBJC_IVAR_$_BBPOISectionHeaderView._headerTitleLabel
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBPOISectionHeaderView.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBPOISectionHeaderView.h
+-[BBPOITableViewCell awakeFromNib]
+-[BBPOITableViewCell applyPointOfInterst:atIndex:]
+-[BBPOITableViewCell setCheckmarkSelected:animated:]
+___52-[BBPOITableViewCell setCheckmarkSelected:animated:]_block_invoke
+-[BBPOITableViewCell iconImageView]
+-[BBPOITableViewCell setIconImageView:]
+-[BBPOITableViewCell nameLabel]
+-[BBPOITableViewCell setNameLabel:]
+-[BBPOITableViewCell selectedImageView]
+-[BBPOITableViewCell setSelectedImageView:]
+-[BBPOITableViewCell .cxx_destruct]
+_OBJC_IVAR_$_BBPOITableViewCell._iconImageView
+_OBJC_IVAR_$_BBPOITableViewCell._nameLabel
+_OBJC_IVAR_$_BBPOITableViewCell._selectedImageView
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBPOITableViewCell.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBPOITableViewCell.h
+__52-[BBPOITableViewCell setCheckmarkSelected:animated:]_block_invoke
+-[BBPopupView awakeFromNib]
+-[BBPopupView opacityViewWithShadow]
+-[BBPopupView setOpacityViewWithShadow:]
+-[BBPopupView labelTitle]
+-[BBPopupView setLabelTitle:]
+-[BBPopupView labelText]
+-[BBPopupView setLabelText:]
+-[BBPopupView buttonOK]
+-[BBPopupView setButtonOK:]
+-[BBPopupView buttonOKDontShowAgain]
+-[BBPopupView setButtonOKDontShowAgain:]
+-[BBPopupView arrowContainer]
+-[BBPopupView setArrowContainer:]
+-[BBPopupView .cxx_destruct]
+_OBJC_IVAR_$_BBPopupView._opacityViewWithShadow
+_OBJC_IVAR_$_BBPopupView._labelTitle
+_OBJC_IVAR_$_BBPopupView._labelText
+_OBJC_IVAR_$_BBPopupView._buttonOK
+_OBJC_IVAR_$_BBPopupView._buttonOKDontShowAgain
+_OBJC_IVAR_$_BBPopupView._arrowContainer
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBPopupView.m
+/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBPopupView.h
+/Users/finnlarsen/Library/Developer/Xcode/DerivedData/beaconbacon-aprdxjwrhsrbrbbvewpcusifldji/Build/Intermediates.noindex/beaconbacon.build/Release-iphoneos/BeaconBacon.build/DerivedSources/BeaconBacon_vers.c
+__ZL15__ARCLite__loadv
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL13replaceMethodP10objc_classP13objc_selectorPFP11objc_objectS4_S2_zEPS6_
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+Apple LLVM version 9.0.0 (clang-900.0.35)
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=incomplete-umbrella -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-66/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -mlinker-version=302.3
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-66/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-66
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+isdigit
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.Internal.sdk/usr/include/ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+replaceMethod
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__ARCLite__load
+install_swiftV1
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter

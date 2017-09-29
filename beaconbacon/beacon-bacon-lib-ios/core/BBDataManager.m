@@ -62,7 +62,7 @@
 }
 
 - (NSError *) errorSubjectNotFound {
-    NSDictionary *errorDictionary = @{ NSLocalizedDescriptionKey : @"Materialet blev ikke fundet", NSUnderlyingErrorKey : @(BB_ERROR_CODE_SUBJECT_NOT_FOUND) };
+    NSDictionary *errorDictionary = @{ NSLocalizedDescriptionKey : @"Placeringen blev ikke fundet", NSUnderlyingErrorKey : @(BB_ERROR_CODE_SUBJECT_NOT_FOUND) };
     return [[NSError alloc] initWithDomain:@"beaconbacon.nosuchagency.com" code:BB_ERROR_CODE_SUBJECT_NOT_FOUND userInfo:errorDictionary];
 }
 

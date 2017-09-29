@@ -1,0 +1,298 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/build/Release-iphoneos/BeaconBacon.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AFAutoPurgingImageCache.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFHTTPSessionManager.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/AFHTTPSessionManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFImageDownloader.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/UIKit+AFNetworking/AFImageDownloader.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworkActivityIndicatorManager.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworkReachabilityManager.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/AFNetworkReachabilityManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworking.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFSecurityPolicy.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/AFSecurityPolicy.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLRequestSerialization.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/AFURLRequestSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLResponseSerialization.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/AFURLResponseSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLSessionManager.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/AFURLSessionManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBAPIClient.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBAPIClient.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBBeacon.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBBeacon.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBBeaconLocation.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBBeaconLocation.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBConfig.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBConfig.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBCoordinateHelper.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBCoordinateHelper.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBDataManager.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBDataManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBEmptyTableViewCell.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBEmptyTableViewCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBFloor.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBFloor.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBFoundSubject.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBFoundSubject.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBFoundSubjectLocation.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBFoundSubjectLocation.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBIMSRequstObject.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBIMSRequstObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBLibraryMapPOIDatasourceDelegate.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBLibraryMapPOIDatasourceDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBLibraryMapPOIViewController.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBLibraryMapPOIViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBLibraryMapViewController.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBLibraryMapViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBLibrarySelectDatasourceDelegate.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBLibrarySelectDatasourceDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBLibrarySelectDelegate.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBLibrarySelectDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBLibrarySelectViewController.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBLibrarySelectViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBLoadingIndicatorCell.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBLoadingIndicatorCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBLocation.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBLocation.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBMyPositionView.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBMyPositionView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBPOI.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBPOI.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBPOIAreaMapView.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBPOIAreaMapView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBPOILocation.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBPOILocation.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBPOIMapView.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBPOIMapView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBPOIMenuItem.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBPOIMenuItem.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBPOISection.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBPOISection.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBPOISectionHeaderView.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBPOISectionHeaderView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBPOITableViewCell.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBPOITableViewCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBPlace.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBPlace.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBPopupView.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/wayfinding/BBPopupView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BBTrilateration.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/BBTrilateration.h"
+        },
+        {
+          'type': 'file',
+          'name': "BeaconBacon-Swift.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/build/Release-iphoneos/BeaconBacon.framework/Headers/BeaconBacon-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "BeaconBacon.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/BeaconBacon.h"
+        },
+        {
+          'type': 'file',
+          'name': "CBCentralManager+BeaconBacon.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/CBCentralManager+BeaconBacon.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIActivityIndicatorView+AFNetworking.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIButton+AFNetworking.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIColor+Hex.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/UIColor+Hex.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+AFNetworking.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/UIKit+AFNetworking/UIImage+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+Resize.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/UIImage+Resize.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageView+AFNetworking.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageView+BeaconBacon.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/core/UIImageView+BeaconBacon.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIKit+AFNetworking.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/UIKit+AFNetworking/UIKit+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIProgressView+AFNetworking.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIRefreshControl+AFNetworking.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIWebView+AFNetworking.h",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/beaconbacon/beacon-bacon-lib-ios/resources/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/build/Release-iphoneos/BeaconBacon.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/finnlarsen/Repositories/Biblioteket/beacon-bacon-lib/build/beaconbacon.build/Release-iphoneos/BeaconBacon.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

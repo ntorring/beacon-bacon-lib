@@ -501,8 +501,8 @@
                     
                 } else {
                     if (self.wayfindingRequstObject != nil) {
-                        NSString *message = [NSString stringWithFormat:@"'%@' blev ikke fundet på %@. Hvis du ikke selv kan finde placeringen, så husk at du altid kan reservere direkte her i app’en.", self.wayfindingRequstObject.subject_name, place.name];
-                        [[[UIAlertView alloc] initWithTitle:@"Materialet blev ikke fundet" message:message delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil] show];
+                        NSString *message = [NSString stringWithFormat:@"'%@' blev alligevel ikke fundet på %@. Hvis du ikke selv kan finde placeringen, så husk at du altid kan reservere direkte her i app’en.", self.wayfindingRequstObject.subject_name, place.name];
+                        [[[UIAlertView alloc] initWithTitle:@"Placeringen blev ikke fundet" message:message delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil] show];
                     }
                     self.foundSubject = nil;
                     [self showMyFoundMaterialButton:false animated:false];

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		772CE5AE1F7E3687007F7AA4 /* BBAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 773F35D71EBB0EF0000BB453 /* BBAssets.xcassets */; };
 		773F36261EBB0EF0000BB453 /* BBEmptyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773F35DE1EBB0EF0000BB453 /* BBEmptyTableViewCell.xib */; };
 		773F36291EBB0EF0000BB453 /* BBLibraryMapPOIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773F35E31EBB0EF0000BB453 /* BBLibraryMapPOIViewController.xib */; };
 		773F362B1EBB0EF0000BB453 /* BBLibraryMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773F35E61EBB0EF0000BB453 /* BBLibraryMapViewController.xib */; };
@@ -51,28 +52,19 @@
 		7749586B1F5E8CF100046DF5 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35D21EBB0EF0000BB453 /* UIProgressView+AFNetworking.m */; };
 		7749586D1F5E8CF100046DF5 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35D41EBB0EF0000BB453 /* UIRefreshControl+AFNetworking.m */; };
 		7749586F1F5E8CF100046DF5 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35D61EBB0EF0000BB453 /* UIWebView+AFNetworking.m */; };
-		774958701F5E8CF100046DF5 /* BBAssets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 773F35D71EBB0EF0000BB453 /* BBAssets.xcassets */; };
 		774958721F5E8CF100046DF5 /* BBEmptyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35DD1EBB0EF0000BB453 /* BBEmptyTableViewCell.m */; };
-		774958731F5E8CF100046DF5 /* BBEmptyTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 773F35DE1EBB0EF0000BB453 /* BBEmptyTableViewCell.xib */; };
 		774958751F5E8CF100046DF5 /* BBLibraryMapPOIDatasourceDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35E01EBB0EF0000BB453 /* BBLibraryMapPOIDatasourceDelegate.m */; };
 		774958771F5E8CF100046DF5 /* BBLibraryMapPOIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35E21EBB0EF0000BB453 /* BBLibraryMapPOIViewController.m */; };
-		774958781F5E8CF100046DF5 /* BBLibraryMapPOIViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 773F35E31EBB0EF0000BB453 /* BBLibraryMapPOIViewController.xib */; };
 		7749587A1F5E8CF100046DF5 /* BBLibraryMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35E51EBB0EF0000BB453 /* BBLibraryMapViewController.m */; };
-		7749587B1F5E8CF100046DF5 /* BBLibraryMapViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 773F35E61EBB0EF0000BB453 /* BBLibraryMapViewController.xib */; };
 		7749587D1F5E8CF100046DF5 /* BBLibrarySelectDatasourceDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35E81EBB0EF0000BB453 /* BBLibrarySelectDatasourceDelegate.m */; };
 		774958801F5E8CF100046DF5 /* BBLibrarySelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35EB1EBB0EF0000BB453 /* BBLibrarySelectViewController.m */; };
-		774958811F5E8CF100046DF5 /* BBLibrarySelectViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 773F35EC1EBB0EF0000BB453 /* BBLibrarySelectViewController.xib */; };
 		774958831F5E8CF100046DF5 /* BBLoadingIndicatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35EE1EBB0EF0000BB453 /* BBLoadingIndicatorCell.m */; };
-		774958841F5E8CF100046DF5 /* BBLoadingIndicatorCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 773F35EF1EBB0EF0000BB453 /* BBLoadingIndicatorCell.xib */; };
 		774958861F5E8CF100046DF5 /* BBMyPositionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35F11EBB0EF0000BB453 /* BBMyPositionView.m */; };
 		774958881F5E8CF100046DF5 /* BBPOIAreaMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35F31EBB0EF0000BB453 /* BBPOIAreaMapView.m */; };
 		7749588A1F5E8CF100046DF5 /* BBPOIMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35F51EBB0EF0000BB453 /* BBPOIMapView.m */; };
 		7749588C1F5E8CF100046DF5 /* BBPOISectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35F71EBB0EF0000BB453 /* BBPOISectionHeaderView.m */; };
-		7749588D1F5E8CF100046DF5 /* BBPOISectionHeaderView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 773F35F81EBB0EF0000BB453 /* BBPOISectionHeaderView.xib */; };
 		7749588F1F5E8CF100046DF5 /* BBPOITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35FA1EBB0EF0000BB453 /* BBPOITableViewCell.m */; };
-		774958901F5E8CF100046DF5 /* BBPOITableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 773F35FB1EBB0EF0000BB453 /* BBPOITableViewCell.xib */; };
 		774958921F5E8CF100046DF5 /* BBPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35FD1EBB0EF0000BB453 /* BBPopupView.m */; };
-		774958931F5E8CF100046DF5 /* BBPopupView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 773F35FE1EBB0EF0000BB453 /* BBPopupView.xib */; };
 		774958971F5EA9FB00046DF5 /* BeaconBacon.h in Headers */ = {isa = PBXBuildFile; fileRef = 774958961F5EA9FB00046DF5 /* BeaconBacon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7749589B1F5EB1A900046DF5 /* BBConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 773F358F1EBB0EF0000BB453 /* BBConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7749589C1F5EB1B300046DF5 /* BBIMSRequstObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 773F359B1EBB0EF0000BB453 /* BBIMSRequstObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -690,6 +682,7 @@
 				775CE0921D92C1B20066C905 /* Assets.xcassets in Resources */,
 				773F36291EBB0EF0000BB453 /* BBLibraryMapPOIViewController.xib in Resources */,
 				775CE0901D92C1B20066C905 /* Main.storyboard in Resources */,
+				772CE5AE1F7E3687007F7AA4 /* BBAssets.xcassets in Resources */,
 				773F36301EBB0EF0000BB453 /* BBLoadingIndicatorCell.xib in Resources */,
 				773F362B1EBB0EF0000BB453 /* BBLibraryMapViewController.xib in Resources */,
 				773F36261EBB0EF0000BB453 /* BBEmptyTableViewCell.xib in Resources */,
@@ -739,28 +732,19 @@
 				7749586B1F5E8CF100046DF5 /* UIProgressView+AFNetworking.m in Sources */,
 				7749586D1F5E8CF100046DF5 /* UIRefreshControl+AFNetworking.m in Sources */,
 				7749586F1F5E8CF100046DF5 /* UIWebView+AFNetworking.m in Sources */,
-				774958701F5E8CF100046DF5 /* BBAssets.xcassets in Sources */,
 				774958721F5E8CF100046DF5 /* BBEmptyTableViewCell.m in Sources */,
-				774958731F5E8CF100046DF5 /* BBEmptyTableViewCell.xib in Sources */,
 				774958751F5E8CF100046DF5 /* BBLibraryMapPOIDatasourceDelegate.m in Sources */,
 				774958771F5E8CF100046DF5 /* BBLibraryMapPOIViewController.m in Sources */,
-				774958781F5E8CF100046DF5 /* BBLibraryMapPOIViewController.xib in Sources */,
 				7749587A1F5E8CF100046DF5 /* BBLibraryMapViewController.m in Sources */,
-				7749587B1F5E8CF100046DF5 /* BBLibraryMapViewController.xib in Sources */,
 				7749587D1F5E8CF100046DF5 /* BBLibrarySelectDatasourceDelegate.m in Sources */,
 				774958801F5E8CF100046DF5 /* BBLibrarySelectViewController.m in Sources */,
-				774958811F5E8CF100046DF5 /* BBLibrarySelectViewController.xib in Sources */,
 				774958831F5E8CF100046DF5 /* BBLoadingIndicatorCell.m in Sources */,
-				774958841F5E8CF100046DF5 /* BBLoadingIndicatorCell.xib in Sources */,
 				774958861F5E8CF100046DF5 /* BBMyPositionView.m in Sources */,
 				774958881F5E8CF100046DF5 /* BBPOIAreaMapView.m in Sources */,
 				7749588A1F5E8CF100046DF5 /* BBPOIMapView.m in Sources */,
 				7749588C1F5E8CF100046DF5 /* BBPOISectionHeaderView.m in Sources */,
-				7749588D1F5E8CF100046DF5 /* BBPOISectionHeaderView.xib in Sources */,
 				7749588F1F5E8CF100046DF5 /* BBPOITableViewCell.m in Sources */,
-				774958901F5E8CF100046DF5 /* BBPOITableViewCell.xib in Sources */,
 				774958921F5E8CF100046DF5 /* BBPopupView.m in Sources */,
-				774958931F5E8CF100046DF5 /* BBPopupView.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -810,6 +794,8 @@
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -836,6 +822,8 @@
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
