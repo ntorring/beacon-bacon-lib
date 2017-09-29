@@ -145,14 +145,6 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.69756822183098588" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_arrow_down" translatesAutoresizingMaskIntoConstraints="NO" id="ap5-Ic-8Th">
-                                                    <rect key="frame" x="227" y="19.5" width="12" height="5"/>
-                                                    <color key="tintColor" red="0.38039215686274508" green="0.38039215686274508" blue="0.38039215686274508" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="5" id="Aag-ln-owc"/>
-                                                        <constraint firstAttribute="width" constant="12" id="pSs-Hu-olv"/>
-                                                    </constraints>
-                                                </imageView>
                                                 <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fnN-i9-zM6" userLabel="Button Previous">
                                                     <rect key="frame" x="85" y="0.0" width="44" height="44"/>
                                                     <state key="normal" image="nav-bar-arrow-left"/>
@@ -187,11 +179,6 @@
                                                 <constraint firstAttribute="bottom" secondItem="Bal-Zp-Lpg" secondAttribute="bottom" priority="250" id="inO-wr-e48"/>
                                                 <constraint firstItem="Rza-YN-dJw" firstAttribute="top" secondItem="E5I-W2-99b" secondAttribute="top" id="rBq-xJ-B4x"/>
                                             </constraints>
-                                            <variation key="default">
-                                                <mask key="subviews">
-                                                    <exclude reference="ap5-Ic-8Th"/>
-                                                </mask>
-                                            </variation>
                                         </view>
                                     </subviews>
                                     <color key="backgroundColor" red="0.94509803920000002" green="0.94509803920000002" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -312,7 +299,6 @@
     <resources>
         <image name="close-icon" width="12" height="12"/>
         <image name="empty-icon-poi" width="41" height="62"/>
-        <image name="icon_arrow_down" width="20" height="12"/>
         <image name="nav-bar-arrow-left" width="10" height="17"/>
         <image name="nav-bar-arrow-right" width="10" height="17"/>
     </resources>

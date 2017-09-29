@@ -127,15 +127,15 @@
 		775CE0951D92C1B20066C905 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775CE0931D92C1B20066C905 /* LaunchScreen.storyboard */; };
 		775CE12D1D92C2310066C905 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775CE12C1D92C2310066C905 /* Foundation.framework */; };
 		775CE12F1D92C2940066C905 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775CE12E1D92C2940066C905 /* CoreLocation.framework */; };
-		7787B03A1F7E417A009ACC31 /* BBEmptyTableViewCell.xib in Headers */ = {isa = PBXBuildFile; fileRef = 773F35DE1EBB0EF0000BB453 /* BBEmptyTableViewCell.xib */; };
-		7787B03B1F7E417A009ACC31 /* BBLibraryMapPOIViewController.xib in Headers */ = {isa = PBXBuildFile; fileRef = 773F35E31EBB0EF0000BB453 /* BBLibraryMapPOIViewController.xib */; };
-		7787B03C1F7E417A009ACC31 /* BBLibraryMapViewController.xib in Headers */ = {isa = PBXBuildFile; fileRef = 773F35E61EBB0EF0000BB453 /* BBLibraryMapViewController.xib */; };
-		7787B03D1F7E417A009ACC31 /* BBLibrarySelectViewController.xib in Headers */ = {isa = PBXBuildFile; fileRef = 773F35EC1EBB0EF0000BB453 /* BBLibrarySelectViewController.xib */; };
-		7787B03E1F7E417A009ACC31 /* BBLoadingIndicatorCell.xib in Headers */ = {isa = PBXBuildFile; fileRef = 773F35EF1EBB0EF0000BB453 /* BBLoadingIndicatorCell.xib */; };
-		7787B03F1F7E417A009ACC31 /* BBPOISectionHeaderView.xib in Headers */ = {isa = PBXBuildFile; fileRef = 773F35F81EBB0EF0000BB453 /* BBPOISectionHeaderView.xib */; };
-		7787B0401F7E417A009ACC31 /* BBPOITableViewCell.xib in Headers */ = {isa = PBXBuildFile; fileRef = 773F35FB1EBB0EF0000BB453 /* BBPOITableViewCell.xib */; };
-		7787B0411F7E417A009ACC31 /* BBPopupView.xib in Headers */ = {isa = PBXBuildFile; fileRef = 773F35FE1EBB0EF0000BB453 /* BBPopupView.xib */; };
-		77D2AEB51F6FC41D00FAB2F8 /* BBAssets.xcassets in Headers */ = {isa = PBXBuildFile; fileRef = 773F35D71EBB0EF0000BB453 /* BBAssets.xcassets */; };
+		7787B03A1F7E417A009ACC31 /* BBEmptyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773F35DE1EBB0EF0000BB453 /* BBEmptyTableViewCell.xib */; };
+		7787B03B1F7E417A009ACC31 /* BBLibraryMapPOIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773F35E31EBB0EF0000BB453 /* BBLibraryMapPOIViewController.xib */; };
+		7787B03C1F7E417A009ACC31 /* BBLibraryMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773F35E61EBB0EF0000BB453 /* BBLibraryMapViewController.xib */; };
+		7787B03D1F7E417A009ACC31 /* BBLibrarySelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773F35EC1EBB0EF0000BB453 /* BBLibrarySelectViewController.xib */; };
+		7787B03E1F7E417A009ACC31 /* BBLoadingIndicatorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773F35EF1EBB0EF0000BB453 /* BBLoadingIndicatorCell.xib */; };
+		7787B03F1F7E417A009ACC31 /* BBPOISectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773F35F81EBB0EF0000BB453 /* BBPOISectionHeaderView.xib */; };
+		7787B0401F7E417A009ACC31 /* BBPOITableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773F35FB1EBB0EF0000BB453 /* BBPOITableViewCell.xib */; };
+		7787B0411F7E417A009ACC31 /* BBPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773F35FE1EBB0EF0000BB453 /* BBPopupView.xib */; };
+		77D2AEB51F6FC41D00FAB2F8 /* BBAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 773F35D71EBB0EF0000BB453 /* BBAssets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -585,15 +585,6 @@
 				774959041F5EB1E600046DF5 /* BBPOITableViewCell.h in Headers */,
 				774959071F5EB1E600046DF5 /* BBPopupView.h in Headers */,
 				774958C81F5EB1E600046DF5 /* AFNetworking.h in Headers */,
-				7787B03A1F7E417A009ACC31 /* BBEmptyTableViewCell.xib in Headers */,
-				7787B03B1F7E417A009ACC31 /* BBLibraryMapPOIViewController.xib in Headers */,
-				7787B03C1F7E417A009ACC31 /* BBLibraryMapViewController.xib in Headers */,
-				7787B03D1F7E417A009ACC31 /* BBLibrarySelectViewController.xib in Headers */,
-				7787B03E1F7E417A009ACC31 /* BBLoadingIndicatorCell.xib in Headers */,
-				7787B03F1F7E417A009ACC31 /* BBPOISectionHeaderView.xib in Headers */,
-				7787B0401F7E417A009ACC31 /* BBPOITableViewCell.xib in Headers */,
-				7787B0411F7E417A009ACC31 /* BBPopupView.xib in Headers */,
-				77D2AEB51F6FC41D00FAB2F8 /* BBAssets.xcassets in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -683,6 +674,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7787B03A1F7E417A009ACC31 /* BBEmptyTableViewCell.xib in Resources */,
+				7787B03B1F7E417A009ACC31 /* BBLibraryMapPOIViewController.xib in Resources */,
+				7787B03C1F7E417A009ACC31 /* BBLibraryMapViewController.xib in Resources */,
+				7787B03D1F7E417A009ACC31 /* BBLibrarySelectViewController.xib in Resources */,
+				7787B03E1F7E417A009ACC31 /* BBLoadingIndicatorCell.xib in Resources */,
+				7787B03F1F7E417A009ACC31 /* BBPOISectionHeaderView.xib in Resources */,
+				7787B0401F7E417A009ACC31 /* BBPOITableViewCell.xib in Resources */,
+				7787B0411F7E417A009ACC31 /* BBPopupView.xib in Resources */,
+				77D2AEB51F6FC41D00FAB2F8 /* BBAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
