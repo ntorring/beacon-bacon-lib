@@ -54,7 +54,7 @@
     self.fakeNavigationBarHeight.constant = [UIApplication sharedApplication].statusBarFrame.size.height + 44;
 
     self.navBarTitleLabel.font = [[BBConfig sharedConfig] lightFontWithSize:18];
-    self.navBarTitleLabel.text = @"Skift bibliotek";
+    self.navBarTitleLabel.text = @"Vælg bibliotek";
     self.navBarTitleLabel.textColor = [UIColor colorWithRed:97.0f/255.0f green:97.0f/255.0f blue:97.0f/255.0f alpha:1.0];
     
     datasourceDelegate = [BBLibrarySelectDatasourceDelegate new];

@@ -33,6 +33,7 @@
         _sharedConfig                = [[BBConfig alloc] init];
         _sharedConfig.currentPlaceId = nil;
         _sharedConfig.customColor    = [NSKeyedUnarchiver unarchiveObjectWithData:[[NSUserDefaults standardUserDefaults] objectForKey:BB_STORE_KEY_CUSTOM_COLOR]];
+        _sharedConfig.boldFont       = [NSKeyedUnarchiver unarchiveObjectWithData:[[NSUserDefaults standardUserDefaults] objectForKey:BB_STORE_KEY_BOLD_FONT]];
         _sharedConfig.regularFont    = [NSKeyedUnarchiver unarchiveObjectWithData:[[NSUserDefaults standardUserDefaults] objectForKey:BB_STORE_KEY_REGULAR_FONT]];
         _sharedConfig.lightFont      = [NSKeyedUnarchiver unarchiveObjectWithData:[[NSUserDefaults standardUserDefaults] objectForKey:BB_STORE_KEY_LIGHT_FONT]];
         _sharedConfig.apiKey         = [[NSUserDefaults standardUserDefaults] valueForKey:BB_STORE_KEY_API_KEY];
@@ -44,6 +45,10 @@
 
 + (NSBundle *)libBundle {
     return [NSBundle bundleWithIdentifier:@"dk.mustache.beaconbaconlib"];
+}
+
+-(UIFont *)boldFontWithSize:(CGFloat)size {
+    return [self.boldFont fontWithSize:size];
 }
 
 -(UIFont *)regularFontWithSize:(CGFloat)size {
@@ -82,6 +87,16 @@
     [[NSUserDefaults standardUserDefaults] setObject:[NSKeyedArchiver archivedDataWithRootObject:customColor] forKey:BB_STORE_KEY_CUSTOM_COLOR];
     [[NSUserDefaults standardUserDefaults] synchronize];
     _customColor = customColor;
+}
+
+
+- (void) setBoldFont:(UIFont *)boldFont {
+    if (boldFont == nil) {
+        boldFont = [UIFont boldSystemFontOfSize:16.f];
+    }
+    [[NSUserDefaults standardUserDefaults] setObject:[NSKeyedArchiver archivedDataWithRootObject:boldFont] forKey:BB_STORE_KEY_BOLD_FONT];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    _boldFont = boldFont;
 }
 
 - (void) setRegularFont:(UIFont *)regularFont {

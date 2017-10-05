@@ -397,7 +397,7 @@
     
     self.materialPopDownView.backgroundColor    = [[BBConfig sharedConfig] customColor];
     
-    self.navBarTitleLabel.font          = [[BBConfig sharedConfig] lightFontWithSize:14];
+    self.navBarTitleLabel.font          = [[BBConfig sharedConfig] boldFontWithSize:14];
     self.navBarSubtitleLabel.font       = [[BBConfig sharedConfig] lightFontWithSize:11];
     
     self.materialTopSubtitleLabel.font  = [[BBConfig sharedConfig] lightFontWithSize:10];

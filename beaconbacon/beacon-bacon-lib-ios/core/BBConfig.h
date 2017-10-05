@@ -34,6 +34,7 @@
 #define BB_STORE_KEY_API_KEY            @"BB_STORE_KEY_API_KEY"
 #define BB_STORE_KEY_API_BASE_URL       @"BB_STORE_KEY_API_BASE_URL"
 #define BB_STORE_KEY_CUSTOM_COLOR       @"BB_STORE_KEY_CUSTOM_COLOR"
+#define BB_STORE_KEY_BOLD_FONT          @"BB_STORE_KEY_BOLD_FONT"
 #define BB_STORE_KEY_REGULAR_FONT       @"BB_STORE_KEY_REGULAR_FONT"
 #define BB_STORE_KEY_LIGHT_FONT         @"BB_STORE_KEY_LIGHT_FONT"
 
@@ -52,7 +53,8 @@ typedef NS_ENUM(NSUInteger, BBSSLPinningMode) {
 // Default color is [UIColor darkGrayColor];
 @property (nonatomic, strong) UIColor  *customColor;
 
-// Default fonts are both [UIFont systemFontOfSize:16.f];
+// Default fonts are both system font
+@property (nonatomic, strong) UIFont  *boldFont;
 @property (nonatomic, strong) UIFont  *regularFont;
 @property (nonatomic, strong) UIFont  *lightFont;
 
@@ -62,6 +64,7 @@ typedef NS_ENUM(NSUInteger, BBSSLPinningMode) {
 + (instancetype)sharedConfig;
 + (NSBundle *)libBundle;
 
+-(UIFont *)boldFontWithSize:(CGFloat)size;
 -(UIFont *)regularFontWithSize:(CGFloat)size;
 -(UIFont *)lightFontWithSize:(CGFloat)size;
 

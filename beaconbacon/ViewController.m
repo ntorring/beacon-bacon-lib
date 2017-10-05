@@ -55,6 +55,7 @@
 
 - (IBAction)noStyleAction:(id)sender {
     [BBConfig sharedConfig].customColor = nil;
+    [BBConfig sharedConfig].boldFont = nil;
     [BBConfig sharedConfig].regularFont = nil;
     [BBConfig sharedConfig].lightFont   = nil;
     [self.style1Button setSelected:YES];
@@ -64,8 +65,9 @@
 
 - (IBAction)style1Action:(id)sender {
     [BBConfig sharedConfig].customColor = [UIColor magentaColor];
-    [BBConfig sharedConfig].regularFont = [UIFont fontWithName:@"Menlo-Bold" size:16];
-    [BBConfig sharedConfig].lightFont   = [UIFont fontWithName:@"Menlo-Regular" size:16];
+    [BBConfig sharedConfig].boldFont    = [UIFont fontWithName:@"Menlo-Bold" size:16];
+    [BBConfig sharedConfig].regularFont = [UIFont fontWithName:@"Menlo-Regular" size:16];
+    [BBConfig sharedConfig].lightFont   = [UIFont fontWithName:@"Menlo-Light" size:16];
     [self.style1Button setSelected:NO];
     [self.style2Button setSelected:YES];
     [self.style3Button setSelected:NO];
@@ -73,6 +75,7 @@
 
 - (IBAction)style2Action:(id)sender {
     [BBConfig sharedConfig].customColor = [UIColor orangeColor];
+    [BBConfig sharedConfig].boldFont    = [UIFont fontWithName:@"Avenir-Bold" size:16];
     [BBConfig sharedConfig].regularFont = [UIFont fontWithName:@"Avenir-Regular" size:16];
     [BBConfig sharedConfig].lightFont   = [UIFont fontWithName:@"Avenir-Light" size:16];
     [self.style1Button setSelected:NO];
@@ -112,22 +115,22 @@
 
 - (IBAction)mapAction:(id)sender {
     
-    // Returns a list of available places of the BBPlace class
-    [[BBDataManager sharedInstance] fetchAllPlacesWithCompletion:^(NSArray *places, NSError *error) {
-        if (error == nil) {
-            
-            // Use the custom identifiers keys to identify your place (library) - this example uses 'identifier1'
-            BBPlace *thePlaceWeAreLookingFor;
-            for (BBPlace *place in places) {
-                if ([place.identifier1 isEqualToString:@"museu22m1"]) {
-                    thePlaceWeAreLookingFor = place;
-                    break;
-                }
-            }
-            
-            // Setup with identifier1 (we use BBConfig because we'll remember the identifier for future usage)
-            [[BBConfig sharedConfig] setupWithPlaceIdentifier:thePlaceWeAreLookingFor.identifier1 withCompletion:^(NSString *placeIdentifier, NSError *error) {
-                if (error == nil) {
+//    // Returns a list of available places of the BBPlace class
+//    [[BBDataManager sharedInstance] fetchAllPlacesWithCompletion:^(NSArray *places, NSError *error) {
+//        if (error == nil) {
+//
+//            // Use the custom identifiers keys to identify your place (library) - this example uses 'identifier1'
+//            BBPlace *thePlaceWeAreLookingFor;
+//            for (BBPlace *place in places) {
+//                if ([place.identifier1 isEqualToString:@"museu22m1"]) {
+//                    thePlaceWeAreLookingFor = place;
+//                    break;
+//                }
+//            }
+//
+//            // Setup with identifier1 (we use BBConfig because we'll remember the identifier for future usage)
+//            [[BBConfig sharedConfig] setupWithPlaceIdentifier:thePlaceWeAreLookingFor.identifier1 withCompletion:^(NSString *placeIdentifier, NSError *error) {
+//                if (error == nil) {
                     // Beacon Bacon has been setup and configuerd to run on this Place (Library)
                     // Now we're ready to initialise the UI.
                     mapViewController = [BBLibraryMapViewController new];
@@ -141,18 +144,18 @@
                     
                     [self presentViewController:mapViewController animated:true completion:nil];
                     
-                    
-                } else {
-                    NSLog(@"Gracefully handle error: %@", error.localizedDescription);
-                }
-            }];
-            
-            
-        } else {
-            NSLog(@"Gracefully handle error: %@", error.localizedDescription);
-        }
-        
-    }];
+//
+//                } else {
+//                    NSLog(@"Gracefully handle error: %@", error.localizedDescription);
+//                }
+//            }];
+    
+//
+//        } else {
+//            NSLog(@"Gracefully handle error: %@", error.localizedDescription);
+//        }
+//
+//    }];
     
 }
 

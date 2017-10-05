@@ -7,15 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		772CE5AE1F7E3687007F7AA4 /* BBAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 773F35D71EBB0EF0000BB453 /* BBAssets.xcassets */; };
-		773F36261EBB0EF0000BB453 /* BBEmptyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773F35DE1EBB0EF0000BB453 /* BBEmptyTableViewCell.xib */; };
-		773F36291EBB0EF0000BB453 /* BBLibraryMapPOIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773F35E31EBB0EF0000BB453 /* BBLibraryMapPOIViewController.xib */; };
-		773F362B1EBB0EF0000BB453 /* BBLibraryMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773F35E61EBB0EF0000BB453 /* BBLibraryMapViewController.xib */; };
-		773F362E1EBB0EF0000BB453 /* BBLibrarySelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773F35EC1EBB0EF0000BB453 /* BBLibrarySelectViewController.xib */; };
-		773F36301EBB0EF0000BB453 /* BBLoadingIndicatorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773F35EF1EBB0EF0000BB453 /* BBLoadingIndicatorCell.xib */; };
-		773F36351EBB0EF0000BB453 /* BBPOISectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773F35F81EBB0EF0000BB453 /* BBPOISectionHeaderView.xib */; };
-		773F36371EBB0EF0000BB453 /* BBPOITableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773F35FB1EBB0EF0000BB453 /* BBPOITableViewCell.xib */; };
-		773F36391EBB0EF0000BB453 /* BBPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773F35FE1EBB0EF0000BB453 /* BBPopupView.xib */; };
+		7734E2881F86502A009E7979 /* BeaconBacon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7734E2851F86501C009E7979 /* BeaconBacon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		774958261F5E8CF100046DF5 /* BBAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F358A1EBB0EF0000BB453 /* BBAPIClient.m */; };
 		774958281F5E8CF100046DF5 /* BBBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F358C1EBB0EF0000BB453 /* BBBeacon.m */; };
 		7749582A1F5E8CF100046DF5 /* BBBeaconLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F358E1EBB0EF0000BB453 /* BBBeaconLocation.m */; };
@@ -155,6 +147,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				7734E2881F86502A009E7979 /* BeaconBacon.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,6 +155,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7734E2851F86501C009E7979 /* BeaconBacon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BeaconBacon.framework; path = Carthage/Build/iOS/BeaconBacon.framework; sourceTree = "<group>"; };
 		773F35891EBB0EF0000BB453 /* BBAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBAPIClient.h; sourceTree = "<group>"; };
 		773F358A1EBB0EF0000BB453 /* BBAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBAPIClient.m; sourceTree = "<group>"; };
 		773F358B1EBB0EF0000BB453 /* BBBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBBeacon.h; sourceTree = "<group>"; };
@@ -311,6 +305,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7734E2841F86501C009E7979 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7734E2851F86501C009E7979 /* BeaconBacon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		773F35871EBB0EF0000BB453 /* beacon-bacon-lib-ios */ = {
 			isa = PBXGroup;
 			children = (
@@ -487,6 +489,7 @@
 				775CE0831D92C1B20066C905 /* Products */,
 				775CE12E1D92C2940066C905 /* CoreLocation.framework */,
 				775CE12C1D92C2310066C905 /* Foundation.framework */,
+				7734E2841F86501C009E7979 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -690,18 +693,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				773F362E1EBB0EF0000BB453 /* BBLibrarySelectViewController.xib in Resources */,
-				773F36371EBB0EF0000BB453 /* BBPOITableViewCell.xib in Resources */,
-				773F36391EBB0EF0000BB453 /* BBPopupView.xib in Resources */,
-				773F36351EBB0EF0000BB453 /* BBPOISectionHeaderView.xib in Resources */,
 				775CE0951D92C1B20066C905 /* LaunchScreen.storyboard in Resources */,
 				775CE0921D92C1B20066C905 /* Assets.xcassets in Resources */,
-				773F36291EBB0EF0000BB453 /* BBLibraryMapPOIViewController.xib in Resources */,
 				775CE0901D92C1B20066C905 /* Main.storyboard in Resources */,
-				772CE5AE1F7E3687007F7AA4 /* BBAssets.xcassets in Resources */,
-				773F36301EBB0EF0000BB453 /* BBLoadingIndicatorCell.xib in Resources */,
-				773F362B1EBB0EF0000BB453 /* BBLibraryMapViewController.xib in Resources */,
-				773F36261EBB0EF0000BB453 /* BBEmptyTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -967,6 +961,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D29532HCY6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = beaconbacon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dk.mustache.beaconbacon;
@@ -982,6 +980,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D29532HCY6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = beaconbacon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dk.mustache.beaconbacon;
