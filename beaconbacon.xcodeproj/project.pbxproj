@@ -43,7 +43,6 @@
 		774958681F5E8CF100046DF5 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35CF1EBB0EF0000BB453 /* UIImageView+AFNetworking.m */; };
 		7749586B1F5E8CF100046DF5 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35D21EBB0EF0000BB453 /* UIProgressView+AFNetworking.m */; };
 		7749586D1F5E8CF100046DF5 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35D41EBB0EF0000BB453 /* UIRefreshControl+AFNetworking.m */; };
-		7749586F1F5E8CF100046DF5 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35D61EBB0EF0000BB453 /* UIWebView+AFNetworking.m */; };
 		774958721F5E8CF100046DF5 /* BBEmptyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35DD1EBB0EF0000BB453 /* BBEmptyTableViewCell.m */; };
 		774958751F5E8CF100046DF5 /* BBLibraryMapPOIDatasourceDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35E01EBB0EF0000BB453 /* BBLibraryMapPOIDatasourceDelegate.m */; };
 		774958771F5E8CF100046DF5 /* BBLibraryMapPOIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F35E21EBB0EF0000BB453 /* BBLibraryMapPOIViewController.m */; };
@@ -97,7 +96,6 @@
 		774958E01F5EB1E600046DF5 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 773F35D01EBB0EF0000BB453 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		774958E11F5EB1E600046DF5 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 773F35D11EBB0EF0000BB453 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		774958E31F5EB1E600046DF5 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 773F35D31EBB0EF0000BB453 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		774958E51F5EB1E600046DF5 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 773F35D51EBB0EF0000BB453 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		774958E81F5EB1E600046DF5 /* BBEmptyTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 773F35DC1EBB0EF0000BB453 /* BBEmptyTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		774958EB1F5EB1E600046DF5 /* BBLibraryMapPOIDatasourceDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 773F35DF1EBB0EF0000BB453 /* BBLibraryMapPOIDatasourceDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		774958ED1F5EB1E600046DF5 /* BBLibraryMapPOIViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 773F35E11EBB0EF0000BB453 /* BBLibraryMapPOIViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -229,8 +227,6 @@
 		773F35D21EBB0EF0000BB453 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		773F35D31EBB0EF0000BB453 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		773F35D41EBB0EF0000BB453 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		773F35D51EBB0EF0000BB453 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		773F35D61EBB0EF0000BB453 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		773F35D71EBB0EF0000BB453 /* BBAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BBAssets.xcassets; sourceTree = "<group>"; };
 		773F35DC1EBB0EF0000BB453 /* BBEmptyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBEmptyTableViewCell.h; sourceTree = "<group>"; };
 		773F35DD1EBB0EF0000BB453 /* BBEmptyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBEmptyTableViewCell.m; sourceTree = "<group>"; };
@@ -424,8 +420,6 @@
 				773F35D21EBB0EF0000BB453 /* UIProgressView+AFNetworking.m */,
 				773F35D31EBB0EF0000BB453 /* UIRefreshControl+AFNetworking.h */,
 				773F35D41EBB0EF0000BB453 /* UIRefreshControl+AFNetworking.m */,
-				773F35D51EBB0EF0000BB453 /* UIWebView+AFNetworking.h */,
-				773F35D61EBB0EF0000BB453 /* UIWebView+AFNetworking.m */,
 			);
 			path = "UIKit+AFNetworking";
 			sourceTree = "<group>";
@@ -573,7 +567,6 @@
 				774958E01F5EB1E600046DF5 /* UIKit+AFNetworking.h in Headers */,
 				774958E11F5EB1E600046DF5 /* UIProgressView+AFNetworking.h in Headers */,
 				774958E31F5EB1E600046DF5 /* UIRefreshControl+AFNetworking.h in Headers */,
-				774958E51F5EB1E600046DF5 /* UIWebView+AFNetworking.h in Headers */,
 				774958E81F5EB1E600046DF5 /* BBEmptyTableViewCell.h in Headers */,
 				774958EB1F5EB1E600046DF5 /* BBLibraryMapPOIDatasourceDelegate.h in Headers */,
 				774958ED1F5EB1E600046DF5 /* BBLibraryMapPOIViewController.h in Headers */,
@@ -656,6 +649,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 				da,
@@ -741,7 +735,6 @@
 				774958681F5E8CF100046DF5 /* UIImageView+AFNetworking.m in Sources */,
 				7749586B1F5E8CF100046DF5 /* UIProgressView+AFNetworking.m in Sources */,
 				7749586D1F5E8CF100046DF5 /* UIRefreshControl+AFNetworking.m in Sources */,
-				7749586F1F5E8CF100046DF5 /* UIWebView+AFNetworking.m in Sources */,
 				774958721F5E8CF100046DF5 /* BBEmptyTableViewCell.m in Sources */,
 				774958751F5E8CF100046DF5 /* BBLibraryMapPOIDatasourceDelegate.m in Sources */,
 				774958771F5E8CF100046DF5 /* BBLibraryMapPOIViewController.m in Sources */,
